@@ -1,0 +1,488 @@
+/*
+ * Adapted from [Pico CSS](https://picocss.com/)
+ *
+ * Copyright (c) 2019-2024 Pico
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+
+/*********************************** Global ***********************************/
+
+:root {
+  --normal-font:
+    system-ui, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, Helvetica, Arial,
+    'Helvetica Neue', sans-serif;
+  --header-font: 'Montserrat Variable', var(--normal-font);
+
+  --border-radius: 0.25rem;
+  --border-width: 0.0625rem;
+  --outline-width: 0.125rem;
+
+  --background-color: rgb(255 255 255);
+  --border-color: rgb(231 234 240);
+  --mute-color: rgb(100 107 121);
+  --selection-background-color: rgb(2 154 232 / 25%);
+  --text-color: rgb(55 60 68);
+
+  --h1-color: rgb(45 49 56);
+  --h2-color: var(--text-color);
+  --h3-color: rgb(66 71 81);
+  --h4-color: rgb(77 83 94);
+  --h5-color: rgb(92 99 112);
+  --h6-color: var(--mute-color);
+
+  --del-color: rgb(136 57 53);
+  --ins-color: rgb(29 106 84);
+
+  --code-background-color: rgb(243 245 247);
+  --code-color: rgb(92 99 112);
+  --mark-background-color: rgb(253 231 192);
+  --mark-color: rgb(15 17 20);
+
+  --accent-background-color: rgb(1 114 173);
+  --accent-border-color: rgb(2 154 232 / 50%);
+  --accent-color: rgb(1 114 173);
+  --accent-hover-background-color: rgb(2 101 154);
+  --accent-hover-color: rgb(1 88 135);
+
+  --region-background-color: var(--background-color);
+  --region-border-color: var(--border-color);
+  --region-box-shadow: 0 0 0.25rem rgb(129 145 181 / 12.5%);
+  --region-header-background-color: rgb(251 252 252);
+
+  --stripe-background-color: rgb(111 120 135 / 3.75%);
+
+  /* Remove the grey highlight on links in iOS (opinionated) */
+  -webkit-tap-highlight-color: transparent;
+
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--normal-font);
+  line-height: 1.5;
+  overflow-wrap: break-word;
+}
+
+*, ::before, ::after {
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+  transition-property: none;
+}
+
+::selection {
+  background-color: var(--selection-background-color);
+}
+
+body {
+  margin: 0;
+}
+
+/* From the list at https://developer.mozilla.org/en-US/docs/Web/HTML/Element */
+address, article, aside, blockquote, details, dl, fieldset, figure, form,
+footer, h1, h2, h3, h4, h5, h6, header, hgroup, hr, main, menu, nav, ol, p, pre,
+search, section, table, ul {
+  margin-block: 0 1rem;
+
+  &:where(:last-child) {
+    margin-block-end: 0;
+  }
+}
+
+/************************************ Text ************************************/
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--header-font);
+  font-weight: 700;
+  letter-spacing: 0.0625rem;
+  text-transform: uppercase;
+
+  :where(:not(h1, h2, h3, h4, h5, h6)) + & {
+    margin-block-start: 1.5em;
+  }
+}
+
+h1 { color: var(--h1-color); font-size: 2.000rem; line-height: 1.125; }
+h2 { color: var(--h2-color); font-size: 1.750rem; line-height: 1.150; }
+h3 { color: var(--h3-color); font-size: 1.500rem; line-height: 1.175; }
+h4 { color: var(--h4-color); font-size: 1.250rem; line-height: 1.200; }
+h5 { color: var(--h5-color); font-size: 1.125rem; line-height: 1.225; }
+h6 { color: var(--h6-color); font-size: 1.000rem; line-height: 1.250; }
+
+hgroup > * {
+  margin-block: 0;
+
+  &:last-child:where(:not(:only-child)) {
+    color: var(--mute-color);
+  }
+}
+
+hr {
+  color: var(--border-color);
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+  text-decoration: none;
+}
+
+del {
+  color: var(--del-color);
+}
+
+ins {
+  color: var(--ins-color);
+}
+
+mark {
+  background-color: var(--mark-background-color);
+  color: var(--mark-color);
+  padding: 0.125rem 0.25rem;
+  vertical-align: baseline;
+}
+
+code, kbd, pre, samp {
+  font-family:
+    ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono',
+    monospace;
+  font-size: 0.875em;
+
+  code, kbd, pre, samp {
+    font-size: inherit;
+  }
+}
+
+pre {
+  overflow: auto;
+}
+
+pre > code {
+  display: block;
+  padding: 1rem;
+}
+
+code {
+  background-color: var(--code-background-color);
+  border-radius: var(--border-radius);
+  color: var(--code-color);
+  display: inline-block;
+  padding: 0.375rem;
+}
+
+/*********************************** Object ***********************************/
+
+audio, canvas, embed, iframe, img, object, svg, video {
+  vertical-align: middle;
+}
+
+iframe {
+  border: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+svg:where(:not([title])) {
+  pointer-events: none;
+}
+
+/************************* Article, Aside, Blockquote *************************/
+
+article, aside {
+  background-color: var(--region-background-color);
+  border-radius: var(--border-radius);
+  border: var(--border-width) solid var(--region-border-color);
+  overflow: auto;
+  padding: 1rem;
+
+  > header {
+    background-color: var(--region-header-background-color);
+    border-block-end: var(--border-width) solid var(--region-border-color);
+    margin: -1rem -1rem 1rem;
+    padding: 0.67rem 1rem;
+  }
+
+  > footer {
+    background-color: var(--region-header-background-color);
+    border-block-start: var(--border-width) solid var(--region-border-color);
+    margin: 0 -1rem;
+    padding: 0.67rem 1rem;
+  }
+
+  > figure {
+    margin: -1rem -1rem 1rem;
+  }
+
+  > table {
+    margin: -1rem -1rem 1rem;
+    width: calc(100% + 2rem);
+  }
+
+  > :is(header, figure, table, footer):where(:last-child) {
+    margin-block-end: -1rem;
+  }
+
+  > figure > figcaption, > table > caption {
+    padding-inline: 1rem;
+  }
+}
+
+article {
+  box-shadow: var(--region-box-shadow);
+}
+
+blockquote {
+  border-inline-start: 0.25rem solid var(--border-color);
+  margin-inline: 0;
+  padding-inline: 1rem;
+
+  > header, > footer {
+    color: var(--mute-color);
+  }
+}
+
+/*********************************** Lists ************************************/
+
+dt {
+  font-weight: 600;
+}
+
+dd, li {
+  margin-bottom: 0.25rem;
+}
+
+li:where(:last-child) {
+  margin-bottom: 0;
+}
+
+:is(dd, dt, li) > :is(dl, menu, ol, ul) {
+  margin-block: 0.25rem 0;
+}
+
+ul {
+  list-style-type: square;
+}
+
+/******************************* Figure, Table ********************************/
+
+figure {
+  margin-inline: 0;
+}
+
+table {
+  border-collapse: collapse;
+  overflow: auto;
+  width: 100%;
+}
+
+caption, figcaption {
+  color: var(--mute-color);
+  margin-block: 0.5rem;
+}
+
+.stripe > tbody > tr:nth-child(odd) {
+  background-color: var(--stripe-background-color);
+}
+
+thead > tr {
+  border-bottom: calc(3 * var(--border-width)) solid var(--border-color);
+}
+
+tbody > tr {
+  border-bottom: var(--border-width) solid var(--border-color);
+}
+
+tfoot > tr {
+  border-top: calc(3 * var(--border-width)) solid var(--border-color);
+}
+
+th, td {
+  padding: 0.5rem 1rem;
+}
+
+th {
+  font-weight: 600;
+  text-align: start;
+}
+
+/******************************** Interaction *********************************/
+
+@custom-selector :--link a:not([role='button']), [role='link'];
+@custom-selector :--button button, ::file-selector-button, [role='button'],
+  [type='button'], [type='reset'], [type='submit'];
+
+:--link {
+  color: var(--accent-color);
+  outline-offset: 0.0625rem;
+  text-decoration: underline rgb(from currentColor r g b / 50%);
+  transition-property: background-color, color, outline-color;
+
+  &:is(:active, :focus, :hover) {
+    color: var(--accent-hover-color);
+  }
+}
+
+:--button {
+  background-color: var(--accent-background-color);
+  border-radius: var(--border-radius);
+  border: 0;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  padding: 0.67rem 1rem;
+  text-align: center;
+  transition-property: background-color, color, outline-color;
+  user-select: none;
+
+  &:is(:active, :focus, :hover) {
+    background-color: var(--accent-hover-background-color);
+  }
+}
+
+summary {
+  cursor: pointer;
+  list-style: none;
+  outline-offset: 0.5rem;
+  padding-inline-end: 1.5rem;
+  transition-property: background-color, color, outline-color;
+
+  &::-webkit-details-marker {
+    display: none;
+  }
+
+  &::before {
+    content: '◀';
+    float: inline-end;
+    margin-inline-end: -1.5rem;
+    transition-property: transform;
+  }
+
+  [open] > & {
+    color: var(--mute-color);
+    margin-bottom: 1rem;
+
+    &::before {
+      transform: rotate(-90deg);
+    }
+  }
+
+  &:is(:active, :focus, :hover) {
+    color: var(--accent-hover-color);
+  }
+}
+
+:--link, :--button, summary {
+  outline: var(--outline-width) solid transparent;
+
+  &:focus-visible {
+    outline-color: var(--accent-border-color);
+  }
+}
+
+a[role='button'] {
+  display: inline-block;
+  text-decoration: none;
+}
+
+summary[role='button'] {
+  outline-offset: 0;
+  padding-inline-end: 2.5rem;
+  text-align: start;
+}
+
+/********************************* Navigation *********************************/
+
+/* nav { */
+/*   align-items: baseline; */
+/*   display: flex; */
+/*   gap: 1rem; */
+/*   justify-content: space-between; */
+/* } */
+
+/* nav :is(menu, ol, ul) { */
+/*   padding-inline-start: 0; */
+/* } */
+
+/* nav menu { */
+/*   width: 100%; */
+/* } */
+
+/* nav :is(ol, ul) { */
+/*   align-items: baseline; */
+/*   display: flex; */
+/*   flex-wrap: wrap; */
+/*   gap: 1rem; */
+/* } */
+
+/* nav > * { */
+/*   margin-block: 0; */
+/* } */
+
+/* nav li { */
+/*   list-style-type: none; */
+/*   margin-block: 0; */
+/* } */
+
+/* nav menu > li:where(:not(:last-child)) { */
+/*   margin-block-end: 1rem; */
+/* } */
+
+/* nav ol > li:where(:not(:first-child))::before { */
+/*   color: var(--mute-color); */
+/*   content: '›'; */
+/*   padding-inline-end: 1rem; */
+/*   position: static; */
+/* } */
+
+/* nav a:where(:not([role='button'])), */
+/* nav [role='link'] { */
+/*   outline-offset: 0.5rem; */
+/* } */
+
+/* nav a:not(:is(:active, :hover, :focus)), */
+/* nav [role='link']:not(:is(:active, :hover, :focus)) { */
+/*   text-decoration: none; */
+/* } */
+
+/* nav menu > li > a { */
+/*   display: block; */
+/* } */
+
+/* nav button, */
+/* nav [role='button'], */
+/* nav [type='button'], */
+/* nav [type='reset'], */
+/* nav [type='submit'] { */
+/*   padding: calc(0.5rem - var(--border-width)) 0.5rem; */
+/* } */
+
+/* nav summary[role='button'] { */
+/*   padding-inline-end: 2rem; */
+/* } */
+
+/* nav menu > li > button, */
+/* nav menu > li > [role='button'], */
+/* nav menu > li > [type='button'], */
+/* nav menu > li > [type='reset'], */
+/* nav menu > li > [type='submit'] { */
+/*   text-align: left; */
+/*   width: 100%; */
+/* } */

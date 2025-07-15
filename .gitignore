@@ -1,0 +1,22 @@
+node_modules
+
+# Output
+.output
+.vercel
+.netlify
+.wrangler
+/.svelte-kit
+/build
+
+# Env
+.env
+.env.*
+!.env.example
+!.env.test
+
+# Sonda
+.sonda
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*

@@ -1,0 +1,19 @@
+{
+  "singleQuote": true,
+  "plugins": ["prettier-plugin-svelte"],
+  "overrides": [
+    {
+      "files": "*.svelte",
+      "options": {
+        "parser": "svelte"
+      }
+    },
+    {
+      "files": "common/icon/*.svelte",
+      "options": {
+        "printWidth": 8000
+      }
+    }
+  ],
+  "svelteSortOrder": "options-scripts-styles-markup"
+}
