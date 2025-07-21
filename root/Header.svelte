@@ -95,7 +95,12 @@
         <li><Toggle bind:on={attend}>Attend</Toggle></li>
       </ul>
 
-      <Toggle bind:on={main} class="narrow" style="padding-inline: 0.625rem">
+      <Toggle
+        bind:on={main}
+        class="narrow"
+        style="padding-inline: 0.625rem"
+        aria-label="Main Menu"
+      >
         <Menu size="1.75rem" />
       </Toggle>
     </div>
