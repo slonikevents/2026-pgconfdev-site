@@ -1,4 +1,6 @@
 <script>
+  import font from '@fontsource-variable/montserrat/files/montserrat-latin-wght-normal.woff2?url';
+
   import '@csstools/normalize.css';
   import '@fontsource-variable/montserrat';
   import './main.css';
@@ -40,6 +42,8 @@
 </style>
 
 <svelte:head>
+  <link rel="preload" as="font" type="font/woff2" href={font} crossorigin />
+
   <meta name="author" content="Slonik Events Canada" />
   <meta name="description" content="PGConf.dev 2026" />
 
