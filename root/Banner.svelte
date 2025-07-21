@@ -11,5 +11,5 @@
 </style>
 
 <div style:text-align="center">
-  <img src={banner} alt="Banner with Vancouver Skyline" />
+  <img src={banner} fetchpriority="high" alt="Banner with Vancouver Skyline" />
 </div>
