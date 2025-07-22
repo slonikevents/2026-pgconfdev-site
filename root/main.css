@@ -132,7 +132,10 @@ hgroup > * {
 }
 
 hr {
-  color: var(--border-color);
+  border: 0;
+  box-sizing: content-box;
+  height: 0;
+  border-top: var(--border-width) solid var(--border-color);
 }
 
 abbr[title] {
