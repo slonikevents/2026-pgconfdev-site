@@ -186,7 +186,7 @@ interpolation. For example, to include a PDF:
 - Text should be written in [Standard Canadian English]. In Vim, this is `set
   spell spelllang=en_ca`.
 - Ensure your content is accessible and responsive across both small and large
-  screens. Target breakpoints are `768px` and `1200px`.
+  screens. Target breakpoints are `480px`, `768px`, and `1200px`.
 - Use semantic HTML. Eschew `<div>`, `<span>`, etc. when a [more appropriate
   element] exists.
 
