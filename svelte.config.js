@@ -9,8 +9,5 @@ export default {
       lib: 'common',
       routes: 'root',
     },
-    paths: {
-      base: '/2026-pgconfdev-site',
-    },
   },
 };
