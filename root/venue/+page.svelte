@@ -2,11 +2,15 @@
   import { base } from '$app/paths';
 </script>
 
+<svelte:head>
+  <title>Venue - PGConf.dev 2026</title>
+</svelte:head>
+
 <h1>Venue</h1>
 
 <p>
-  PostgreSQL Development Conference 2026 will be held at the Vancouver Campus of
-  Simon Fraser University in Vancouver, Canada.
+  PGConf.dev 2026 will be held at the Vancouver Campus of Simon Fraser
+  University in Vancouver, Canada.
 </p>
 
 <p>
