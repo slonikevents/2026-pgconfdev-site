@@ -88,7 +88,7 @@
 
   <nav class="matter">
     <div id="static">
-      <a class="logo" href={base}><PGConf size="1.75rem" /></a>
+      <a class="logo" href={base || '/'}><PGConf size="1.75rem" /></a>
 
       <ul class="wide" role="list">
         <li><Toggle bind:on={about}>About</Toggle></li>
