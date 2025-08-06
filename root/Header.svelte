@@ -122,7 +122,8 @@
           <summary class="narrow">Attend PGConf.dev 2026</summary>
 
           <menu>
-            <li><a href="{base}/venue">Venue</a></li>
+            <li><a href="{base}/venue">Conference Venue</a></li>
+            <li><a href="{base}/travel">Travel Information</a></li>
           </menu>
         </details>
       </li>
