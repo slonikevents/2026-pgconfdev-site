@@ -1,38 +1,77 @@
 <script>
   import { base } from '$app/paths';
+  import { Plane, Train } from '@lucide/svelte';
 
   const visa_tool = 'https://ircc.canada.ca/english/visit/visas.asp';
 </script>
+
+<style>
+  article > header {
+    align-items: center;
+    color: var(--h6-color);
+    display: flex;
+    font-family: var(--header-font);
+    font-size: 1rem;
+    font-weight: 700;
+    gap: 1rem;
+    justify-content: space-between;
+    letter-spacing: 0.0625rem;
+    line-height: 1.25;
+    text-transform: uppercase;
+  }
+</style>
 
 <svelte:head>
   <title>Travel - PGConf.dev 2026</title>
 </svelte:head>
 
 <h1>Travel</h1>
+
 <p>
-  Vancouver International Airport (YVR) is the closest airport and has flights
-  to many international destinations.
+  If you have any questions or require any assistance with your travel
+  arrangements, please don't hesitate to
+  <a href="{base}/contact">contact us</a>.
 </p>
 
-<h4>Canada Line from YVR to the Conference</h4>
-<p>
-  The best way to get from Vancouver International Airport to the Conference is
-  to take the <a href="http://thecanadaline.com">Canada Line (Skytrain)</a> from
-  the airport to Waterfront station. The Harbour Centre is directly across the sreet
-  from the Waterfront train station
-</p>
+<article>
+  <header>
+    <span>By Plane</span>
+    <Plane />
+  </header>
 
-<h4>Rail Travel</h4>
-<p>
-  <a href="https://www.viarail.ca">VIA Rai</a> (Toronto-Vancouver Line) and
-  <a href="https://www.amtrak.com">Amtrak</a> (Cascades line) have train
-  service into Vancouver arriving at the
-  <a
-    href="https://www.viarail.ca/en/explore-our-destinations/stations/rockies-and-pacific/vancouver"
-    >Pacific Central Station</a>. You can take board the Skytrain nearby at the Main Street-Science World
-  station and take the Expo Line to Waterfront Station[ The Harbour Centre is
-  directly across the street from Waterfront train station.
-</p>
+  <p>
+    Vancouver International Airport (YVR) is the closest airport and has flights
+    to many international destinations.
+  </p>
+
+  <p>
+    The best way to get from Vancouver International Airport to the Conference
+    is to take the
+    <a href="http://thecanadaline.com" target="_blank">
+      Canada Line (Skytrain)
+    </a> from the airport to Waterfront station. The Harbour Centre is directly across
+    the street from the Waterfront train station.
+  </p>
+</article>
+
+<article>
+  <header>
+    <span>By Train</span>
+    <Train />
+  </header>
+
+  <p>
+    <a href="https://www.viarail.ca">VIA Rai</a> (Toronto-Vancouver Line) and
+    <a href="https://www.amtrak.com">Amtrak</a> (Cascades line) have train
+    service into Vancouver arriving at the
+    <a
+      href="https://www.viarail.ca/en/explore-our-destinations/stations/rockies-and-pacific/vancouver"
+      >Pacific Central Station</a
+    >. You can take board the Skytrain nearby at the Main Street-Science World
+    station and take the Expo Line to Waterfront Station[ The Harbour Centre is
+    directly across the street from Waterfront train station.
+  </p>
+</article>
 
 <h2>Visa Information</h2>
 
@@ -88,9 +127,3 @@
     </p>
   </details>
 </article>
-
-<h2>Questions</h2>
-<p>
-  If you have any questions regarding your travel arrangements, feel free to
-  <a href="{base}/contact">contact us</a> for assistance.
-</p>

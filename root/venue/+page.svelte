@@ -40,6 +40,15 @@
   campus
 </p>
 
+<h2>Parking</h2>
+<p>
+  There are no designated SFU parking facilities at the Vancouver campus, but
+  there are many public parking garages in the area. Two of the closest garages
+  to Harbour Centre are the Impark garage at 450 West Cordova Street and the
+  Diamond Parking garage at 443 Seymour Street. Both have hourly parking
+  available.
+</p>
+
 <h2>Floor plans</h2>
 
 <p>
@@ -58,26 +67,3 @@
 
 <h3 id="cominco">Labatt Hallt</h3>
 <p>The Labatt Hall 1700 is located on the main floor</p>
-
-<h2>Travel</h2>
-<p>
-  Vancouver International Airport (YVR) is the closest airport and has flights
-  to many international destinations.
-</p>
-
-<h4>Canada Line from YVR to the Conference</h4>
-<p>
-  The best way to get from Vancouver International Airport to the Conference is
-  to take the <a href="http://thecanadaline.com">Canada Line(Skytrain)</a> from the
-  airport to Waterfront station. The Harbour Centre is directly across the street
-  from the Waterfront train station
-</p>
-
-<h4>Parking</h4>
-<p>
-  There are no designated SFU parking facilities at the Vancouver campus, but
-  there are many public parking garages in the area. Two of the closest garages
-  to Harbour Centre are the Impark garage at 450 West Cordova Street and the
-  Diamond Parking garage at 443 Seymour Street. Both have hourly
-  parking available.
-</p>

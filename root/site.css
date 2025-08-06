@@ -8,8 +8,7 @@
   min-height: 100vh;
 }
 
-header,
-footer {
+#root > :is(header, footer) {
   background-color: var(--header-background-color);
   color: var(--background-color);
   font-family: var(--header-font);
