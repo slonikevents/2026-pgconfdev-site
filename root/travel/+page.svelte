@@ -22,6 +22,18 @@
   from the Waterfront train station
 </p>
 
+<h4>Rail Travel</h4>
+<p>
+  <a href="https://www.viarail.ca">VIA Rai</a> (Toronto-Vancouver Line) and
+  <a href="https://www.amtrak.com">Amtrak</a> (Cascades line) have train
+  service into Vancouver arriving at the
+  <a
+    href="https://www.viarail.ca/en/explore-our-destinations/stations/rockies-and-pacific/vancouver"
+    >Pacific Central Station</a>. You can take board the Skytrain nearby at the Main Street-Science World
+  station and take the Expo Line to Waterfront Station[ The Harbour Centre is
+  directly across the street from Waterfront train station.
+</p>
+
 <h2>Visa Information</h2>
 
 <p>

@@ -69,6 +69,15 @@
 <p>
   The best way to get from Vancouver International Airport to the Conference is
   to take the <a href="http://thecanadaline.com">Canada Line(Skytrain)</a> from the
-  airport to Waterfront station. The Harbour Centre is directly across the sreet
+  airport to Waterfront station. The Harbour Centre is directly across the street
   from the Waterfront train station
+</p>
+
+<h4>Parking</h4>
+<p>
+  There are no designated SFU parking facilities at the Vancouver campus, but
+  there are many public parking garages in the area. Two of the closest garages
+  to Harbour Centre are the Impark garage at 450 West Cordova Street and the
+  Diamond Parking garage at 443 Seymour Street. Both have hourly
+  parking available.
 </p>
