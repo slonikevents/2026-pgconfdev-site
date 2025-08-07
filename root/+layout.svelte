@@ -46,7 +46,11 @@
 
   <meta name="author" content="Slonik Events Canada" />
 
+  <meta property="og:image" content="https://2026.pgconf.dev/og.png" />
+  <meta property="og:type" content="website">
+
   <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://2026.pgconf.dev/twitter.png" />
   <meta name="twitter:site" content="@pgconfdev" />
 
   <link href="https://mastodon.social/@pgconfdev" rel="me" />
