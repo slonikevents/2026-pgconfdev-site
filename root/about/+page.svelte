@@ -30,6 +30,10 @@
 
 <svelte:head>
   <title>About PGConf.dev 2026</title>
+  <meta
+    name="description"
+    content="PGConf.dev 2026 brings users, developers, and community organizers together to advance PostgreSQL development and community growth."
+  />
 </svelte:head>
 
 <h1>About</h1>

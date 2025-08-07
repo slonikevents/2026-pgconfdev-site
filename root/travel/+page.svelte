@@ -23,6 +23,10 @@
 
 <svelte:head>
   <title>Travel - PGConf.dev 2026</title>
+  <meta
+    name="description"
+    content="PGConf.dev 2026 is accessible to YVR airport via SkyTrain and to Pacific Central Station. Most international travellers need either a visitor visa or an eTA."
+  />
 </svelte:head>
 
 <h1>Travel</h1>

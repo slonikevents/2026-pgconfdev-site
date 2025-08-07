@@ -7,6 +7,10 @@
 
 <svelte:head>
   <title>Contact Us - PGConf.dev 2026</title>
+  <meta
+    name="description"
+    content="Contact the PGConf.dev 2026 team for questions, sponsorship, or to get involved with the conference."
+  />
 </svelte:head>
 
 <h1>Contact Us</h1>

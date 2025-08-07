@@ -45,7 +45,6 @@
   <link rel="preload" as="font" type="font/woff2" href={font} crossorigin />
 
   <meta name="author" content="Slonik Events Canada" />
-  <meta name="description" content="PGConf.dev 2026" />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@pgconfdev" />

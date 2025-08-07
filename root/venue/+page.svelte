@@ -4,6 +4,10 @@
 
 <svelte:head>
   <title>Venue - PGConf.dev 2026</title>
+  <meta
+    name="description"
+    content="PGConf.dev 2026 will be held at Simon Fraser University’s Harbour Centre campus in downtown Vancouver."
+  />
 </svelte:head>
 
 <h1>Venue</h1>

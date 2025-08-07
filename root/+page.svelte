@@ -10,6 +10,10 @@
 
 <svelte:head>
   <title>PGConf.dev 2026</title>
+  <meta
+    name="description"
+    content="PGConf.dev 2026 will be held on May 19–22 in Vancouver, BC to bring users, developers, and organizers together to advance PostgreSQL development."
+  />
 </svelte:head>
 
 <h1>PGConf.dev 2026</h1>
