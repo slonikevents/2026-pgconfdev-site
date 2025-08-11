@@ -1,7 +1,3 @@
-<script>
-  import { base } from '$app/paths';
-</script>
-
 <svelte:head>
   <title>Venue - PGConf.dev 2026</title>
   <meta
