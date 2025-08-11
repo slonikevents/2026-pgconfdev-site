@@ -1,4 +1,6 @@
 <script>
+  import { base } from '$app/paths';
+
   import font from '@fontsource-variable/montserrat/files/montserrat-latin-wght-normal.woff2?url';
 
   import '@csstools/normalize.css';
@@ -10,6 +12,8 @@
   import Footer from './Footer.svelte';
 
   let { children } = $props();
+
+  const atom = `${base}/news.atom`;
 </script>
 
 <style>
@@ -33,6 +37,8 @@
   <link rel="preload" as="font" type="font/woff2" href={font} crossorigin />
 
   <meta name="author" content="Slonik Events Canada" />
+
+  <link rel="alternate" type="application/atom+xml" title="News" href={atom} />
 
   <meta property="og:image" content="https://2026.pgconf.dev/og.png" />
   <meta property="og:type" content="website" />

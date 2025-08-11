@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://2026.pgconf.dev/</id>
+  <title>PGConf.dev 2026</title>
+  <subtitle>The latest news on PGConf.dev 2026</subtitle>
+  <icon>/apple-touch-icon.png</icon>
+</feed>

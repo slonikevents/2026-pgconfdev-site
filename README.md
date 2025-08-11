@@ -168,6 +168,47 @@ with content such as:
 <img src={view} alt="View of this info" />
 ```
 
+### News
+
+Each `.item.mdsvex` or `.item.svelte` file in [`/root/news`] will become a news
+item. Items named `sample` or starting with `sample-` are examples and excluded
+from the site. News items are regular Svelte components; they can also be
+authored in Markdown (using [mdsvex]) for convenience.
+
+Each news item must export a static `metadata` object with these properties:
+
+* **`author`** - Name of the person who authored the news item.
+* **`title`** – Headline of the news item.
+* **`description`** – Concise summary (100–160 characters) used for SEO and in
+  the Atom feed.
+* **`date`** – Publication date (and optional time). The date is visible while
+  the optional time is only used for sorting and in the Atom feed.
+* **`headline`** - Optional. When `true`, the news item appears on the index
+  page.
+
+In a Svelte component:
+
+```svelte
+<script module>
+  const author = '...';
+  const title = '...';
+  const description = '...';
+  const date = '...';
+  export const metadata = { author, title, description, date };
+</script>
+```
+
+In Markdown:
+
+```markdown
+---
+author: ...
+title: ...
+description: ...
+date: ...
+---
+```
+
 ### Static Assets
 
 Static assets such as images or PDFs must be imported and referenced using
@@ -200,5 +241,7 @@ interpolation. For example, to include a PDF:
 [`/root/+layout.svelte`]: /root/+layout.svelte
 [`/common/logo`]: /common/logo
 [SvelteKit routing]: https://svelte.dev/docs/kit/routing#page
+[`/root/news`]: /root/news
+[mdsvex]: https://mdsvex.pngwn.io/
 [Standard Canadian English]: https://en.wikipedia.org/wiki/Standard_Canadian_English
 [more appropriate element]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element
