@@ -48,6 +48,6 @@
   }
 }
 
-.simple-icon {
+:is(.lucide, .simple-icon) {
   vertical-align: baseline;
 }

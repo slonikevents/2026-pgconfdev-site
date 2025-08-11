@@ -101,7 +101,7 @@
         style="padding-inline: 0.625rem"
         aria-label="Main Menu"
       >
-        <Menu size="1.75rem" />
+        <Menu size="1.75rem" style="vertical-align: middle;" />
       </Toggle>
     </div>
 
