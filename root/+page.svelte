@@ -1,5 +1,7 @@
 <script>
+  import News from './news/News.svelte';
   import Side from './Side.svelte';
+  import { headlineIndex } from '$news';
 
   const postgresql = 'https://www.postgresql.org/';
 </script>
@@ -37,6 +39,8 @@
     Meet PostgreSQL contributors, learn about upcoming features, and discuss
     development problems with PostgreSQL enthusiasts.
   </p>
+
+  <News index={headlineIndex} />
 </main>
 
 <Side />

@@ -1,0 +1,71 @@
+---
+author: Robert Haas
+title: Tuesday at 2026.pgconf.dev
+description: TODO. We need a short description here for the Atom feed and Planet Postgres...
+date: 2025-10-16
+headline: true
+---
+
+[2026.pgconf.dev](https://2026.pgconf.dev/) will be held from May 19-22,
+2026 at the Vancouver campus of Simon Fraser University, and the [call for
+papers](https://2026.pgconf.dev/cfp) and [call for
+sponsors](https://2026.pgconf.dev/sponsor/levels) are now open. This event
+cannot occur without the generous support of sponsors, and we are
+particularly grateful to sponsors who can sign up early, so that we can be
+confident that the event is on a sound financial footing and turn our focus
+to programming and logistics. As usual, the 2026 event will feature two full
+days of talks on Wednesday and Thursday, and just like last year, we are
+accepting proposals for both 25-minute talks and 50-minute talks. In
+addition, Friday will once again be an unconference day, with the sessions
+chosen on the day of the event by the attendees. Tuesday, however, will be
+organized differently in 2026\.
+
+In the past, PGConf.dev and its predecessor, PGCon, typically scheduled
+half-day meetings on Tuesday targeting a limited number of attendees. For
+example, in 2025, Tuesday included a  developer meeting, an extension
+ecosystem summit, a community summit, and an advanced patch feedback
+session. The developer meeting was by invitation only, and the other events
+had limited capacity and required pre-registration. This year, while some
+Tuesday sessions will remain closed or require advance signup, we also want
+to offer open sessions so that any registered attendee can participate on
+Tuesday. Also, we would like to schedule Tuesday in smaller increments, so
+that people need not decide between attending an event for a full 3 hours or
+skipping it entirely.
+
+In order to accomplish these goals, we need many more people to propose
+content for Tuesday. It’s actually that simple. We’ve already talked with
+the organizers of last year’s Extension Ecosystem Summit and Community
+Summit about splitting those into multiple shorter sessions, allowing
+attendees to choose which ones to join. Similarly, instead of one long
+developer meeting, we hope PostgreSQL developers will propose shorter,
+topic-focused meetings. Such meetings can be submitted as “community
+discussion sessions,” as detailed in the call for papers, and can be open to
+all, closed to a specific group, or can be structured as a working group,
+which is somewhere in between a fully open session and a fully closed one.
+Community discussion sessions can also be proposed on topics other than core
+PostgreSQL development; for example, maintainers of drivers or extensions
+could propose to meet with each other, or we can arrange space for meetings
+on general PostgreSQL community topics that are not specifically
+development-related.
+
+In addition, we hope that Tuesday will feature workshops and panel
+discussions; once again, details are in the call for papers. Workshops are a
+great opportunity to educate the next generation of PostgreSQL developers –
+and not just core developers, but also extension developers, driver
+maintainers, and developers of other software that forms part of the
+PostgreSQL ecosystem. At the same time, it’s important to remember that not
+everyone who attends PGConf.dev is a developer, or wants to be a developer.
+Many attend to engage with the developer community rather than join it
+directly.. Panel discussions can help foster that engagement \-- offering
+insight into how developers think and work, while also giving developers a
+chance to hear and respond to broader community perspectives.  Our goal is
+to make Tuesday interactive and engaging for everyone in the Postgres
+community.
+
+Of course, developing high-quality proposals for workshops and panel
+discussions will require considerable work and thought, and so the success
+of this new structure for Tuesday will depend very much on the willingness
+of members of the community to put in the time to create great content. We
+invite you to submit your best ideas, and to encourage your fellow community
+members to do the same. As always, if you have any questions, please reach
+out to us at [contact@pgconf.dev](mailto:contact@pgconf.dev)\!
