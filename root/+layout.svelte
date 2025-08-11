@@ -28,6 +28,7 @@
 
   :global(main) {
     hyphens: auto;
+    margin-block-end: 0;
     text-align: justify;
   }
 
