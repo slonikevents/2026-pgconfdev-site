@@ -138,7 +138,7 @@ hr {
   border-top: var(--border-width) solid var(--border-color);
 }
 
-abbr[title] {
+abbr:where([title]) {
   border-bottom: 1px dotted;
   cursor: help;
   text-decoration: none;
@@ -327,7 +327,7 @@ th {
 
 /******************************** Interaction *********************************/
 
-@custom-selector :--link a:not([role='button']), [role='link'];
+@custom-selector :--link a:where(:not([role='button'])), [role='link'];
 @custom-selector :--button button, ::file-selector-button, [role='button'],
   [type='button'], [type='reset'], [type='submit'];
 

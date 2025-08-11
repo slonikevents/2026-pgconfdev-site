@@ -8,7 +8,7 @@
   min-height: 100vh;
 }
 
-#root > :is(header, footer) {
+:where(#root) > :is(header, footer) {
   background-color: var(--header-background-color);
   color: var(--background-color);
   font-family: var(--header-font);
@@ -18,7 +18,7 @@
     display: none;
   }
 
-  :where(&) :is(a:not([role='button']), [role='link']) {
+  & :is(a:where(:not([role='button'])), [role='link']) {
     color: inherit;
 
     &:is(:active, :hover, :focus) {
