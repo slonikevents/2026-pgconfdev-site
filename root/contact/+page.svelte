@@ -19,7 +19,7 @@
 
 <p>
   If you have any questions, comments, or just want to say hi, feel free to
-  contact us at <a href="mailto:contact@pgconfdev">contact@pgconf.dev</a>. You
+  contact us at <a href="mailto:contact@pgconf.dev">contact@pgconf.dev</a>. You
   can also follow us on <a href={x} target="_blank"><X /></a> or
   <a href={mastodon} target="_blank"><Mastodon /></a> for updates about the event.
 </p>
