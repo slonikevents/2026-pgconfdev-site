@@ -1,6 +1,6 @@
 <script>
   import { base } from '$app/paths';
-  import { Mastodon, X } from '$lib/icon';
+  import { LinkedIn, Mastodon } from '$lib/icon';
 
   import Carousel from './Carousel.svelte';
   import Person from './Person.svelte';
@@ -14,8 +14,8 @@
 
   const postgresql = 'https://www.postgresql.org';
   const pgcon = 'https://www.pgcon.org';
+  const linkedin = 'https://www.linkedin.com/company/pgconf-dev/';
   const mastodon = 'https://mastodon.social/@pgconfdev';
-  const x = 'https://x.com/pgconfdev';
   const ccr = 'https://www.postgresql.org/about/policies/conferences/';
   const gpdc =
     'https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#data-collection';
@@ -57,7 +57,7 @@
 </p>
 
 <p>
-  Follow us on <a href={x} target="_blank"><X /></a> or
+  Follow us on <a href={linkedin} target="_blank"><LinkedIn /></a> or
   <a href={mastodon} target="_blank"><Mastodon /></a> for the latest news.
 </p>
 
