@@ -12,11 +12,13 @@ export const index = new Map(
   Object.entries(data)
     .map(([name, item]) => {
       const id = name.replace(/^.*\/(.*)\.item\.(mdsvex|svelte)$/, '$1');
-      const { default: Component, metadata } = item;
+      let { default: Component, metadata } = item;
 
-      const { title, description, date } = metadata;
-      const momentDate = date !== undefined ? moment.utc(date) : undefined;
-      return [id, { Component, title, description, date: momentDate }];
+      let { title, description, date, headline } = metadata;
+      date = date !== undefined ? moment.utc(date) : undefined;
+      headline = headline === true;
+      metadata = { title, description, date, headline };
+      return [id, { Component, ...metadata }];
     })
     // .filter(([id]) => id != 'sample' && !id.startsWith('sample-'))
     .filter(([, { Component, title, description, date }]) => {
@@ -27,4 +29,9 @@ export const index = new Map(
       return true;
     })
     .sort(([, a], [, b]) => b.date.diff(a.date, 'seconds')),
+);
+
+// Like `index` with just headline items
+export const headlineIndex = new Map(
+  [...index].filter(([, item]) => item.headline),
 );
