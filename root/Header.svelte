@@ -112,6 +112,7 @@
 
           <menu>
             <li><a href="{base}/about">What is PGConf.dev?</a></li>
+            <li><a href="{base}/code-of-conduct">Code of Conduct</a></li>
             <li><a href="{base}/contact">Contact Us</a></li>
           </menu>
         </details>
