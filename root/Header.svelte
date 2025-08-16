@@ -77,6 +77,12 @@
         </a>
       </li>
       <li>
+        <a href={resolve('/cfp')}>
+          <span class="narrow">Call for Proposals</span>
+          <span class="wide">CFP</span>
+        </a>
+      </li>
+      <li>
         <a href={resolve('/attend')}>
           Attend <span class="narrow">PGConf.dev 2026</span>
         </a>
