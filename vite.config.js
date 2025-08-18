@@ -7,12 +7,6 @@ import postcssPresetEnv from 'postcss-preset-env';
 
 export default defineConfig({
   build: { sourcemap: true },
-  plugins: [
-    enhancedImages(),
-    lucidePreprocess(),
-    sveltekit(),
-    Sonda({ open: false }),
-  ],
   css: {
     postcss: {
       plugins: [
@@ -23,5 +17,14 @@ export default defineConfig({
         }),
       ],
     },
+  },
+  plugins: [
+    enhancedImages(),
+    lucidePreprocess(),
+    sveltekit(),
+    Sonda({ open: false }),
+  ],
+  server: {
+    fs: { allow: ['./common', './root'] },
   },
 });
