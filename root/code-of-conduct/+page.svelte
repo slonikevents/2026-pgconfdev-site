@@ -1,5 +1,9 @@
 <svelte:head>
   <title>Code of Conduct</title>
+  <meta
+    name="description"
+    content="PGConf.dev is committed to a safe, inclusive, and harassment-free conference. Attendees should contact the Code of Conduct committee for help."
+  />
 </svelte:head>
 
 <h1>Code of Conduct</h1>
