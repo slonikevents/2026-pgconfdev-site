@@ -7,12 +7,6 @@
       "options": {
         "parser": "svelte"
       }
-    },
-    {
-      "files": "common/icon/*.svelte",
-      "options": {
-        "printWidth": 8000
-      }
     }
   ],
   "svelteSortOrder": "options-scripts-styles-markup"

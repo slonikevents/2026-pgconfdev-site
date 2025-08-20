@@ -1,8 +1,5 @@
 <script>
-  import { LinkedIn, Mastodon } from '$lib/icon';
-
-  const linkedin = 'https://www.linkedin.com/company/pgconf-dev/';
-  const mastodon = 'https://mastodon.social/@pgconfdev';
+  import { LinkedIn, Mastodon } from '$lib/link';
 </script>
 
 <svelte:head>
@@ -20,6 +17,5 @@
 <p>
   If you have any questions, comments, or just want to say hi, feel free to
   contact us at <a href="mailto:contact@pgconf.dev">contact@pgconf.dev</a>. You
-  can also follow us on <a href={linkedin} target="_blank"><LinkedIn /></a> or
-  <a href={mastodon} target="_blank"><Mastodon /></a> for updates about the event.
+  can also follow us on <LinkedIn /> or <Mastodon /> for updates about the event.
 </p>

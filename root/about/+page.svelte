@@ -1,6 +1,6 @@
 <script>
   import { base } from '$app/paths';
-  import { LinkedIn, Mastodon } from '$lib/icon';
+  import { LinkedIn, Mastodon } from '$lib/link';
 
   import Carousel from './Carousel.svelte';
   import Person from './Person.svelte';
@@ -14,8 +14,6 @@
 
   const postgresql = 'https://www.postgresql.org';
   const pgcon = 'https://www.pgcon.org';
-  const linkedin = 'https://www.linkedin.com/company/pgconf-dev/';
-  const mastodon = 'https://mastodon.social/@pgconfdev';
   const ccr = 'https://www.postgresql.org/about/policies/conferences/';
   const gpdc =
     'https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#data-collection';
@@ -57,8 +55,7 @@
 </p>
 
 <p>
-  Follow us on <a href={linkedin} target="_blank"><LinkedIn /></a> or
-  <a href={mastodon} target="_blank"><Mastodon /></a> for the latest news.
+  Follow us on <LinkedIn /> or <Mastodon /> for the latest news.
 </p>
 
 <h2>Organizing Committee</h2>

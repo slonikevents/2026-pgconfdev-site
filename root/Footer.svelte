@@ -1,9 +1,5 @@
 <script>
-  import { Github, LinkedIn, Mastodon } from '$lib/icon';
-
-  const github = 'https://github.com/slonikevents/2026-pgconfdev-site';
-  const linkedin = 'https://www.linkedin.com/company/pgconf-dev/';
-  const mastodon = 'https://mastodon.social/@pgconfdev';
+  import { Github, LinkedIn, Mastodon } from '$lib/link';
 </script>
 
 <style>
@@ -29,11 +25,10 @@
 <footer>
   <div class="matter">
     <p>
-      Follow us on <a href={linkedin} target="_blank"><LinkedIn /></a> or
-      <a href={mastodon} target="_blank"><Mastodon /></a>
-      for the latest news on PGConf.dev 2026
+      Follow us on <LinkedIn /> or <Mastodon /> for the latest news on PGConf.dev
+      2026
     </p>
 
-    <p>Fork this site on <a href={github} target="_blank"><Github /></a></p>
+    <p>Fork this site on <Github /></p>
   </div>
 </footer>
