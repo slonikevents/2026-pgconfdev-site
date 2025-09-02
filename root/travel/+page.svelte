@@ -77,6 +77,79 @@
   </p>
 </article>
 
+<h2>Hotels</h2>
+
+<p>
+  We recommend attendees book a hotel early. Hotels in the downtown Vancouver
+  can be expensive and we expect prices to go up closer to the event. We have
+  negotiated discount codes with the following hotels.
+</p>
+
+<article>
+  <details>
+    <summary>The St. Regis Hotel</summary>
+    <p>
+      <a href="https://www.stregishotel.com">The St. Regis Hotel</a> is a 100%
+      Canadian owned, independent and heritage property, it is
+      <strong>NOT</strong>
+      affiliated with the International St Regis hotel chain. The hotel is at
+      <a href="https://www.openstreetmap.org/#map=19/49.28299/-123.11589">
+        602 Dunsmuir Street</a
+      >
+      You must call <tel>+1604-681-1135</tel> or <tel>1-800-770-7929</tel> or
+      email
+      <a href="mailto:info@stregishotel.com">info@stregishotel.com</a>
+      to make a reservation with this rate. Tell them you want the "PostgreSQL Developer
+      Conference rate". The rate can not be booked on the website and bookings must
+      be made before <strong>March 18 2026</strong>
+    </p>
+  </details>
+</article>
+
+<article>
+  <details>
+    <summary>The Exchange Hotel</summary>
+    <p>
+      <a href="https://www.exchangehotelvan.com">The Exchange Hotel Vancouver</a
+      >
+      at
+      <a href="https://www.openstreetmap.org/#map=19/49.28499/-123.11478"
+        >475 Howe St
+      </a>
+      is located in the former Vancouver Stock Exchange building is offering a rate
+      of $429(CAD) plus taxes and fees(20.68%). The hotel is a 5 minute walk from
+      the conference venue. You can book
+      <a href="https://www.exchangehotelvan.com/">online</a>
+      with the code group "PostgreSQL" by calling
+      <tel>+1604-563-4693</tel> or emailing
+      <a href="mailto:reservations@exchangehotelvan.com"
+        >reservations@exchangehotelvan.com</a
+      >. The rate is available until April 18 2026.
+    </p>
+  </details>
+</article>
+
+<article>
+  <details>
+    <summary>Sheraton Vancouver Wall Centre</summary>
+    <p>
+      <a
+        href="https://www.marriott.com/hotels/travel/yvrws-sheraton-vancouver-wall-centre"
+        >The Sheraton Vancouver Wall Centre</a
+      >
+      is part of the Marriott chain and is located
+      <a href="https://www.openstreetmap.org/?#map=19/49.280311/-123.126604">
+        1000 Burrard Street</a
+      >. The hotel is 20 minute walk from the conference venue. You can book
+      online and get 15% off the posted room rate with this booking
+      <a
+        href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1736196741892&key=CORP&guestreslink2=true&app=resvlink"
+        >link</a
+      >
+    </p>
+  </details>
+</article>
+
 <h2>Visa Information</h2>
 
 <p>
