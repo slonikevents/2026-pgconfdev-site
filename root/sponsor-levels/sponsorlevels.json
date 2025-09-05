@@ -16,13 +16,6 @@
           "maxclaims": 1
         },
         {
-          "name": "Acknowledged in Opening & Closing Session",
-          "sortkey": 110,
-          "description": "The Sponsor will be mentioned (by company name) and thanked in the opening and closing sessions.",
-          "maxclaims": 1,
-          "deadline": "2026-05-19T07:00:00+00:00"
-        },
-        {
           "name": "Business description on website",
           "sortkey": 120,
           "description": "The Sponsor is entitled to have a short (1 paragraph, 300 characters) description of their company and products or services listed on The Event website.",
@@ -76,8 +69,7 @@
           "name": "\u200dLogo featured in conference banner in foyer and common areas",
           "sortkey": 320,
           "description": "The Sponsor is entitled to have their logo appear (alongside those of other sponsors) on The Event banners in the common areas of the conferences.",
-          "maxclaims": 1,
-          "deadline": "2025-03-23T07:00:00+00:00"
+          "maxclaims": 1
         },
         {
           "name": "Job listing on website",
@@ -138,8 +130,7 @@
           "name": "\u200dLogo featured in conference banner in foyer and common areas",
           "sortkey": 320,
           "description": "The Sponsor is entitled to have their logo appear (alongside those of other sponsors) on The Event banners in the common areas of the conferences.",
-          "maxclaims": 1,
-          "deadline": "2025-03-23T07:00:00+00:00"
+          "maxclaims": 1
         },
         {
           "name": "Job listing on website",
@@ -180,8 +171,7 @@
           "name": "\u200dLogo featured in conference banner in foyer and common areas",
           "sortkey": 320,
           "description": "The Sponsor is entitled to have their logo appear (alongside those of other sponsors) on The Event banners in the common areas of the conferences.",
-          "maxclaims": 1,
-          "deadline": "2025-03-23T07:00:00+00:00"
+          "maxclaims": 1
         },
         {
           "name": "Job listing on website",
