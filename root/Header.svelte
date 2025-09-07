@@ -11,6 +11,7 @@
   let about = $state();
   let attend = $state();
   let main = $state();
+  let sponsor = $state();
 </script>
 
 <style>
@@ -93,6 +94,7 @@
       <ul class="wide" role="list">
         <li><Toggle bind:on={about}>About</Toggle></li>
         <li><Toggle bind:on={attend}>Attend</Toggle></li>
+        <li><Toggle bind:on={sponsor}>Sponsors</Toggle></li>
       </ul>
 
       <Toggle
@@ -125,6 +127,15 @@
           <menu>
             <li><a href="{base}/venue">Conference Venue</a></li>
             <li><a href="{base}/travel">Travel Information</a></li>
+          </menu>
+        </details>
+      </li>
+      <li>
+        <details name="main-menu" bind:open={sponsor}>
+          <summary class="narrow">Sponsor PGConf.dev 2026</summary>
+
+          <menu>
+            <li><a href="{base}/sponsor-levels">Sponsorship Levels</a></li>
           </menu>
         </details>
       </li>
