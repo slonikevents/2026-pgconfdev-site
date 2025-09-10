@@ -3,9 +3,14 @@
   import { UsersRound } from '@lucide/svelte';
   import { GraduationCap } from '@lucide/svelte';
   import { Lightbulb } from '@lucide/svelte';
+  import { Megaphone } from '@lucide/svelte';
 </script>
 
 <style>
+  h2 {
+    text-transform: uppercase;
+  }
+
   dd {
     margin-inline-start: 1.5rem;
   }
@@ -42,22 +47,23 @@
     <p><strong>Wondering what you should propose?</strong></p>
 
     <dl>
-      <dt><a href="#present">Present <Presentation /></a></dt>
+      <dt><a href="#present">Presentation<Presentation /></a></dt>
       <dd>
-        Structured sessions where speakers community members share knowledge,
-        experiences, or new ideas in a traditional one-to-many format.
+        Structured sessions where speakers share knowledge, experiences, or new
+        ideas in a traditional one-to-many format.
       </dd>
-      <dt><a href="#organize">Organize <UsersRound /></a></dt>
+      <dt><a href="#organize">Community Discussion<UsersRound /></a></dt>
       <dd>
-        Interactive Community Discussion Sessions on Postgres development and
-        community building topics where participants discuss systemic community
-        and technical challenges and brainstorm solutions.
+        Interactive sessions where participants discuss systemic community and
+        technical challenges and brainstorm solutions.
       </dd>
-      <dt><a href="#educate">Educate <GraduationCap /></a></dt>
+      <dt><a href="#educate">Workshop<GraduationCap /></a></dt>
       <dd>
-        From workshops to panels, these sessions focus on enrichment and growing
-        future Postgres contributors.
+        Educational sessions focused on enrichment and growing future Postgres
+        contributors.
       </dd>
+      <dt><a href="#present">Panel<Megaphone /></a></dt>
+      <dd>Experts weigh in on community topics.</dd>
       <dt><a href="#other">Other Ideas <Lightbulb /></a></dt>
       <dd>
         From Community Office Hours to a group run, submit your ideas for
@@ -90,19 +96,20 @@
   </aside>
 </section>
 
-<h2 id="present">PRESENT</h2>
-
-<p style="margin-block: 1rem; text-align: center;">
+<div
+  style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;"
+>
+  <h2 id="present" style="margin: 0;">Presentation Sessions</h2>
   <a
     href="https://www.pgevents.ca/events/pgconfdev2025/callforpapers/"
-    role="button">Submit a Presentation</a
+    role="button">Submit</a
   >
-</p>
+</div>
 
 <p>
   Presentations are structured sessions where community members share knowledge,
-  experiences, or new ideas with the PostgreSQL community. They come in three
-  main formats:
+  experiences, or new ideas with the PostgreSQL community. They come in two main
+  formats:
 </p>
 
 <ul>
@@ -114,11 +121,6 @@
     <strong>50-Minute Talks</strong> – Deeper explorations, narratives, or educational
     content with a clear story arc used to present research, lessons learned, or
     systemic analysis
-  </li>
-  <li>
-    <strong>Poster Sessions</strong> – Informal sessions where presenters display
-    their work on posters and engage in one-on-one or small-group discussions with
-    attendees who circulate through the session.
   </li>
 </ul>
 
@@ -154,26 +156,32 @@
   </ul>
 </div>
 
-<p>See our schedule last year for more</p>
+<p>
+  A talk may be proposed as both a 50 minute talk and 25 minute talk. Submit one
+  copy of the proposal under the 50 minute track and another copy under the 25
+  minute track. In the body of the proposal, specify which length you prefer.
+</p>
 
-<h2 id="organize">ORGANIZE</h2>
-
-<p style="margin-block: 1rem; text-align: center;">
+<div
+  style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;"
+>
+  <h2 id="discuss" style="margin: 0;">Community Discussion Sessions</h2>
   <a
     href="https://www.pgevents.ca/events/pgconfdev2025/callforpapers/"
-    role="button">Submit a Community Discussion Session</a
+    role="button">Submit</a
   >
+</div>
+
+<p>
+  Community discussion sessions are interactive sessions where you can discuss
+  issues related to Postgres and the community in a meeting format. These
+  sessions will be scheduled for Tuesday and are a replacement for what was
+  called the Developer Meeting in previous years.
 </p>
 
 <p>
-  The goal of community discussion sessions are to engage with the most active
-  areas of Postgres development and community efforts and with the people
-  working on them!
-</p>
-
-<p>
-  We offer three session types to accommodate diverse topics and preferences of
-  the hackers and community organizers proposing them:
+  Community Discussion Sessions may concern any topic related to the community
+  and their format should fall under one of the three following categories:
 </p>
 
 <article>
@@ -182,10 +190,7 @@
   </header>
 
   <p>
-    These sessions are designed for everyone to participate. Share your
-    perspectives, challenge ideas, and connect with fellow attendees on topics
-    that matter most to you. No invitation needed – just bring your curiosity
-    and passion.
+    All seats are are open to anyone. Meeting size is subject only to room size.
   </p>
   <p><em>Example: The future of pg_stat_statements</em></p>
 </article>
@@ -196,13 +201,15 @@
   </header>
 
   <p>
-    Curious how the Postgres community decides on key topics? Join the working
-    groups to be a fly on the wall in the conversation. These sessions bring
-    together invited participants for focused discussions on key initiatives and
-    challenges. While the core discussion is among the invited, others are
-    welcome to attend and observe the collaborative process unfold. It's a
-    unique opportunity to gain insight into the dedicated work shaping our
-    community's future.
+    A small number of seats are reserved for invited members of the working
+    group. The remaining slots are open to all conference attendees but seating
+    will be organized to maximize collaboration amongst invited attendees.
+    Please list invitees in submission.
+  </p>
+  <p>
+    Please secure invitees' consent prior to submitting your proposal.
+    Organizers will do their best to avoid conflicts between meetings with
+    overlapping key attendees.
   </p>
   <p><em>Example: Can the community support additional batch executors?</em></p>
 </article>
@@ -214,60 +221,62 @@
 
   <p>
     These sessions are for invited participants only and meant to create a
-    focused, productive and private discussion among hackers already involved in
-    the topic, and who collaborated online leading up to the conversation.
-    Please list invitees in submission.
+    focused, productive and private discussion among those already involved in
+    the topic.
+  </p>
+  <p>
+    Please list invitees in submission. Please secure invitees' consent prior to
+    submitting your proposal.
   </p>
   <p>
     <em>Example: Security committee discussing the impact of recent CVE</em>
   </p>
 </article>
 
-<h2 id="educate">EDUCATE</h2>
-
-<p style="margin-block: 1rem; text-align: center;">
+<div
+  style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;"
+>
+  <h2 id="workshops" style="margin: 0;">Workshops</h2>
   <a
     href="https://www.pgevents.ca/events/pgconfdev2025/callforpapers/"
-    role="button">Submit a Workshop or Panel</a
+    role="button">Submit</a
   >
+</div>
+<p>
+  Have an idea for how to educate current and future Postgres hackers and
+  extension developers? Submit a proposal for a hands-on practical training or
+  collaborative workshop.
 </p>
+<p><em>Example: Advanced Patch Feedback Session</em></p>
 
-<article>
-  <header>
-    <h4>Workshops</h4>
-  </header>
-
-  <p>
-    Have an idea for how to educate current and future Postgres hackers and
-    extension developers? Submit a proposal for a hands-on practical training or
-    collaborative workshop.
-  </p>
-  <p><em>Example: Advanced Patch Feedback Session</em></p>
-</article>
-
-<article>
-  <header>
-    <h4>Panel Discussions</h4>
-  </header>
-
-  <p>
-    Want to bring together experts to weigh in on an important community topic?
-    From getting developers perspectives on how to push a part of the project
-    forward to sharing learnings about community organizing, panels are a great
-    way to learn from the experienced members of the community and grew new
-    leaders.
-  </p>
-  <p><em>Example: Extension upgrades framework proposal evaluations</em></p>
-</article>
-
-<h2 id="other">OTHER IDEAS?</h2>
-
-<p style="margin-block: 1rem; text-align: center;">
+<div
+  style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;"
+>
+  <h2 id="panels" style="margin: 0;">Panels</h2>
   <a
     href="https://www.pgevents.ca/events/pgconfdev2025/callforpapers/"
-    role="button">Submit Another Idea</a
+    role="button">Submit</a
   >
+</div>
+
+<p>
+  Want to bring together experts to weigh in on an important community topic?
+  From getting developers perspectives on how to push a part of the project
+  forward to sharing learnings about community organizing, panels are a great
+  way to learn from the experienced members of the community and grew new
+  leaders.
 </p>
+<p><em>Example: Extension upgrades framework proposal evaluations</em></p>
+
+<div
+  style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;"
+>
+  <h2 id="other" style="margin: 0;">Other Ideas?</h2>
+  <a
+    href="https://www.pgevents.ca/events/pgconfdev2025/callforpapers/"
+    role="button">Submit</a
+  >
+</div>
 
 <p>
   From Community Office Hours to a group run, submit your ideas for enriching
@@ -277,20 +286,18 @@
 <h2>Submission Notes</h2>
 
 <p>
-  A talk may be proposed as both a 50 minute talk and 25 minute talk. Submit one
-  copy of the proposal under the 50 minute track and another copy under the 25
-  minute track. In the body of the proposal, explain which length you prefer.
-  Alternative content may only be proposed to the alternative content track.
-</p>
-<p>
-  While you may propose content with multiple speakers, 50 minute talks receive,
-  at most, two complimentary registrations. 25 minute talks receive one
-  complimentary registration. And alternative content creators will receive
-  subsidized registration on a case-by-case basis.
+  50 minute talks and workshops receive, at most, two complimentary
+  registrations. 25 minute talks receive one complimentary registration.
+  Community Discussion sessions receive no complimentary registrations. Panels
+  and other ideas will receive subsidized registration on a case-by-case basis.
 </p>
 <h3>Tips</h3>
 
 <ul>
+  <li>
+    If any portion of your talk covers closed source code, that must be
+    disclosed in your submission.
+  </li>
   <li>
     Proposed talks about your company's product are unlikely to be accepted
     unless they discuss issues encountered and how PostgreSQL could be modified
@@ -302,15 +309,12 @@
   </li>
   <li>
     Proposed content with a goal of creating consensus around a topic like a
-    summit or microconference is more likely to be accepted if it is co-proposed
-    by individuals from multiple companies.
+    Community Discussion Session or panel is more likely to be accepted if its
+    proposers and/or invited attendees are individuals from multiple companies.
   </li>
   <li>
-    Check out the PGConf.dev 2024
-    <a
-      href="https://www.pgevents.ca/events/pgconfdev2024/schedule/"
-      target="_blank">schedule</a
-    >
+    Check out the PGConf.dev 2025
+    <a href="https://2025.pgconf.dev/schedule.html" target="_blank">schedule</a>
     to see what we accepted and for more inspiration.
   </li>
 </ul>
@@ -318,3 +322,8 @@
 <hr />
 
 <h2>Program Committee</h2>
+<li>Melanie Plageman (Microsoft)</li>
+<li>Dilip Kumar (Google)</li>
+<li>Jonathan Katz (Amazon)</li>
+<li>Paul Ramsey (Snowflake)</li>
+<li>Jacob Champion (EDB)</li>
