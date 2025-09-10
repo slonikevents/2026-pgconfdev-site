@@ -119,7 +119,10 @@
       is located in the former Vancouver Stock Exchange building is offering a rate
       of $429(CAD) plus taxes and fees(20.68%). The hotel is a 5 minute walk from
       the conference venue. You can book
-      <a href="https://www.exchangehotelvan.com/">online</a>
+      <a
+        href="https://be.synxis.com/?adult=1&arrive=2026-05-18&chain=6278&child=0&currency=CAD&depart=2026-05-19&hotel=2974&level=hotel&locale=en-US&productcurrency=CAD&promo=PostgreSQL&rooms=1"
+        >online</a
+      >
       with the code group "PostgreSQL" by calling
       <tel>+1604-563-4693</tel> or emailing
       <a href="mailto:reservations@exchangehotelvan.com"
