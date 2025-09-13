@@ -21,18 +21,26 @@
   The Vancouver Campus of Simon Fraser University, is located in the heart of
   downtown Vancouver near Waterfront Station and Gastown.
 </p>
+
 <iframe
   title="SFU Downtown"
   width="425"
   height="350"
   src="https://www.openstreetmap.org/export/embed.html?bbox=-123.15562248229982%2C49.26281971048906%2C-123.06850433349611%2C49.30576242115396&amp;layer=mapnik&amp;marker=49.284295740572944%2C-123.11206340789795"
-  style="border: 1px solid black"
-></iframe><br /><small
-  ><a
+  style="border: 1px solid black; max-width: 100%;"
+></iframe>
+
+<br />
+
+<small>
+  <a
     href="https://www.openstreetmap.org/?mlat=49.2843&amp;mlon=-123.1121#map=14/49.2843/-123.1121"
-    >View Larger Map</a
-  ></small
->
+    target="_blank"
+  >
+    View Larger Map
+  </a>
+</small>
+
 <p>
   Simon Fraser University has multiple campuses in the Vancouver area. The
   conference is being held at the <b>Vancouver</b> campus which is smaller
