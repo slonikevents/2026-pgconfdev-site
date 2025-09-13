@@ -1,5 +1,5 @@
 <script>
-  import { base } from '$app/paths';
+  import { resolve } from '$app/paths';
   import { Plane, Train } from '@lucide/svelte';
 
   const visa_tool = 'https://ircc.canada.ca/english/visit/visas.asp';
@@ -34,7 +34,7 @@
 <p>
   If you have any questions or require any assistance with your travel
   arrangements, please don't hesitate to
-  <a href="{base}/contact">contact us</a>.
+  <a href={resolve('/about/contact-us')}>contact us</a>.
 </p>
 
 <article>

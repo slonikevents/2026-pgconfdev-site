@@ -32,8 +32,22 @@
   max-width: 1200px;
 }
 
-[hidden] {
-  display: none !important;
+main {
+  margin-block-end: 0;
+
+  h1 {
+    text-align: center;
+  }
+
+  p {
+    hyphens: auto;
+    text-align: justify;
+  }
+
+  :is(h1 + p, .lead) {
+    font-size: 1.25em;
+    font-weight: 300;
+  }
 }
 
 .narrow {
