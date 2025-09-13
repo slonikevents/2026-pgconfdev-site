@@ -22,5 +22,9 @@ export default [
   {
     files: ['**/*.svelte', '**/*.svelte.js'],
     languageOptions: { parserOptions: { svelteConfig } },
+    rules: {
+      // This is to aggressive at the moment
+      'svelte/no-navigation-without-resolve': 'off',
+    },
   },
 ];
