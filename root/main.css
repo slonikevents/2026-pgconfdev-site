@@ -380,15 +380,18 @@ summary {
   }
 
   [open] > & {
-    color: var(--mute-color);
     margin-bottom: 1rem;
+
+    &:where(:not([role='button'])) {
+      color: var(--mute-color);
+    }
 
     &::before {
       transform: rotate(-90deg);
     }
   }
 
-  &:is(:active, :focus, :hover) {
+  &:is(:active, :focus, :hover):where(:not([role='button'])) {
     color: var(--accent-hover-color);
   }
 }
