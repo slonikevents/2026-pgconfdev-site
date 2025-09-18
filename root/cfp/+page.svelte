@@ -92,6 +92,9 @@
 
       <dt><time datetime="2026-05-19">May 19th, 2026</time></dt>
       <dd>Conference Begins</dd>
+
+      <dt><time datetime="2026-04-14">April 14th, 2026</time></dt>
+      <dd>Community Discussion CFP Close (Batch 2)</dd>
     </dl>
   </aside>
 </section>
@@ -105,6 +108,8 @@
     role="button">Submit</a
   >
 </div>
+
+<p><em>Deadline: January 16, 2026</em></p>
 
 <p>
   Presentations are structured sessions where community members share knowledge,
@@ -154,10 +159,8 @@
     minute talks confer one complimentary registration.
   </li>
   <li>
-    A presentation may be proposed as both a 50 minute talk and 25 minute talk.
-    Submit one copy of the proposal under the 50 minute track and another copy
-    under the 25 minute track. In the body of the proposals, specify which
-    length you prefer.
+    Please propose your presentation as either a 50 minute or 25 minute talk. Do
+    not submit the same proposal to both tracks.
   </li>
 </ul>
 
@@ -171,17 +174,36 @@
   >
 </div>
 
+<p><em>Deadline Batch 1: January 16, 2026, Batch 2: April 14th, 2026</em></p>
+
 <p>
   Community discussion sessions are interactive sessions where you can discuss
-  issues related to Postgres and the community in a meeting format. These
-  sessions will be scheduled for Tuesday and are a replacement for what was
-  called the Developer Meeting in previous years.
+  issues related to Postgres and the community in a meeting format.
+</p>
+<p>
+  These sessions will be scheduled for Tuesday and are a replacement for last
+  year's interactive Tuesday content, including the
+  <a
+    href="https://www.pgevents.ca/events/pgconfdev2025/schedule/session/314-developer-meeting-invite-only/"
+    target="_blank">Developer Meeting</a
+  >, the
+  <a
+    href="https://www.pgevents.ca/events/pgconfdev2025/schedule/session/404-postgres-community-summit/"
+    target="_blank">Community Summit</a
+  >, and the
+  <a
+    href="https://www.pgevents.ca/events/pgconfdev2025/schedule/session/241-extension-ecosystem-summit/"
+    target="_blank">Extension Ecosystem Summit</a
+  >.
 </p>
 
 <p>
-  Community Discussion Sessions may concern any topic related to the community
-  and their format should fall under one of the three following categories:
+  Community Discussion Sessions may concern any topic related to the Postgres
+  community and Postgres ecosystem. While these sessions build on last year’s
+  content, don't feel limited to previous topics. We’re eager to see new ideas
+  that expand the conversation.
 </p>
+<p>Their format should fall under one of the three following categories:</p>
 
 <article>
   <header>
@@ -203,7 +225,7 @@
     A small number of seats are reserved for invited members of the working
     group. The remaining slots are open to all conference attendees but seating
     will be organized to maximize collaboration amongst invited attendees.
-    Please list invited partipants in body of submission.
+    Please list invited participants in body of submission.
   </p>
   <p><em>Example: Can the community support additional batch executors?</em></p>
 </article>
@@ -216,7 +238,7 @@
   <p>
     These sessions are for invited participants only and meant to create a
     focused, productive and private discussion among those already involved in
-    the topic. Please list invited partipants in body of submission.
+    the topic. Please list invited participants in body of submission.
   </p>
   <p>
     <em>Example: Security committee discussing the impact of recent CVE</em>
@@ -235,6 +257,12 @@
     do their best to avoid conflicts between meetings with overlapping key
     attendees.
   </li>
+  <li>
+    There are two CFP rounds for Community Discussion Sessions. Round one closes
+    January 16, with most sessions chosen then. Round two closes April 14 to
+    allow for late-breaking issues. Proposals not accepted in round one
+    automatically roll over, so early submission improves your chances.
+  </li>
 </ul>
 
 <div
@@ -246,12 +274,22 @@
     role="button">Submit</a
   >
 </div>
+
+<p><em>Deadline: January 16, 2026</em></p>
+
 <p>
   Have an idea for how to educate current and future Postgres hackers and
   extension developers? Submit a proposal for a hands-on practical training or
   collaborative workshop.
 </p>
-<p><em>Example: Advanced Patch Feedback Session</em></p>
+<p>
+  <em
+    >Example: <a
+      href="https://www.pgevents.ca/events/pgconfdev2025/schedule/session/265-advanced-patch-feedback-session-invite-only/"
+      target="_blank">Advanced Patch Feedback Session</a
+    ></em
+  >
+</p>
 
 <h5>Submission Notes</h5>
 <p>Accepted workshops confer at most two complimentary registrations.</p>
@@ -265,6 +303,8 @@
     role="button">Submit</a
   >
 </div>
+
+<p><em>Deadline: January 16, 2026</em></p>
 
 <p>
   Want to bring together experts to weigh in on an important community topic?
@@ -295,9 +335,15 @@
   >
 </div>
 
+<p><em>Deadline: January 16, 2026</em></p>
+
 <p>
   From Community Office Hours to a group run, submit your ideas for enriching
   and connecting the community.
+</p>
+<p>
+  Don’t feel limited to previous formats or subjects — we’re eager to see new
+  ideas that expand the conversation and enhance the experience.
 </p>
 
 <h2>Submission Rules and Tips</h2>
