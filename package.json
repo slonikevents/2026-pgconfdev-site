@@ -41,5 +41,8 @@
     "@sveltejs/kit": {
       "cookie": "^1.0.2"
     }
+  },
+  "dependencies": {
+    "showdown": "^2.1.0"
   }
 }
