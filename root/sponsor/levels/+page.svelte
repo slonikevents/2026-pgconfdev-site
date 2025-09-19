@@ -8,6 +8,8 @@
       minimumFractionDigits: 0,
     }).format(num);
   };
+  import showdown from 'showdown';
+  let mdConverter = new showdown.Converter();
 </script>
 
 <svelte:head>
@@ -63,7 +65,7 @@
   <h2>{level.name} {formatAmount(level.cost)} CAD</h2>
   <ul>
     {#each level.benefits as benefit (benefit.name)}
-      <li>{benefit.name}</li>
+      <li><strong>{benefit.name}</strong><p>{@html mdConverter.makeHtml(benefit.description)}</p></li>
     {/each}
   </ul>
 {/each}
