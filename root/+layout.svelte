@@ -17,12 +17,14 @@
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    gap: 2rem;
+    gap: 1rem;
     justify-content: space-between;
-    padding: 2rem;
+    padding: 1rem;
 
     @media (min-width: 768px) {
       flex-direction: row;
+      gap: 2rem;
+      padding: 2rem;
     }
   }
 </style>
