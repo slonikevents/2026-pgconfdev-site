@@ -48,6 +48,7 @@
     margin: 0.25rem 0.25rem;
     outline-offset: 0;
     padding: 0.5rem 0.75rem;
+    text-decoration: none;
 
     :global(&:is(:active, :focus, :hover)) {
       background-color: rgba(255 255 255 / 70%);
