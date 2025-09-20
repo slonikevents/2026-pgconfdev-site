@@ -3,6 +3,8 @@
   import MenuItem from '../MenuItem.svelte';
   import Side from '../Side.svelte';
 
+  import { ChartBarDecreasing } from '@lucide/svelte';
+
   let { children } = $props();
 </script>
 
@@ -15,7 +17,9 @@
 </style>
 
 <Menu --flex-size="12rem">
-  <MenuItem href="/sponsor/levels">Sponsorship Levels</MenuItem>
+  <MenuItem Icon={ChartBarDecreasing} href="/sponsor/levels">
+    Sponsorship Levels
+  </MenuItem>
 </Menu>
 
 <main>

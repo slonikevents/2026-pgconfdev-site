@@ -16,9 +16,9 @@
 
     @media (width < 768px) {
       border-block-end: var(--border-width) solid var(--border-color);
-      column-gap: 2rem;
+      column-gap: 1rem;
       justify-content: space-evenly;
-      padding-block-end: 2rem;
+      padding-block-end: 1rem;
     }
 
     @media (width >= 768px) {

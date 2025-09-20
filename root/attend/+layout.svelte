@@ -3,6 +3,8 @@
   import MenuItem from '../MenuItem.svelte';
   import Side from '../Side.svelte';
 
+  import { Building, Navigation } from '@lucide/svelte';
+
   let { children } = $props();
 </script>
 
@@ -15,8 +17,10 @@
 </style>
 
 <Menu --flex-size="12rem">
-  <MenuItem href="/attend">Conference Venue</MenuItem>
-  <MenuItem href="/attend/travel">Travel Information</MenuItem>
+  <MenuItem Icon={Building} href="/attend">Conference Venue</MenuItem>
+  <MenuItem Icon={Navigation} href="/attend/travel">
+    Travel Information
+  </MenuItem>
 </Menu>
 
 <main>
