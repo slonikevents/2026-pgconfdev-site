@@ -11,23 +11,23 @@ import remarkParse from 'remark-parse';
 import remarkRehype from 'remark-rehype';
 import { unified } from 'unified';
 
+function markdownToHtml(markdown) {
+  const processed = unified()
+    .use(remarkParse)
+    .use(remarkRehype)
+    .use(rehypeFormat)
+    .use(rehypeStringify)
+    .processSync(markdown);
+  return String(processed);
+}
+
 export const load = async () => {
-  const benefitMarkdown = {};
-  let id = 1;
-  for await (const level of jsonfile.sponsorlevels) {
-    for await (const benefit of level.benefits) {
-      const processed = await unified()
-        .use(remarkParse)
-        .use(remarkRehype)
-        .use(rehypeFormat)
-        .use(rehypeStringify)
-        .process(benefit.description);
-      benefitMarkdown[id] = String(processed);
-      benefit.id = id++;
-    }
+  let sponsorLevels = [];
+  for (const { benefits, ...rest } of jsonfile.sponsorlevels) {
+    const render = benefits.map(({ description, ...rest }) => {
+      return { description: markdownToHtml(description), ...rest };
+    });
+    sponsorLevels.push({ benefits: render, ...rest });
   }
-  return {
-    sponsorLevels: jsonfile.sponsorlevels,
-    benefits: benefitMarkdown,
-  };
+  return { sponsorLevels };
 };
