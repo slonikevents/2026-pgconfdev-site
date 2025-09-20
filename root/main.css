@@ -337,7 +337,8 @@ th {
   text-decoration: underline rgb(from currentColor r g b / 50%);
   transition-property: background-color, color, outline-color;
 
-  &:is(:active, :focus, :hover) {
+  &:is([aria-current]:where(:not([aria-current='false'])),
+      :active, :focus, :hover) {
     color: var(--accent-hover-color);
   }
 }
@@ -463,10 +464,12 @@ nav {
   :--link {
     border-radius: var(--border-radius);
     outline-offset: 0.5rem;
-    text-decoration: none;
+    transition-property: background-color, color, outline-color,
+      text-decoration-color;
 
-    &[aria-current]:where(:not([aria-current='false'])) {
-      font-weight: 600;
+    &:not(:is([aria-current]:where(:not([aria-current='false'])),
+        :active, :focus, :hover)) {
+      text-decoration-color: transparent;
     }
   }
 
