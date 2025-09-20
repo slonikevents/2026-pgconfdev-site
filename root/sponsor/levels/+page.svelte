@@ -65,7 +65,7 @@
     {#each level.benefits as benefit (benefit.name)}
       <li>
         <strong>{benefit.name}</strong>
-        {@html data.benefits[benefit.id]}
+        {@html benefit.description}
       </li>
     {/each}
   </ul>
