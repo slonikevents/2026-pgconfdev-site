@@ -32,7 +32,6 @@
     "postcss-preset-env": "^10.3.1",
     "prettier": "^3.6.2",
     "prettier-plugin-svelte": "^3.4.0",
-    "rehype-document": "7.0.3",
     "rehype-format": "^5.0.1",
     "rehype-stringify": "^10.0.1",
     "remark-rehype": "^11.1.2",
