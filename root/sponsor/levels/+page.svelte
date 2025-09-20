@@ -59,11 +59,14 @@
   >
 </p>
 
-{#each data.sponsorlevels as level (level.name)}
+{#each data.sponsorLevels as level (level.name)}
   <h2>{level.name} {formatAmount(level.cost)} CAD</h2>
   <ul>
     {#each level.benefits as benefit (benefit.name)}
-      <li>{benefit.name}</li>
+      <li>
+        <strong>{benefit.name}</strong>
+        {@html data.benefits[benefit.id]}
+      </li>
     {/each}
   </ul>
 {/each}
