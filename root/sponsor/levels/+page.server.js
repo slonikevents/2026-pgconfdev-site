@@ -5,7 +5,6 @@
 // where TOKEN is an access token setup at https://www.pgevents.ca/events/admin/pgconfdev2026/accesstokens/
 import jsonfile from './sponsorlevels.json';
 
-import rehypeDocument from 'rehype-document';
 import rehypeFormat from 'rehype-format';
 import rehypeStringify from 'rehype-stringify';
 import remarkParse from 'remark-parse';
@@ -20,7 +19,6 @@ export const load = async () => {
       const processed = await unified()
         .use(remarkParse)
         .use(remarkRehype)
-        .use(rehypeDocument)
         .use(rehypeFormat)
         .use(rehypeStringify)
         .process(benefit.description);
