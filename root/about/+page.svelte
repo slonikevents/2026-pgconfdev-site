@@ -6,6 +6,7 @@
   import Person from './Person.svelte';
 
   import gwen_shapira from './Gwen Shapira.jpeg?enhanced&w=120;240;360';
+  import jonathan_katz from './Jonathan Katz.png?enhanced&w=120;240;360';
   import kaiting_chen from './Kaiting Chen.jpeg?enhanced&w=120;240;360';
   import melanie_plageman from './Melanie Plageman.jpeg?enhanced&w=120;240;360';
   import paul_ramsey from './Paul Ramsey.jpeg?enhanced&w=120;240;360';
@@ -67,7 +68,8 @@
 
 <Carousel>
   <Person name="Gwen Shapira" source={gwen_shapira}>Nile</Person>
-  <Person name="Kaiting Chen" source={kaiting_chen} />
+  <Person name="Jonathan Katz" source={jonathan_katz}>AWS</Person>
+  <Person name="Kaiting Chen" source={kaiting_chen}>Domino Data Lab</Person>
   <Person name="Melanie Plageman" source={melanie_plageman}>Microsoft</Person>
   <Person name="Paul Ramsey" source={paul_ramsey}>Crunchy Data</Person>
   <Person name="Robert Haas" source={robert_haas}>EDB</Person>
