@@ -94,8 +94,7 @@
       <strong>NOT</strong>
       affiliated with the International St Regis hotel chain. The hotel is at
       <a href="https://www.openstreetmap.org/#map=19/49.28299/-123.11589">
-        602 Dunsmuir Street</a
-      >
+        602 Dunsmuir Street</a>They are offering a rate of $419(CAD) + taxes and fees(18.5%). 
       You must call <tel>+1604-681-1135</tel> or <tel>1-800-770-7929</tel> or
       email
       <a href="mailto:info@stregishotel.com">info@stregishotel.com</a>
