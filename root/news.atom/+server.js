@@ -47,9 +47,11 @@ export function GET({ route }) {
     node.textContent = item.date.format('YYYY-MM-DD[T]HH:MM:SS[Z]');
 
     // <author><name>{item.author}</name></author>
-    node = root.appendChild(document.createElementNS(ns, 'author'));
-    node = node.appendChild(document.createElementNS(ns, 'name'));
-    node.textContent = item.author;
+    for (const author of item.author) {
+      node = root.appendChild(document.createElementNS(ns, 'author'));
+      node = node.appendChild(document.createElementNS(ns, 'name'));
+      node.textContent = author;
+    }
 
     // <title>{item.title}</title>
     node = root.appendChild(document.createElementNS(ns, 'title'));
