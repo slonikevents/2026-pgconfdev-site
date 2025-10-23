@@ -1,4 +1,4 @@
-import { base } from '$app/paths';
+import { resolve } from '$app/paths';
 import { render } from 'svelte/server';
 
 import { JSDOM } from 'jsdom';
@@ -28,7 +28,7 @@ export function GET({ route }) {
   // <link rel="self" href="/news.atom" />
   node = document.createElementNS(ns, 'link');
   node.setAttribute('rel', 'self');
-  node.setAttribute('href', base + route.id);
+  node.setAttribute('href', resolve(route.id));
   document.documentElement.appendChild(node);
 
   for (const [id, item] of index) {
@@ -36,7 +36,7 @@ export function GET({ route }) {
     let root = document.createElementNS(ns, 'entry');
     document.documentElement.appendChild(root);
 
-    const href = `${base}/news/${id}`;
+    const href = resolve('/news/[id]', { id });
 
     // <id>https://2026.pgconf.dev/news/{id}</id>
     node = root.appendChild(document.createElementNS(ns, 'id'));
