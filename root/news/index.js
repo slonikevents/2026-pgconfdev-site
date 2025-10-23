@@ -15,6 +15,7 @@ export const index = new Map(
       let { default: Component, metadata } = item;
 
       let { author, title, description, date, headline } = metadata;
+      if (!Array.isArray(author)) author = [author];
       date = date !== undefined ? moment.utc(date) : undefined;
       headline = headline === true;
       metadata = { author, title, description, date, headline };
