@@ -1,77 +1,97 @@
+<script>
+</script>
+
+<style>
+  article > header {
+    align-items: center;
+    color: var(--h6-color);
+    display: flex;
+    font-family: var(--header-font);
+    font-size: 1rem;
+    font-weight: 700;
+    gap: 1rem;
+    justify-content: space-between;
+    letter-spacing: 0.0625rem;
+    line-height: 1.25;
+    text-transform: uppercase;
+  }
+</style>
+
 <svelte:head>
-  <title>Venue - PGConf.dev 2026</title>
+  <title>Registration</title>
   <meta
     name="description"
-    content="PGConf.dev 2026 will be held at Simon Fraser University’s Harbour Centre campus in downtown Vancouver."
+    content="PGConf.dev is an annual event where users, developers, and community organizers come together to focus on PostgreSQL development and community growth. This event is a strategic gathering of the PostgreSQL community that takes place before development begins."
   />
 </svelte:head>
 
-<h1>Venue</h1>
+<h1>Registration</h1>
 
 <p>
-  PGConf.dev 2026 will be held at the Vancouver Campus of Simon Fraser
-  University in Vancouver, Canada.
+  PGConf.dev is an annual event where users, developers, and community
+  organizers come together to focus on PostgreSQL development and community
+  growth. This event is a strategic gathering of the PostgreSQL community that
+  takes place before development begins.
 </p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Ticket</th>
+      <th>Price</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Regular</td>
+      <td>$350 CAD</td>
+      <td>Normal conference attendance</td>
+    </tr>
+    <tr>
+      <td>Student</td>
+      <td>$75 CAD</td>
+      <td>Students with proof of enrollment</td>
+    </tr>
+    <tr>
+      <td>Speaker</td>
+      <td>No charge</td>
+      <td>Free for confirmed speakers</td>
+    </tr>
+  </tbody>
+</table>
+<p>A 5% GST tax applies on top of the above ticket prices</p>
 
 <p>
-  Address: Harbour Centre, 515 West Hastings Street Vancouver, B.C. Canada V6B
-  5K3
-</p>
-<p>
-  The Vancouver Campus of Simon Fraser University, is located in the heart of
-  downtown Vancouver near Waterfront Station and Gastown.
-</p>
-
-<iframe
-  title="SFU Downtown"
-  width="425"
-  height="350"
-  src="https://www.openstreetmap.org/export/embed.html?bbox=-123.15562248229982%2C49.26281971048906%2C-123.06850433349611%2C49.30576242115396&amp;layer=mapnik&amp;marker=49.284295740572944%2C-123.11206340789795"
-  style="border: 1px solid black; max-width: 100%;"
-></iframe>
-
-<br />
-
-<small>
-  <a
-    href="https://www.openstreetmap.org/?mlat=49.2843&amp;mlon=-123.1121#map=14/49.2843/-123.1121"
-    target="_blank"
+  <a role="button" href="https://www.pgevents.ca/events/pgconfdev2026/register"
+    >Register</a
   >
-    View Larger Map
-  </a>
-</small>
-
-<p>
-  Simon Fraser University has multiple campuses in the Vancouver area. The
-  conference is being held at the <b>Vancouver</b> campus which is smaller
-  downtown near Waterfront station. The conference is <b>not</b> at the main Burnbay
-  campus
 </p>
 
-<h2>Parking</h2>
-<p>
-  There are no designated SFU parking facilities at the Vancouver campus, but
-  there are many public parking garages in the area. Two of the closest garages
-  to Harbour Centre are the Impark garage at 450 West Cordova Street and the
-  Diamond Parking garage at 443 Seymour Street. Both have hourly parking
-  available.
-</p>
+<article>
+  <h3>Cancellation</h3>
 
-<h2>Floor plans</h2>
+  If you need to cancel your registration after you have paid please email
+  <a href="mailto:contact@pgconf.dev">contact@pgconf.dev</a> for manual handling.
+  Tickets can be refunded up until April 19 2026. We can not offer a refund after
+  this date. Cancellations for registration where a visa invitation letter has been
+  provided can not be refunded.
+</article>
 
-<p>
-  The conference is being held in the <b>Harbour Center</b> in the following rooms(among
-  others)
-</p>
-
-<h3 id="fletcher">Fletcher Challenge Canada Theatre</h3>
-<p>
-  The Fletcher Challenge Canada Theatre is room 1900 is located on the main
-  floor.
-</p>
-
-<h3 id="segal">Segal Centre</h3>
-<p>The Segal Centre is rooms 1400-1410 is located on the main floor</p>
-
-<h3 id="cominco">Labatt Hallt</h3>
-<p>The Labatt Hall 1700 is located on the main floor</p>
+<article>
+  <h3>Students</h3>
+  <p>
+    We require proof of current enrollment such as a current student
+    identification, or some similar proof of enrollment. If you are unsure if
+    you qualify for a student ticket, email <a href="mailto:contact@pgconf.dev"
+      >contact@pgconf.dev</a
+    > and we will give a definitive answer.
+  </p>
+  <p>
+    We will contact you after you register and ask you to provide proof of your
+    student status. The number of tickets reserved for students is limited, we
+    recommend students register early. Students who register after the student
+    tickets have been sold out will need to buy a full price regular
+    registration.
+  </p>
+</article>

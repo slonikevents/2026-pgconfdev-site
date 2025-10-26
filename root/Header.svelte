@@ -8,6 +8,8 @@
   import Banner from './Banner.svelte';
   import Toggle from './Toggle.svelte';
 
+  import { User } from '@lucide/svelte';
+
   let main = $state();
 </script>
 
@@ -90,6 +92,12 @@
       <li>
         <a href={resolve('/sponsor')}>
           <span class="narrow">Become a</span> Sponsor
+        </a>
+      </li>
+      <li>
+        <a href="https://www.pgevents.ca/events/pgconfev2026/register">
+          <span class="wide">My Registration </span>
+          <User class="narrow" />
         </a>
       </li>
     </menu>

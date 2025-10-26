@@ -1,6 +1,7 @@
 <script>
   import Menu from '../Menu.svelte';
   import MenuItem from '../MenuItem.svelte';
+
   import Side from '../Side.svelte';
 
   import { Building, Navigation, Tickets } from '@lucide/svelte';
@@ -17,8 +18,8 @@
 </style>
 
 <Menu --flex-size="12rem">
-  <MenuItem Icon={Tickets} href="/attend/register">Registration</MenuItem>
-  <MenuItem Icon={Building} href="/attend">Conference Venue</MenuItem>
+  <MenuItem Icon={Tickets} href="/attend">Registration</MenuItem>
+  <MenuItem Icon={Building} href="/attend/venue">Conference Venue</MenuItem>
   <MenuItem Icon={Navigation} href="/attend/travel">
     Travel Information
   </MenuItem>
