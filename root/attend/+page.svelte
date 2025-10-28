@@ -62,7 +62,7 @@
 </table>
 <p>A 5% GST tax applies on top of the above ticket prices</p>
 
-<p>
+<p style="text-align: center;">
   <a role="button" href="https://www.pgevents.ca/events/pgconfdev2026/register"
     >Register</a
   >
