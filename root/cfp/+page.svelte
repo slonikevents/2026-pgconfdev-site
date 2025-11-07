@@ -453,7 +453,7 @@
 
   <li>Melanie Plageman (Microsoft)</li>
   <li>Dilip Kumar (Google)</li>
-  <li>Jonathan Katz (Amazon)</li>
+  <li>Jonathan Katz (Databricks)</li>
   <li>Paul Ramsey (Snowflake)</li>
   <li>Jacob Champion (EDB)</li>
 </main>

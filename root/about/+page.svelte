@@ -68,7 +68,7 @@
 
 <Carousel>
   <Person name="Gwen Shapira" source={gwen_shapira}>Nile</Person>
-  <Person name="Jonathan Katz" source={jonathan_katz}>AWS</Person>
+  <Person name="Jonathan Katz" source={jonathan_katz}>Databricks</Person>
   <Person name="Kaiting Chen" source={kaiting_chen}>Domino Data Lab</Person>
   <Person name="Melanie Plageman" source={melanie_plageman}>Microsoft</Person>
   <Person name="Paul Ramsey" source={paul_ramsey}>Crunchy Data</Person>
