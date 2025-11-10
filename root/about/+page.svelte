@@ -130,5 +130,6 @@
 
 <p>
   Organizers and volunteers receive no remuneration except free attendance to
-  the conference.
+  the conference. Organizers and volunteers like other attendees can apply for
+  the travel sponsorship program.
 </p>
