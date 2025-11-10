@@ -12,7 +12,7 @@
 
 <h1 style="color: #b78800;">Gold Sponsors</h1>
 
-<h2><img src={EDB} alt="EDB" /></h2>
+<h2 id="edb"><img src={EDB} alt="EDB" /></h2>
 <p>
   As the leading contributor to PostgreSQL, EDB is committed to building the
   next generation of Postgres for operators, developers, data engineers, and AI
