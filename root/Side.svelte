@@ -1,29 +1,44 @@
+<script>
+  import EDB from './logo/EDB.svg';
+</script>
+
 <style>
   #side {
-    background-color: #eeeeee;
+    background-color: var(--code-background-color);
     border-radius: var(--border-radius);
     padding: 1rem;
     text-align: center;
 
-    @media (min-width: 768px) {
+    @media (width >= 768px) {
       flex-basis: var(--flex-size);
     }
   }
 
-  /* #side > img { */
-  /*   border: none; */
-  /*   margin-bottom: 15px; */
-  /*   margin-top: 15px; */
-  /*   vertical-align: middle; */
-  /*   width: 225px; */
-  /* } */
+  @media (width < 768px) {
+    .gold {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: space-around;
+    }
+
+    .gold > * {
+      flex: 0 0 calc(50% - 0.5rem);
+      margin: 0;
+    }
+  }
+
+  @media (width < 480px) {
+    .gold > * {
+      flex: 0 1 100%;
+    }
+  }
 </style>
 
 <div id="side">
-  <h4>Sponsorship</h4>
+  <h4 style="color: #b78800;">Gold Sponsors</h4>
 
-  <p>
-    Gain valuable exposure to the global PostgreSQL ecosystem—explore our
-    sponsorship opportunities.
-  </p>
+  <div class="gold">
+    <p><img src={EDB} alt="EDB" /></p>
+  </div>
 </div>
