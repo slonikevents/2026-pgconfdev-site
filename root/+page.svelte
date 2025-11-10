@@ -14,7 +14,7 @@
   />
 </svelte:head>
 
-<main>
+<main style="flex-basis: 56rem;">
   <h1>PGConf.dev 2026</h1>
 
   <!-- prettier-ignore -->
@@ -47,4 +47,4 @@
   <News index={headlineIndex} />
 </main>
 
-<Side />
+<Side --flex-size="16rem" />
