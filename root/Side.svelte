@@ -1,4 +1,6 @@
 <script>
+  import { resolve } from '$app/paths';
+
   import EDB from './logo/EDB.svg';
 </script>
 
@@ -39,6 +41,8 @@
   <h4 style="color: #b78800;">Gold Sponsors</h4>
 
   <div class="gold">
-    <p><img src={EDB} alt="EDB" /></p>
+    <p>
+      <a href={resolve('/sponsor#edb')}><img src={EDB} alt="EDB" /></a>
+    </p>
   </div>
 </div>
