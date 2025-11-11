@@ -1,11 +1,5 @@
-<script>
-</script>
-
-<style>
-</style>
-
 <svelte:head>
-  <title>Travel Sponsorships- PGConf.dev 2026</title>
+  <title>Travel Sponsorships - PGConf.dev 2026</title>
   <meta
     name="description"
     content="The Travel Sponsorship programs seeks to make PGConf.dev attendance affordable for those who can't easily pay for travel."
@@ -16,11 +10,9 @@
 
 <p>
   This program seeks to make PGConf.dev attendance affordable for those who
-  can’t easily pay to travel and attend. The primary targets are speakers whose
-  company can’t or won’t pay for them to attend and “strategic” attendees. By
-  default, sponsorship includes a complimentary registration and a hotel room in
-  the conference affiliated hotel block. In some circumstances, we may be able
-  to subsidize flights.
+  can’t easily pay to travel and attend. By default, sponsorship includes a
+  complimentary registration and a hotel room in the conference affiliated hotel
+  block. In some circumstances, we may be able to subsidize flights.
 </p>
 
 <h2>Eligibility Criteria</h2>
@@ -53,16 +45,17 @@
 </p>
 <h2>Rules</h2>
 <p>
-  Sponsored attendees can not advertise their company on their badge or slides
+  Sponsored attendees must not include their company or employer on their badge
+  or slides.
 </p>
 <h2>Selection Process</h2>
 <p>
-  After the conference Call for Proposals closes and speaker selection decisions
-  are announced, the Travel Sponsorship Committee will review applications and
-  notify applicants of their decisions within one week. Sponsorships will be
-  awarded based on merit, up to the total travel sponsorship budget. If funds
-  remain after the initial round, additional applications will be considered on
-  a rolling, first-come, first-served basis.
+  After the conference <a href="/cfp">Call for Proposals</a> closes and speaker selection
+  decisions are announced, the Travel Sponsorship Committee will review applications
+  and notify applicants of their decisions within one week. Sponsorships will be
+  awarded based on merit, up to the total travel sponsorship budget. If funds remain
+  after the initial round, additional applications will be considered on a rolling,
+  first-come, first-served basis.
 </p>
 <p>The selection committee is made up of the following</p>
 <ul>
