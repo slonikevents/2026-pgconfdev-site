@@ -57,7 +57,7 @@
   after the initial round, additional applications will be considered on a rolling,
   first-come, first-served basis.
 </p>
-<p>The selection committee is made up of the following</p>
+<p>The selection committee is made up of the following:</p>
 <ul>
   <li>Melanie Plageman</li>
   <li>Steve Singer</li>
