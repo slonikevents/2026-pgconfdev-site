@@ -1,23 +1,23 @@
 <svelte:head>
-  <title>Travel Sponsorships - PGConf.dev 2026</title>
+  <title>Travel Grant - PGConf.dev 2026</title>
   <meta
     name="description"
-    content="The Travel Sponsorship programs seeks to make PGConf.dev attendance affordable for those who can't easily pay for travel."
+    content="The Travel Grant programs seeks to make PGConf.dev attendance affordable for those who can't easily pay for travel."
   />
 </svelte:head>
 
-<h1>Travel Sponsorship Program</h1>
+<h1>Travel Grant Program</h1>
 
 <p>
   This program seeks to make PGConf.dev attendance affordable for those who
-  can’t easily pay to travel and attend. By default, sponsorship includes a
+  can’t easily pay to travel and attend. By default, grants includes a
   complimentary registration and a hotel room in the conference affiliated hotel
   block. In some circumstances, we may be able to subsidize flights.
 </p>
 
 <h2>Eligibility Criteria</h2>
 <p>
-  Sponsorship recipients should be those whose employers can’t or won’t pay for
+  Grant recipients should be those whose employers can’t or won’t pay for
   them to attend and should fall into one of the following categories:
 </p>
 <ol>
@@ -39,20 +39,20 @@
 
 <h2>Application</h2>
 <p>
-  Sponsorship applicants should complete the <a href="https://docs.google.com/forms/d/e/1FAIpQLSdg_VmprbcqMiWrWr8ocNQeVFq8BljHZG9fqoZ4BVlY9u8PgA/viewform">this form</a
+  Grant applicants should complete the <a href="https://docs.google.com/forms/d/e/1FAIpQLSdg_VmprbcqMiWrWr8ocNQeVFq8BljHZG9fqoZ4BVlY9u8PgA/viewform">this form</a
   >.
 </p>
 <h2>Rules</h2>
 <p>
-  Sponsored attendees must not include their company or employer on their badge
+  Grant recipients must not include their company or employer on their badge
   or slides.
 </p>
 <h2>Selection Process</h2>
 <p>
   After the conference <a href="/cfp">Call for Proposals</a> closes and speaker selection
-  decisions are announced, the Travel Sponsorship Committee will review applications
-  and notify applicants of their decisions within one week. Sponsorships will be
-  awarded based on merit, up to the total travel sponsorship budget. If funds remain
+  decisions are announced, the Travel Grant Committee will review applications
+  and notify applicants of their decisions within one week. Grants will be
+  awarded based on merit, up to the total travel grant budget. If funds remain
   after the initial round, additional applications will be considered on a rolling,
   first-come, first-served basis.
 </p>
