@@ -33,7 +33,7 @@
   </li>
   <li>
     People identified as up-and-coming hackers or community organizers who the
-    community wants to sponsor and encourage to become more involved.
+    community wants to sponsor and encourage to become more involved
   </li>
 </ol>
 
