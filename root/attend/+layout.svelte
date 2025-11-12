@@ -23,9 +23,7 @@
   <MenuItem Icon={Navigation} href="/attend/travel">
     Travel Information
   </MenuItem>
-  <MenuItem Icon={HandCoins} href="/attend/travel-grant"
-    >Travel Grant</MenuItem
-  >
+  <MenuItem Icon={HandCoins} href="/attend/travel-grant">Travel Grant</MenuItem>
 </Menu>
 
 <main>
