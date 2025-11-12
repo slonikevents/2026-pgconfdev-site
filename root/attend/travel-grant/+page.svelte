@@ -18,7 +18,8 @@
 <h2>Eligibility Criteria</h2>
 <p>
   Grant recipients should be those whose employers can’t or won’t pay for them
-  to attend and should fall into one of the following categories:
+  to attend and be find it financially difficult to attend without a travel grant.
+  Grant recipients should fall into one of the following categories:
 </p>
 <ol>
   <li>Speakers with an accepted session</li>
