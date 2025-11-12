@@ -39,8 +39,7 @@
 
 <h2>Application</h2>
 <p>
-  Sponsorship applicants should complete the <a href="https://www.example.com"
-    >this form</a
+  Sponsorship applicants should complete the <a href="https://docs.google.com/forms/d/e/1FAIpQLSdg_VmprbcqMiWrWr8ocNQeVFq8BljHZG9fqoZ4BVlY9u8PgA/viewform">this form</a
   >.
 </p>
 <h2>Rules</h2>
