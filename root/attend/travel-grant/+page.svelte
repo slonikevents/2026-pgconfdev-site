@@ -26,7 +26,7 @@
 
   <li>
     People who play an important role in the community (e.g. maintainer of an
-    important ecosystem project
+    important ecosystem project)
   </li>
   <li>
     People who play an important role in organizing the conference (e.g
