@@ -1,22 +1,3 @@
-<script>
-</script>
-
-<style>
-  article > header {
-    align-items: center;
-    color: var(--h6-color);
-    display: flex;
-    font-family: var(--header-font);
-    font-size: 1rem;
-    font-weight: 700;
-    gap: 1rem;
-    justify-content: space-between;
-    letter-spacing: 0.0625rem;
-    line-height: 1.25;
-    text-transform: uppercase;
-  }
-</style>
-
 <svelte:head>
   <title>Registration</title>
   <meta
