@@ -39,6 +39,8 @@ jobs:
     - run: npm ci
 
     - run: npm run build
+      env:
+        VITE_CLOUDFLARE_TOKEN: "0aab34cb5bd14a3bb175daa01ecd9b64"
 
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3

@@ -48,6 +48,12 @@
   <meta name="twitter:site" content="@pgconfdev" />
 
   <link href="https://mastodon.social/@pgconfdev" rel="me" />
+
+  {#if import.meta.env.VITE_CLOUDFLARE_TOKEN}
+    {@const source = 'https://static.cloudflareinsights.com/beacon.min.js'}
+    {@const beacon = { token: import.meta.env.VITE_CLOUDFLARE_TOKEN }}
+    <script defer src={source} data-cf-beacon={JSON.stringify(beacon)}></script>
+  {/if}
 </svelte:head>
 
 <Header />
