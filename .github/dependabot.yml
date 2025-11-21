@@ -2,6 +2,9 @@ version: 2
 updates:
 - package-ecosystem: "npm"
   directory: "/"
+  groups:
+    main:
+      patterns: ["*"]
   schedule:
     interval: "weekly"
   versioning-strategy: increase
