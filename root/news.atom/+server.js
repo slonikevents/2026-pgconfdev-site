@@ -37,10 +37,11 @@ export function GET({ route }) {
     document.documentElement.appendChild(root);
 
     const href = resolve('/news/[id]', { id });
+    const base = 'https://2026.pgconf.dev';
 
     // <id>https://2026.pgconf.dev/news/{id}</id>
     node = root.appendChild(document.createElementNS(ns, 'id'));
-    node.textContent = 'https://2026.pgconf.dev' + href;
+    node.textContent = new URL(href, base);
 
     // <updated>{item.date}</updated>
     node = root.appendChild(document.createElementNS(ns, 'updated'));
