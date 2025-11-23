@@ -1,6 +1,7 @@
 README.md
 
 /.github/**/*.yaml
+/.github/**/*.yml
 /root/main.css
 /template.html
 
