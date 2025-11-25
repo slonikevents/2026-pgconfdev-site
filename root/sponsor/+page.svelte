@@ -22,8 +22,12 @@
 </p>
 
 <h1 style="color: #707070;">Silver Sponsors</h1>
-<p> </p>
+<p></p>
 
 <h1 style="color: #8B4513;">Bronze Sponsors</h1>
 
-<img src={CYBERTEC} alt="CYBERTEC" style="padding-top: 1.5rem; display: block;" />
+<img
+  src={CYBERTEC}
+  alt="CYBERTEC"
+  style="padding-top: 1.5rem; display: block;"
+/>
