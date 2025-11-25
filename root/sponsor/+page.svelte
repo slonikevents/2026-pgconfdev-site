@@ -1,6 +1,7 @@
 <script>
   import EDB from '../logo/EDB.svg';
   import CYBERTEC from '../logo/CYBERTEC.svg';
+  import { SPONSOR_URLS } from '$lib/link/sponsors';
 </script>
 
 <svelte:head>
@@ -13,7 +14,14 @@
 
 <h1 style="color: #b78800;">Gold Sponsors</h1>
 
-<h2 id="edb"><img src={EDB} alt="EDB" /></h2>
+<h2 id="edb">
+  <a
+    href={SPONSOR_URLS.EDB}
+    target="_blank"
+    style="text-decoration: none; border: none; outline: none;"
+    ><img src={EDB} alt="EDB" /></a
+  >
+</h2>
 <p>
   As the leading contributor to PostgreSQL, EDB is committed to building the
   next generation of Postgres for operators, developers, data engineers, and AI
@@ -26,8 +34,14 @@
 
 <h1 style="color: #8B4513;">Bronze Sponsors</h1>
 
-<img
-  src={CYBERTEC}
-  alt="CYBERTEC"
-  style="padding-top: 1.5rem; display: block;"
-/>
+<a
+  href={SPONSOR_URLS.CYBERTEC}
+  target="_blank"
+  style="text-decoration: none; border: none; outline: none;"
+>
+  <img
+    src={CYBERTEC}
+    alt="CYBERTEC"
+    style="padding-top: 1.5rem; display: block;"
+  />
+</a>
