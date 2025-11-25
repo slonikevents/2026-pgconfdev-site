@@ -2,6 +2,7 @@
   import { resolve } from '$app/paths';
 
   import EDB from './logo/EDB.svg';
+  import { SPONSOR_URLS } from '$lib/link/sponsors';
 </script>
 
 <style>
@@ -42,7 +43,12 @@
 
   <div class="gold">
     <p>
-      <a href={resolve('/sponsor#edb')}><img src={EDB} alt="EDB" /></a>
+      <a
+        href={SPONSOR_URLS.EDB}
+        target="_blank"
+        style="text-decoration: none; border: none; outline: none;"
+        ><img src={EDB} alt="EDB" /></a
+      >
     </p>
   </div>
 </div>
