@@ -1,6 +1,4 @@
 <script>
-  import { resolve } from '$app/paths';
-
   import EDB from './logo/EDB.svg';
   import { SPONSOR_URLS } from '$lib/link/sponsors';
 </script>
