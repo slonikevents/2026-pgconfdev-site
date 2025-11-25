@@ -1,5 +1,6 @@
 <script>
   import EDB from '../logo/EDB.svg';
+  import CYBERTEC from '../logo/CYBERTEC.svg';
 </script>
 
 <svelte:head>
@@ -19,3 +20,14 @@
   builders. EDB provides a modern Postgres data platform for transactional,
   analytical, and new AI workloads powered by an enhanced Postgres engine.
 </p>
+
+<h1 style="color: #707070;">Silver Sponsors</h1>
+<p></p>
+
+<h1 style="color: #8B4513;">Bronze Sponsors</h1>
+
+<img
+  src={CYBERTEC}
+  alt="CYBERTEC"
+  style="padding-top: 1.5rem; display: block;"
+/>
