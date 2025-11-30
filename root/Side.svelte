@@ -1,6 +1,6 @@
 <script>
-  import EDB from './logo/EDB.svg';
-  import { SPONSOR_URLS } from '$lib/link/sponsors';
+  import { SPONSOR_LIST } from './sponsors';
+  import { asset } from '$app/paths';
 </script>
 
 <style>
@@ -39,14 +39,17 @@
 <div id="side">
   <h4 style="color: #b78800;">Gold Sponsors</h4>
 
-  <div class="gold">
-    <p>
-      <a
-        href={SPONSOR_URLS.EDB}
-        target="_blank"
-        style="text-decoration: none; border: none; outline: none;"
-        ><img src={EDB} alt="EDB" /></a
-      >
-    </p>
-  </div>
+  {#each SPONSOR_LIST.GOLD as sponsor (sponsor.NAME)}
+    <div class="gold">
+      <p>
+        <a
+          href={sponsor.URL}
+          target="_blank"
+          style="text-decoration: none; border: none; outline: none;"
+        >
+          <img src={asset(sponsor.LOGO)} alt={sponsor.NAME} />
+        </a>
+      </p>
+    </div>
+  {/each}
 </div>
