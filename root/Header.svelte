@@ -90,9 +90,7 @@
         </a>
       </li>
       <li>
-        <a href={resolve('/sponsor')}>
-          <span class="narrow">Become a</span> Sponsor
-        </a>
+        <a href={resolve('/sponsor')}> Sponsors </a>
       </li>
       <li>
         <a href="https://www.pgevents.ca/events/pgconfev2026/register">
