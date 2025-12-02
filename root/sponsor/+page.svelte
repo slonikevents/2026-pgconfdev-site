@@ -1,7 +1,6 @@
 <script>
-  import EDB from '../logo/EDB.svg';
-  import CYBERTEC from '../logo/CYBERTEC.svg';
-  import { SPONSOR_URLS } from '$lib/link/sponsors';
+  import { SPONSOR_LIST } from '../sponsors';
+  import { asset } from '$app/paths';
 </script>
 
 <svelte:head>
@@ -14,34 +13,41 @@
 
 <h1 style="color: #b78800;">Gold Sponsors</h1>
 
-<h2 id="edb">
-  <a
-    href={SPONSOR_URLS.EDB}
-    target="_blank"
-    style="text-decoration: none; border: none; outline: none;"
-    ><img src={EDB} alt="EDB" /></a
-  >
-</h2>
-<p>
-  As the leading contributor to PostgreSQL, EDB is committed to building the
-  next generation of Postgres for operators, developers, data engineers, and AI
-  builders. EDB provides a modern Postgres data platform for transactional,
-  analytical, and new AI workloads powered by an enhanced Postgres engine.
-</p>
+{#each SPONSOR_LIST.GOLD as sponsor (sponsor.NAME)}
+  <h2 id={sponsor.NAME}>
+    <a
+      href={sponsor.URL}
+      target="_blank"
+      style="text-decoration: none; border: none; outline: none;"
+      ><img src={asset(sponsor.LOGO)} alt={sponsor.NAME} /></a
+    >
+  </h2>
+  <p>{sponsor.DESCRIPTION}</p>
+{/each}
 
 <h1 style="color: #707070;">Silver Sponsors</h1>
-<p></p>
+{#each SPONSOR_LIST.SILVER as sponsor (sponsor.NAME)}
+  <h2 id={sponsor.NAME}>
+    <a
+      href={sponsor.URL}
+      target="_blank"
+      style="text-decoration: none; border: none; outline: none;"
+      ><img src={asset(sponsor.LOGO)} alt={sponsor.NAME} /></a
+    >
+  </h2>
+  <p>{sponsor.DESCRIPTION}</p>
+{/each}
 
 <h1 style="color: #8B4513;">Bronze Sponsors</h1>
 
-<a
-  href={SPONSOR_URLS.CYBERTEC}
-  target="_blank"
-  style="text-decoration: none; border: none; outline: none;"
->
-  <img
-    src={CYBERTEC}
-    alt="CYBERTEC"
-    style="padding-top: 1.5rem; display: block;"
-  />
-</a>
+{#each SPONSOR_LIST.BRONZE as sponsor (sponsor.NAME)}
+  <h2 id={sponsor.NAME}>
+    <a
+      href={sponsor.URL}
+      target="_blank"
+      style="padding-top: 1.5rem; display: block;"
+      ><img src={asset(sponsor.LOGO)} alt={sponsor.NAME} /></a
+    >
+  </h2>
+  <p>{sponsor.DESCRIPTION}</p>
+{/each}
