@@ -1,6 +1,5 @@
 <script>
   import { SPONSOR_LIST } from '../sponsors';
-  import { asset } from '$app/paths';
 </script>
 
 <svelte:head>
@@ -19,7 +18,7 @@
       href={sponsor.URL}
       target="_blank"
       style="text-decoration: none; border: none; outline: none;"
-      ><img src={asset(sponsor.LOGO)} alt={sponsor.NAME} /></a
+      ><img src={sponsor.LOGO} alt={sponsor.NAME} /></a
     >
   </h2>
   <p>{sponsor.DESCRIPTION}</p>
@@ -32,7 +31,7 @@
       href={sponsor.URL}
       target="_blank"
       style="text-decoration: none; border: none; outline: none;"
-      ><img src={asset(sponsor.LOGO)} alt={sponsor.NAME} /></a
+      ><img src={sponsor.LOGO} alt={sponsor.NAME} /></a
     >
   </h2>
   <p>{sponsor.DESCRIPTION}</p>
@@ -46,7 +45,7 @@
       href={sponsor.URL}
       target="_blank"
       style="padding-top: 1.5rem; display: block;"
-      ><img src={asset(sponsor.LOGO)} alt={sponsor.NAME} /></a
+      ><img src={sponsor.LOGO} alt={sponsor.NAME} /></a
     >
   </h2>
   <p>{sponsor.DESCRIPTION}</p>
