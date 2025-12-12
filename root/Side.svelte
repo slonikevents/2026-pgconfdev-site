@@ -1,6 +1,5 @@
 <script>
   import { SPONSOR_LIST } from './sponsors';
-  import { asset } from '$app/paths';
 </script>
 
 <style>
@@ -47,7 +46,7 @@
           target="_blank"
           style="text-decoration: none; border: none; outline: none;"
         >
-          <img src={asset(sponsor.LOGO)} alt={sponsor.NAME} />
+          <img src={sponsor.LOGO} alt={sponsor.NAME} />
         </a>
       </p>
     </div>
