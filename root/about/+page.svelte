@@ -12,6 +12,7 @@
   import paul_ramsey from './Paul Ramsey.jpeg?enhanced&w=120;240;360';
   import robert_haas from './Robert Haas.jpeg?enhanced&w=120;240;360';
   import steve_singer from './Steve Singer.jpeg?enhanced&w=120;240;360';
+  import dilip_kumar from './Dilip_Kumar.png?enhanced&w=120;240;360';
 
   const postgresql = 'https://www.postgresql.org';
   const pgcon = 'https://www.pgcon.org';
@@ -81,7 +82,7 @@
 <Carousel>
   <Person name="Jacob Champion" source="">EDB</Person>
   <Person name="Jonathan Katz" source={jonathan_katz}>Databricks</Person>
-  <Person name="Dilip Kumar" source="">Google</Person>
+  <Person name="Dilip Kumar" source={dilip_kumar}>Google</Person>
   <Person name="Melanie Plageman" source={melanie_plageman}>Microsoft</Person>
   <Person name="Paul Ramsey" source={paul_ramsey}>Crunchy Data</Person>
 </Carousel>
