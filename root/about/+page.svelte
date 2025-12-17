@@ -74,6 +74,16 @@
   <Person name="Paul Ramsey" source={paul_ramsey}>Crunchy Data</Person>
   <Person name="Robert Haas" source={robert_haas}>EDB</Person>
   <Person name="Steve Singer" source={steve_singer}>Nav Technologies</Person>
+  <Person name="Magnus Hagander" source="">Redpill Linpro</Person>
+</Carousel>
+
+<h2>Program Committee</h2>
+<Carousel>
+  <Person name="Jacob Champion" source="">EDB</Person>
+  <Person name="Jonathan Katz" source={jonathan_katz}>Databricks</Person>
+  <Person name="Dilip Kumar" source="">Google</Person>
+  <Person name="Melanie Plageman" source={melanie_plageman}>Microsoft</Person>
+  <Person name="Paul Ramsey" source={paul_ramsey}>Crunchy Data</Person>
 </Carousel>
 
 <h2>Volunteering</h2>
