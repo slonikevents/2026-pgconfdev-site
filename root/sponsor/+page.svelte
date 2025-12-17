@@ -39,14 +39,21 @@
 
 <h1 style="color: #8B4513;">Bronze Sponsors</h1>
 
-{#each SPONSOR_LIST.BRONZE as sponsor (sponsor.NAME)}
-  <h2 id={sponsor.NAME}>
-    <a
-      href={sponsor.URL}
-      target="_blank"
-      style="padding-top: 1.5rem; display: block;"
-      ><img src={sponsor.LOGO} alt={sponsor.NAME} /></a
-    >
-  </h2>
-  <p>{sponsor.DESCRIPTION}</p>
-{/each}
+<div
+  style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; align-items: center;"
+>
+  {#each SPONSOR_LIST.BRONZE as sponsor (sponsor.NAME)}
+    <h2 id={sponsor.NAME} style="margin: 0;">
+      <a
+        href={sponsor.URL}
+        target="_blank"
+        style="display: block; padding: 0.5rem;"
+        ><img
+          src={sponsor.LOGO}
+          alt={sponsor.NAME}
+          style="max-width: 100%; height: auto; max-height: 120px; object-fit: contain;"
+        /></a
+      >
+    </h2>
+  {/each}
+</div>
