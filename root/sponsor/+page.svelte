@@ -51,7 +51,7 @@
         ><img
           src={sponsor.LOGO}
           alt={sponsor.NAME}
-          style="max-width: 100%; height: auto; max-height: 120px; object-fit: contain;"
+          style="max-width: 100%; height: auto;"
         /></a
       >
     </h2>
