@@ -17,7 +17,9 @@
 </style>
 
 <figure {...rest}>
-  <enhanced:img src={source} alt={name} />
+  {#if source}
+    <enhanced:img src={source} alt={name} />
+  {/if}
   <figcaption>
     {name}
     {#if children}
