@@ -8,6 +8,7 @@
   import gwen_shapira from './Gwen Shapira.jpeg?enhanced&w=120;240;360';
   import jonathan_katz from './Jonathan Katz.png?enhanced&w=120;240;360';
   import kaiting_chen from './Kaiting Chen.jpeg?enhanced&w=120;240;360';
+  import magnus_hagander from './Magnus Hagander.jpeg?enhanced&w=120;240;360';
   import melanie_plageman from './Melanie Plageman.jpeg?enhanced&w=120;240;360';
   import paul_ramsey from './Paul Ramsey.jpeg?enhanced&w=120;240;360';
   import robert_haas from './Robert Haas.jpeg?enhanced&w=120;240;360';
@@ -72,11 +73,13 @@
   <Person name="Gwen Shapira" source={gwen_shapira}>Nile</Person>
   <Person name="Jonathan Katz" source={jonathan_katz}>Databricks</Person>
   <Person name="Kaiting Chen" source={kaiting_chen}>Domino Data Lab</Person>
+  <Person name="Magnus Hagander" source={magnus_hagander}>
+    Redpill Linpro
+  </Person>
   <Person name="Melanie Plageman" source={melanie_plageman}>Microsoft</Person>
   <Person name="Paul Ramsey" source={paul_ramsey}>Crunchy Data</Person>
   <Person name="Robert Haas" source={robert_haas}>EDB</Person>
   <Person name="Steve Singer" source={steve_singer}>Nav Technologies</Person>
-  <Person name="Magnus Hagander" source="">Redpill Linpro</Person>
 </Carousel>
 
 <h2>Program Committee</h2>
