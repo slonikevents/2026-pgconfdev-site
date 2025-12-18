@@ -15,7 +15,8 @@ export const SPONSOR_LIST = {
       NAME: 'Microsoft',
       URL: 'https://aka.ms/pg-at-microsoft',
       LOGO: MICROSOFT_LOGO,
-      DESCRIPTION: '',
+      DESCRIPTION:
+        'At Microsoft, our Postgres team is focused on advancing Postgres—by contributing to Postgres open source; by providing the Azure Database for PostgreSQL and Azure HorizonDB services; by contributing to the Postgres ecosystem with Citus, Patroni, and VS Code; and by supporting the Postgres community.',
     },
   ],
   SILVER: [],
