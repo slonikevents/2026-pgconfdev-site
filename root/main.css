@@ -431,6 +431,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
+    justify-content: space-around;
 
     > * { margin-block: 0; }
   }
