@@ -101,6 +101,11 @@
         </a>
       </li>
       <li>
+        <a href={resolve('/schedule/tuesday')}>
+          <span class="narrow">View the</span> Schedule
+        </a>
+      </li>
+      <li>
         <a href={resolve('/sponsor')}> Sponsors </a>
       </li>
       <li class="wide">
