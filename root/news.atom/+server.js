@@ -22,7 +22,7 @@ export function GET({ route }) {
   // <updated>{latest.date}</updated>
   let node = document.createElementNS(ns, 'updated');
   const date = latest ? latest.date : moment.utc();
-  node.textContent = date.format('YYYY-MM-DD[T]HH:MM:SS[Z]');
+  node.textContent = date.format('YYYY-MM-DD[T]HH:mm:ss[Z]');
   document.documentElement.appendChild(node);
 
   // <link rel="self" href="/news.atom" />
