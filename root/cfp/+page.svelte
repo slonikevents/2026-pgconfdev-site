@@ -89,9 +89,9 @@
 
   <p>
     We are now accepting content proposals for PGConf.dev 2026. PGConf.dev is an
-    event for PostgreSQL hackers, ecocsystem developers, and everyone who
+    event for PostgreSQL hackers, ecosystem developers, and everyone who
     contributes to Postgres. We are focused on creating a fun and constructive
-    environemnt for PostgreSQL contributors to meet, collaborate, and learn from
+    environment for PostgreSQL contributors to meet, collaborate, and learn from
     each other.
   </p>
 
