@@ -88,8 +88,11 @@
   <h1>Call For Proposals</h1>
 
   <p>
-    We are now accepting proposals for many kinds of content for PGConf.dev
-    2026.
+    We are now accepting content proposals for PGConf.dev 2026. PGConf.dev is an
+    event for PostgreSQL hackers, ecocsystem developers, and everyone who
+    contributes to Postgres. We are focused on creating a fun and constructive
+    environemnt for PostgreSQL contributors to meet, collaborate, and learn from
+    each other.
   </p>
 
   <p style:margin-block="2rem" style:text-align="center">
@@ -112,9 +115,9 @@
         </li>
 
         <li class="bullet-users-round">
-          <a href="#organize">Community Discussions</a> are interactive sessions where
-          participants discuss systemic community and technical challenges and brainstorm
-          solutions.
+          <a href="#organize">Community Discussions</a> are interactive sessions
+          where participants discuss systemic community and technical challenges
+          and brainstorm solutions.
         </li>
 
         <li class="bullet-graduation-cap">
@@ -182,8 +185,8 @@
     <ul>
       <li>
         <strong>25-Minute Talks</strong> &mdash; Short overviews highlighting specific
-        contributions, proof-of-concept work, demos, and investigations or concise
-        summaries and insights
+        contributions, proof-of-concept work, investigations, or concise summaries
+        and insights
       </li>
       <li>
         <strong>50-Minute Talks</strong> &mdash; Deeper explorations, narratives,
