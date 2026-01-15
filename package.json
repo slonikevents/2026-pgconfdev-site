@@ -23,7 +23,7 @@
     "@lucide/svelte": "^0.562.0",
     "@sveltejs/adapter-static": "^3.0.10",
     "@sveltejs/enhanced-img": "^0.9.2",
-    "@sveltejs/kit": "^2.49.2",
+    "@sveltejs/kit": "^2.49.5",
     "@sveltejs/vite-plugin-svelte": "^6.2.1",
     "eslint": "^9.39.2",
     "eslint-config-prettier": "^10.1.8",
