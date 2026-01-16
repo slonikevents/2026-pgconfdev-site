@@ -11,6 +11,8 @@
   import { User } from '@lucide/svelte';
 
   let main = $state();
+
+  const register = 'https://www.pgevents.ca/events/pgconfdev2026/register';
 </script>
 
 <style>
@@ -63,14 +65,23 @@
   <nav class="matter">
     <a href={resolve('/')}><PGConf size="1.75rem" /></a>
 
-    <Toggle
-      bind:on={main}
-      class="narrow"
-      style="padding-inline: 0.625rem"
-      aria-label="Main Menu"
-    >
-      <Menu size="1.75rem" style="vertical-align: middle;" />
-    </Toggle>
+    <div class="flex narrow">
+      <a href={register} target="_blank">
+        <User
+          size="1.75rem"
+          title="My Registration"
+          style="vertical-align: middle;"
+        />
+      </a>
+
+      <Toggle
+        bind:on={main}
+        style="padding-inline: 0.625rem"
+        aria-label="Main Menu"
+      >
+        <Menu size="1.75rem" style="vertical-align: middle;" />
+      </Toggle>
+    </div>
 
     <menu data-open={main}>
       <li>
@@ -92,10 +103,13 @@
       <li>
         <a href={resolve('/sponsor')}> Sponsors </a>
       </li>
-      <li>
-        <a href="https://www.pgevents.ca/events/pgconfev2026/register">
-          <span class="wide">My Registration </span>
-          <User class="narrow" />
+      <li class="wide">
+        <a href={register} target="_blank">
+          <User
+            size="1.5rem"
+            title="My Registration"
+            style="vertical-align: text-bottom;"
+          />
         </a>
       </li>
     </menu>
