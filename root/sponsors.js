@@ -25,7 +25,7 @@ export const SPONSOR_LIST = {
       NAME: 'Percona',
       URL: 'https://www.percona.com',
       LOGO: PERCONA_LOGO,
-    }
+    },
   ],
   BRONZE: [
     {

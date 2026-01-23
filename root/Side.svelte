@@ -51,7 +51,7 @@
       </p>
     </div>
   {/each}
-    <h4 style="color: #707070;">Silver Sponsors</h4>
+  <h4 style="color: #707070;">Silver Sponsors</h4>
 
   {#each SPONSOR_LIST.SILVER as sponsor (sponsor.NAME)}
     <div class="silver">
