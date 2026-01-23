@@ -1,6 +1,7 @@
 import CYBERTEC_LOGO from './logo/CYBERTEC.svg';
 import EDB_LOGO from './logo/EDB.svg';
 import MICROSOFT_LOGO from './logo/Microsoft.svg';
+import PERCONA_LOGO from './logo/Percona.png';
 
 export const SPONSOR_LIST = {
   GOLD: [
@@ -19,7 +20,13 @@ export const SPONSOR_LIST = {
         'At Microsoft, our Postgres team is focused on advancing Postgres—by contributing to Postgres open source; by providing the Azure Database for PostgreSQL and Azure HorizonDB services; by contributing to the Postgres ecosystem with Citus, Patroni, and VS Code; and by supporting the Postgres community.',
     },
   ],
-  SILVER: [],
+  SILVER: [
+    {
+      NAME: 'Percona',
+      URL: 'https://www.percona.com',
+      LOGO: PERCONA_LOGO,
+    },
+  ],
   BRONZE: [
     {
       NAME: 'CYBERTEC',
