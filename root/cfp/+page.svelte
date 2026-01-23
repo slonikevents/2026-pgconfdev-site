@@ -115,9 +115,9 @@
         </li>
 
         <li class="bullet-users-round">
-          <a href="#organize">Community Discussions</a> are interactive sessions
-          where participants discuss systemic community and technical challenges
-          and brainstorm solutions.
+          <a href="#organize">Community Discussions</a> are interactive sessions where
+          participants discuss systemic community and technical challenges and brainstorm
+          solutions.
         </li>
 
         <li class="bullet-graduation-cap">
