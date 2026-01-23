@@ -51,4 +51,19 @@
       </p>
     </div>
   {/each}
+    <h4 style="color: #707070;">Silver Sponsors</h4>
+
+  {#each SPONSOR_LIST.SILVER as sponsor (sponsor.NAME)}
+    <div class="silver">
+      <p>
+        <a
+          href={sponsor.URL}
+          target="_blank"
+          style="text-decoration: none; border: none; outline: none;"
+        >
+          <img src={sponsor.LOGO} alt={sponsor.NAME} />
+        </a>
+      </p>
+    </div>
+  {/each}
 </div>
