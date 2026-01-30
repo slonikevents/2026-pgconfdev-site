@@ -118,10 +118,10 @@
 
 <p>
   We use <a href={cwa} target="_blank">Cloudflare Web Analytics</a> to measure our
-  outreach. Cloudflare Web Analytics does not use any client-side state, such as cookies
-  or localStorage, to collect usage metrics. We also don’t "fingerprint" individuals
-  via their IP address, User Agent string, or any other data for the purpose of displaying
-  analytics.
+  outreach. Cloudflare Web Analytics does not use any client-side state, such as
+  cookies or localStorage, to collect usage metrics. We also don’t "fingerprint"
+  individuals via their IP address, User Agent string, or any other data for the
+  purpose of displaying analytics.
 </p>
 
 <p>Our emails don’t use any form of tracking.</p>
