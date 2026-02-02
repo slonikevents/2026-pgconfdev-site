@@ -247,6 +247,9 @@
     <div class="note">
       <ul>
         <li>
+          Accepted posters do not confer complimentary registration.
+        </li>
+        <li>
           Submit by email to express interest. Include your name,
           topic, and whether you plan to attend in person.
         </li>
