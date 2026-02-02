@@ -269,6 +269,10 @@
   <li>Jonathan Katz (Databricks)</li>
   <li>Paul Ramsey (Snowflake)</li>
   <li>Jacob Champion (EDB)</li>
+
+  <h2>Poster Committee</h2>
+
+  <li>Andrey Borodin (Yandex Cloud)</li>
 </main>
 
 <Side --flex-size="16rem" />
