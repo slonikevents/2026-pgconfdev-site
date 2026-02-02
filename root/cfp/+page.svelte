@@ -270,7 +270,7 @@
   <li>Paul Ramsey (Snowflake)</li>
   <li>Jacob Champion (EDB)</li>
 
-  <h2>Poster Committee</h2>
+  <h2>Postermaster</h2>
 
   <li>Andrey Borodin (Yandex Cloud)</li>
 </main>
