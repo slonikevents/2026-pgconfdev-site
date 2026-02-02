@@ -5,6 +5,8 @@
 
   const submit =
     'https://www.pgevents.ca/events/pgconfdev2026/callforpapers/new/';
+  const posterSubmit =
+    'mailto:x4mmm@yandex-team.ru?subject=PGConf.dev%202026%20Poster%20Submission';
 </script>
 
 <style>
@@ -84,7 +86,10 @@
 
       <dl>
         <dt><time datetime="2026-04-14">April 14th, 2026</time></dt>
-        <dd>Community Discussion CFP Closes (Batch 2)</dd>
+        <dd>Community Discussion &amp; Poster Session CFP Closes</dd>
+
+        <dt><time datetime="2026-04-30">April 30th, 2026</time></dt>
+        <dd>Poster Final PDF Deadline</dd>
 
         <dt><time datetime="2026-05-19">May 19th, 2026</time></dt>
         <dd>Conference Begins</dd>
@@ -93,7 +98,7 @@
 
     <p>
       PGConf.dev 2026 is still accepting proposals for Community Discussion
-      Sessions.
+      Sessions and the Poster Session.
     </p>
   </div>
 
@@ -199,6 +204,62 @@
     </div>
   </section>
 
+  <section>
+    <hgroup>
+      <h2 id="posters" style="margin: 0;">Poster Session</h2>
+      <p><a href={posterSubmit} role="button">Submit</a></p>
+    </hgroup>
+
+    <p style:text-align="center">
+      <em>Expression of interest: April 14th, 2026 &middot; Final PDF: April 30th, 2026</em>
+    </p>
+
+    <p>
+      We are excited to host a poster session at PGConf.dev 2026 in Vancouver.
+      The goal is to visually present your work and foster collaboration:
+      attracting co-authors, reviewers, or simply improving discussion around
+      patches, extensions, tools, and community initiatives.
+    </p>
+
+    <p>
+      Posters will be displayed on A1-sized boards (594 × 841 mm) during
+      dedicated coffee + poster session breaks. We prioritize on-site
+      presenters for prime locations, but remote authors are welcome—we can
+      print, display and, in certain cases, mail your poster back.
+    </p>
+
+    <p>Scope includes core patches, bug fixes, extensions, tools, research, and
+      community initiatives (CI, testing, diversity). Commercial products are
+      OK if they offer substantive technical content; closed source must be
+      disclosed. Submissions that appear to be advertisements are unlikely to
+      be accepted.
+    </p>
+
+    <p>Your poster should include:</p>
+    <ul>
+      <li>A visual representation of your patch or project</li>
+      <li>The PGConf.dev 2026 conference logo</li>
+      <li>What attention or collaboration your project needs</li>
+      <li>Contact details (e.g. QR code to patch/project, email)</li>
+    </ul>
+
+    <h6>Submission Notes &mdash;</h6>
+    <div class="note">
+      <ul>
+        <li>
+          Accepted posters do not confer complimentary registration.
+        </li>
+        <li>
+          Submit by email to express interest. Include your name,
+          topic, and whether you plan to attend in person.
+        </li>
+        <li>
+          Capacity is limited (20–30 posters).
+        </li>
+      </ul>
+    </div>
+  </section>
+
   <hr />
 
   <h2>Program Committee</h2>
@@ -208,6 +269,10 @@
   <li>Jonathan Katz (Databricks)</li>
   <li>Paul Ramsey (Snowflake)</li>
   <li>Jacob Champion (EDB)</li>
+
+  <h2>Postermaster</h2>
+
+  <li>Andrey Borodin (Yandex Cloud)</li>
 </main>
 
 <Side --flex-size="16rem" />
