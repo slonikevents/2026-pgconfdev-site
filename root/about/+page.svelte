@@ -15,6 +15,10 @@
   import steve_singer from './Steve Singer.jpeg?enhanced&w=120;240;360';
   import dilip_kumar from './Dilip_Kumar.png?enhanced&w=120;240;360';
   import jacob_champion from './jacob-champion.jpg?enhanced&w=120;240;360';
+  import claire_giordano from './Claire Giordano.png?enhanced&w=120;240;360';
+  import corey_huinker from './Corey Huinker.jpg?enhanced&w=120;240;360';
+  import paul_jungwirth from './Paul Jungwirth.jpg?enhanced&w=120;240;360';
+  import matthias_van_de_meent from './Matthias van de Meent.jpg?enhanced&w=120;240;360';
 
   const postgresql = 'https://www.postgresql.org';
   const pgcon = 'https://www.pgcon.org';
@@ -89,6 +93,15 @@
   <Person name="Dilip Kumar" source={dilip_kumar}>Google</Person>
   <Person name="Melanie Plageman" source={melanie_plageman}>Microsoft</Person>
   <Person name="Paul Ramsey" source={paul_ramsey}>Crunchy Data</Person>
+</Carousel>
+
+<h2>Tuesday Planning Committee</h2>
+<Carousel>
+  <Person name="Claire Giordano" source={claire_giordano}>Microsoft</Person>
+  <Person name="Corey Huinker" source={corey_huinker}>Apple</Person>
+  <Person name="Matthias van de Meent" source={matthias_van_de_meent}>Neon</Person>
+  <Person name="Paul Jungwirth" source={paul_jungwirth}>Illuminated Computing</Person>
+  <Person name="Robert Haas" source={robert_haas}>EDB</Person>
 </Carousel>
 
 <h2>Volunteering</h2>
