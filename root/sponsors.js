@@ -2,6 +2,7 @@ import CYBERTEC_LOGO from './logo/CYBERTEC.svg';
 import EDB_LOGO from './logo/EDB.svg';
 import MICROSOFT_LOGO from './logo/Microsoft.svg';
 import PERCONA_LOGO from './logo/Percona.png';
+import FUJITSU_LOGO from './logo/fujitsu.svg';
 
 export const SPONSOR_LIST = {
   GOLD: [
@@ -25,6 +26,11 @@ export const SPONSOR_LIST = {
       NAME: 'Percona',
       URL: 'https://www.percona.com',
       LOGO: PERCONA_LOGO,
+    },
+    {
+      NAME: 'Fujitsu',
+      URL: 'https://www.postgresql.fastware.com/',
+      LOGO: FUJITSU_LOGO,
     },
   ],
   BRONZE: [
