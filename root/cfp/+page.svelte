@@ -270,6 +270,14 @@
   <li>Paul Ramsey (Snowflake)</li>
   <li>Jacob Champion (EDB)</li>
 
+  <h2>Tuesday Planning Committee</h2>
+
+  <li>Claire Giordano (Microsoft)</li>
+  <li>Corey Hunker (Apple)</li>
+  <li>Matthias van de Meent (Neon)</li>
+  <li>Paul Jungwirth (Illuminated Computing)</li>
+  <li>Robert Haas (EDB)</li>
+
   <h2>Postermaster</h2>
 
   <li>Andrey Borodin (Yandex Cloud)</li>
