@@ -3,6 +3,7 @@ import EDB_LOGO from './logo/EDB.svg';
 import MICROSOFT_LOGO from './logo/Microsoft.svg';
 import PERCONA_LOGO from './logo/Percona.png';
 import FUJITSU_LOGO from './logo/fujitsu.svg';
+import XATA_LOGO from './logo/xata.png';
 
 export const SPONSOR_LIST = {
   GOLD: [
@@ -38,6 +39,11 @@ export const SPONSOR_LIST = {
       NAME: 'CYBERTEC',
       URL: 'https://www.cybertec-postgresql.com',
       LOGO: CYBERTEC_LOGO,
+    },
+    {
+      NAME: 'Xata',
+      URL: 'https://xata.io',
+      LOGO: XATA_LOGO,
     },
   ],
 };
