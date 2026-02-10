@@ -13,7 +13,7 @@
 <h1 style="color: #b78800;">Gold Sponsors</h1>
 
 {#each SPONSOR_LIST.GOLD as sponsor (sponsor.NAME)}
-  <h2 id={sponsor.NAME}>
+  <h2 id={sponsor.NAME} style="text-align: center;">
     <a
       href={sponsor.URL}
       target="_blank"
