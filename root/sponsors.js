@@ -5,6 +5,8 @@ import PERCONA_LOGO from './logo/Percona.png';
 import FUJITSU_LOGO from './logo/fujitsu.svg';
 import XATA_LOGO from './logo/xata.png';
 import AWS_LOGO from './logo/aws.svg';
+import HIGHGO_LOGO from './logo/highgo.svg';
+import PGANALYZE_LOGO from './logo/pganalyze.svg';
 
 export const SPONSOR_LIST = {
   GOLD: [
@@ -40,6 +42,16 @@ export const SPONSOR_LIST = {
       NAME: 'Fujitsu',
       URL: 'https://www.postgresql.fastware.com/',
       LOGO: FUJITSU_LOGO,
+    },
+    {
+      NAME: 'HighGo',
+      URL: 'https://www.highgo.com/en/',
+      LOGO: HIGHGO_LOGO,
+    },
+    {
+      NAME: 'Duboce Labs, Inc.',
+      URL: 'https://pganalyze.com',
+      LOGO: PGANALYZE_LOGO,
     },
   ],
   BRONZE: [
