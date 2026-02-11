@@ -4,7 +4,7 @@ import MICROSOFT_LOGO from './logo/Microsoft.svg';
 import PERCONA_LOGO from './logo/Percona.png';
 import FUJITSU_LOGO from './logo/fujitsu.svg';
 import XATA_LOGO from './logo/xata.png';
-import AWS_LOGO from './logo/aws.png';
+import AWS_LOGO from './logo/aws.svg';
 
 export const SPONSOR_LIST = {
   GOLD: [
