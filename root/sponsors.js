@@ -4,6 +4,7 @@ import MICROSOFT_LOGO from './logo/Microsoft.svg';
 import PERCONA_LOGO from './logo/Percona.png';
 import FUJITSU_LOGO from './logo/fujitsu.svg';
 import XATA_LOGO from './logo/xata.png';
+import AWS_LOGO from './logo/aws.svg';
 
 export const SPONSOR_LIST = {
   GOLD: [
@@ -20,6 +21,13 @@ export const SPONSOR_LIST = {
       LOGO: MICROSOFT_LOGO,
       DESCRIPTION:
         'At Microsoft, our Postgres team is focused on advancing Postgres—by contributing to Postgres open source; by providing the Azure Database for PostgreSQL and Azure HorizonDB services; by contributing to the Postgres ecosystem with Citus, Patroni, and VS Code; and by supporting the Postgres community.',
+    },
+    {
+      NAME: 'AWS',
+      URL: 'https://aws.amazon.com',
+      LOGO: AWS_LOGO,
+      DESCRIPTION:
+        "Amazon Web Services (AWS) is the world's most comprehensive & broadly adopted cloud provider, with 200+ fully featured services spanning over 35 geographic regions. With many solutions built for & around PostgreSQL, we strive to be a leading employer & contributor within the PostgreSQL community.",
     },
   ],
   SILVER: [
