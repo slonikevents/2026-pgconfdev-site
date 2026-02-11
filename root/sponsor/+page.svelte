@@ -30,12 +30,16 @@
 
 <h1 style="color: #707070;">Silver Sponsors</h1>
 {#each SPONSOR_LIST.SILVER as sponsor (sponsor.NAME)}
-  <h2 id={sponsor.NAME}>
+  <h2 id={sponsor.NAME} style="text-align: center;">
     <a
       href={sponsor.URL}
       target="_blank"
       style="text-decoration: none; border: none; outline: none;"
-      ><img src={sponsor.LOGO} alt={sponsor.NAME} /></a
+      ><img
+        src={sponsor.LOGO}
+        alt={sponsor.NAME}
+        style="max-width: 100%; max-height: 200px; height: auto;"
+      /></a
     >
   </h2>
   <p>{sponsor.DESCRIPTION}</p>
@@ -55,7 +59,7 @@
         ><img
           src={sponsor.LOGO}
           alt={sponsor.NAME}
-          style="max-width: 100%; height: auto;"
+          style="max-width: 100%; max-height: 200px; height: auto;"
         /></a
       >
     </h2>
