@@ -18,7 +18,11 @@
       href={sponsor.URL}
       target="_blank"
       style="text-decoration: none; border: none; outline: none;"
-      ><img src={sponsor.LOGO} alt={sponsor.NAME} /></a
+      ><img
+        src={sponsor.LOGO}
+        alt={sponsor.NAME}
+        style="max-width: 100%; max-height: 200px; height: auto;"
+      /></a
     >
   </h2>
   <p>{sponsor.DESCRIPTION}</p>
