@@ -211,7 +211,10 @@
     </hgroup>
 
     <p style:text-align="center">
-      <em>Expression of interest: April 14th, 2026 &middot; Final PDF: April 30th, 2026</em>
+      <em
+        >Expression of interest: April 14th, 2026 &middot; Final PDF: April
+        30th, 2026</em
+      >
     </p>
 
     <p>
@@ -223,16 +226,17 @@
 
     <p>
       Posters will be displayed on A1-sized boards (594 × 841 mm) during
-      dedicated coffee + poster session breaks. We prioritize on-site
-      presenters for prime locations, but remote authors are welcome—we can
-      print, display and, in certain cases, mail your poster back.
+      dedicated coffee + poster session breaks. We prioritize on-site presenters
+      for prime locations, but remote authors are welcome—we can print, display
+      and, in certain cases, mail your poster back.
     </p>
 
-    <p>Scope includes core patches, bug fixes, extensions, tools, research, and
-      community initiatives (CI, testing, diversity). Commercial products are
-      OK if they offer substantive technical content; closed source must be
-      disclosed. Submissions that appear to be advertisements are unlikely to
-      be accepted.
+    <p>
+      Scope includes core patches, bug fixes, extensions, tools, research, and
+      community initiatives (CI, testing, diversity). Commercial products are OK
+      if they offer substantive technical content; closed source must be
+      disclosed. Submissions that appear to be advertisements are unlikely to be
+      accepted.
     </p>
 
     <p>Your poster should include:</p>
@@ -246,16 +250,12 @@
     <h6>Submission Notes &mdash;</h6>
     <div class="note">
       <ul>
+        <li>Accepted posters do not confer complimentary registration.</li>
         <li>
-          Accepted posters do not confer complimentary registration.
+          Submit by email to express interest. Include your name, topic, and
+          whether you plan to attend in person.
         </li>
-        <li>
-          Submit by email to express interest. Include your name,
-          topic, and whether you plan to attend in person.
-        </li>
-        <li>
-          Capacity is limited (20–30 posters).
-        </li>
+        <li>Capacity is limited (20–30 posters).</li>
       </ul>
     </div>
   </section>

@@ -99,8 +99,12 @@
 <Carousel>
   <Person name="Claire Giordano" source={claire_giordano}>Microsoft</Person>
   <Person name="Corey Huinker" source={corey_huinker}>Apple</Person>
-  <Person name="Matthias van de Meent" source={matthias_van_de_meent}>Databricks</Person>
-  <Person name="Paul Jungwirth" source={paul_jungwirth}>Illuminated Computing</Person>
+  <Person name="Matthias van de Meent" source={matthias_van_de_meent}
+    >Databricks</Person
+  >
+  <Person name="Paul Jungwirth" source={paul_jungwirth}
+    >Illuminated Computing</Person
+  >
   <Person name="Robert Haas" source={robert_haas}>EDB</Person>
 </Carousel>
 

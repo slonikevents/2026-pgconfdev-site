@@ -33,6 +33,10 @@
       flex: 0 1 100%;
     }
   }
+
+  .silver {
+    margin: 10px 0;
+  }
 </style>
 
 <div id="side">
