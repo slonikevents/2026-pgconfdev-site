@@ -9,9 +9,9 @@
   import './main.css';
   import './site.css';
 
+  import Header from './Header';
   import Banner from './Banner';
   import Footer from './Footer.svelte';
-  import Header from './Header.svelte';
 
   let { children } = $props();
 

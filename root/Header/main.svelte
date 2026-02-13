@@ -1,12 +1,10 @@
 <script>
   import { resolve } from '$app/paths';
 
-  import { Menu } from '@lucide/svelte';
+  import { Menu, User } from '@lucide/svelte';
   import { PGConf } from '$lib/logo';
 
   import Toggle from './Toggle.svelte';
-
-  import { User } from '@lucide/svelte';
 
   let main = $state();
 
