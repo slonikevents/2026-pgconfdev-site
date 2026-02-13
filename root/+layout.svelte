@@ -1,5 +1,6 @@
 <script>
   import { base } from '$app/paths';
+  import { page } from '$app/state';
 
   import font from '@fontsource-variable/montserrat/files/montserrat-latin-wght-normal.woff2?url';
 
@@ -8,8 +9,9 @@
   import './main.css';
   import './site.css';
 
-  import Header from './Header.svelte';
+  import Banner from './Banner';
   import Footer from './Footer.svelte';
+  import Header from './Header.svelte';
 
   let { children } = $props();
 
@@ -57,6 +59,8 @@
 </svelte:head>
 
 <Header />
+
+{#if page.route.id == '/'}<Banner />{/if}
 
 <div class="matter">
   {@render children()}

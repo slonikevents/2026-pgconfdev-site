@@ -1,11 +1,9 @@
 <script>
   import { resolve } from '$app/paths';
-  import { page } from '$app/state';
 
   import { Menu } from '@lucide/svelte';
   import { PGConf } from '$lib/logo';
 
-  import Banner from './Banner.svelte';
   import Toggle from './Toggle.svelte';
 
   import { User } from '@lucide/svelte';
@@ -114,6 +112,4 @@
       </li>
     </menu>
   </nav>
-
-  {#if page.route.id == '/'}<Banner />{/if}
 </header>
