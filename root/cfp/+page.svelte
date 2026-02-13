@@ -274,7 +274,7 @@
 
   <li>Claire Giordano (Microsoft)</li>
   <li>Corey Hunker (Apple)</li>
-  <li>Matthias van de Meent (Neon)</li>
+  <li>Matthias van de Meent (Databricks)</li>
   <li>Paul Jungwirth (Illuminated Computing)</li>
   <li>Robert Haas (EDB)</li>
 
