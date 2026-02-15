@@ -209,6 +209,38 @@ date: ...
 ---
 ```
 
+### Schedule
+
+Schedule data is retrieved from the schedule published in the PGEU system at
+build time. Each day's `+page.server.js` (e.g.
+[`/root/schedule/wednesday/+page.server.js`]) selects its day from the schedule
+and can modify the roster before returning it. For example:
+
+- **Add a session** that isn't in the PGEU system (e.g. Lunch) by appending it
+  to the returned roster.
+- **Remove a session** that shouldn't be displayed on the schedule (e.g.
+  Community Booth) by removing it from the returned roster.
+- **Edit a session** by finding it in the roster and modifying its attributes
+  (e.g. setting `span` to display it across multiple columns).
+
+Each session in the roster has the following attributes:
+
+- **`id`** - Optional. Session id in the PGEU system, used to link to the
+  session's main page.
+- **`name`** - Session name displayed on the schedule.
+- **`note`** - Optional. Text shown after the `name` in parentheses (e.g.
+  speaker names).
+- **`slot`** - A `Slot` object defining the session's time slot. Construct with
+  `new Slot(lower, upper)`, where `lower` and `upper` are
+  `Temporal.PlainDateTime` values. This is easiest to construct with the help of
+  the day's `date` (e.g. `date.toPlainDateTime('12:00')`).
+- **`span`** - A two-element array `[start, end]` of zero-indexed room columns
+  the session spans (e.g. `[0, 3]` to span all four rooms).
+- **`room`** - Optional. Room name displayed as a badge on the session. Hidden,
+  in the wide grid view, when the session is already in that room's column.
+- **`style`** - Optional. An object with `background-color` and `color` CSS
+  properties used to colour the session by track. Omit for uncoloured sessions.
+
 ### Static Assets
 
 Static assets such as images or PDFs must be imported and referenced using
@@ -243,5 +275,6 @@ interpolation. For example, to include a PDF:
 [SvelteKit routing]: https://svelte.dev/docs/kit/routing#page
 [`/root/news`]: /root/news
 [mdsvex]: https://mdsvex.pngwn.io/
+[`/root/schedule/wednesday/+page.server.js`]: /root/schedule/wednesday/+page.server.js
 [Standard Canadian English]: https://en.wikipedia.org/wiki/Standard_Canadian_English
 [more appropriate element]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element
