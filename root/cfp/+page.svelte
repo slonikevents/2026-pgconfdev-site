@@ -32,18 +32,6 @@
     margin-block: 2rem;
   }
 
-  hgroup {
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: space-between;
-
-    [role='button'] {
-      color: #ffffff;
-    }
-  }
-
   .note {
     border-inline-start: 0.25rem solid var(--border-color);
     margin-inline: 0;
@@ -99,7 +87,7 @@
   </div>
 
   <section>
-    <hgroup>
+    <hgroup class="flex" style:justify-content="space-between">
       <h2 id="organize" style="margin: 0;">Community Discussion Sessions</h2>
       <p><a href={submit} role="button">Submit</a></p>
     </hgroup>
@@ -201,7 +189,7 @@
   </section>
 
   <section>
-    <hgroup>
+    <hgroup class="flex" style:justify-content="space-between">
       <h2 id="posters" style="margin: 0;">Poster Session</h2>
       <p><a href={posterSubmit} role="button">Submit</a></p>
     </hgroup>

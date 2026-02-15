@@ -3,13 +3,6 @@
 </script>
 
 <style>
-  div {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: space-evenly;
-  }
-
   div > :global(*) {
     flex-basis: calc(100% / 2 - 1rem);
     margin-block-end: 0;
@@ -24,4 +17,6 @@
   }
 </style>
 
-<div {...rest}>{@render children?.()}</div>
+<div class="flex" style:justify-content="space-evenly" {...rest}>
+  {@render children?.()}
+</div>
