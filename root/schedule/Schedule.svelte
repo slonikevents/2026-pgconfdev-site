@@ -1,4 +1,5 @@
 <script>
+  import { resolve } from '$app/paths';
   import { Temporal } from '@js-temporal/polyfill';
   import { Slot } from '$lib/slot';
 
@@ -13,8 +14,6 @@
   }
 
   const { layout, roster } = $props();
-
-  // const base = 'https://www.pgevents.ca/events/pgconfdev2025/schedule/session/';
 
   // Group sessions in the roster into objects with the schema {
   //   slot: "{lower} {upper}", sessions: [...],
@@ -111,6 +110,10 @@
     a:not(:is(:hover, :active, :focus)) {
       text-decoration: none;
     }
+
+    small {
+      color: rgb(from currentColor r g b / 0.6);
+    }
   }
 
   :not(li).room {
@@ -165,7 +168,7 @@
     </li>
 
     <!-- eslint-disable-next-line svelte/require-each-key -->
-    {#each sessions as { name, note, span, room, style = {} }}
+    {#each sessions as { id, name, note, span, room, style = {} }}
       <li
         class="item"
         style:grid-column="room-{span[0]} / room-{span[1]}"
@@ -184,7 +187,12 @@
           </span>
         {/if}
 
-        {name}
+        <svelte:element
+          this={id ? 'a' : 'span'}
+          href={id && resolve(`/session/${id}`)}
+        >
+          {name}
+        </svelte:element>
 
         {#if note}
           <br /> <small>({note})</small>

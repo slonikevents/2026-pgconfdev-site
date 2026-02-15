@@ -1,23 +1,7 @@
-import rehypeFormat from 'rehype-format';
-import rehypeStringify from 'rehype-stringify';
-import remarkParse from 'remark-parse';
-import remarkRehype from 'remark-rehype';
-import { unified } from 'unified';
-
-import { pgeu_data } from '$lib';
-
-function markdownToHtml(markdown) {
-  const processed = unified()
-    .use(remarkParse)
-    .use(remarkRehype)
-    .use(rehypeFormat)
-    .use(rehypeStringify)
-    .processSync(markdown);
-  return String(processed);
-}
+import { markdownToHtml, pgeuData } from '$lib/pgeu';
 
 export const load = async () => {
-  const jsonfile = await pgeu_data('sponsorlevels.json');
+  const jsonfile = await pgeuData('sponsorlevels.json');
 
   let sponsorLevels = [];
   for (const { benefits, ...rest } of jsonfile.sponsorlevels) {
