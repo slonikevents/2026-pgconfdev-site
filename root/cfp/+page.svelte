@@ -75,13 +75,9 @@
 
   <div class="side-by-side">
     <aside style:flex="0 0 16rem">
-      <header
-        style:align-items="center"
-        style:display="flex"
-        style:justify-content="space-between"
-      >
+      <header class="iconic" style:justify-content="space-between">
         <span>Important Dates</span>
-        <Calendar size="1em" />
+        <Calendar />
       </header>
 
       <dl>

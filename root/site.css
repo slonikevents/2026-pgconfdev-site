@@ -1,3 +1,5 @@
+@import 'main.css';
+
 :root {
   --header-background-color: rgb(3 60 107);
 }
@@ -18,10 +20,10 @@
     display: none;
   }
 
-  & :is(a:where(:not([role='button'])), [role='link']) {
+  & :is(:--button, :--link) {
     color: inherit;
 
-    &:is(:active, :hover, :focus) {
+    &:is(:active, :focus, :hover) {
       color: rgb(from currentColor r g b / 70%);
     }
   }
@@ -70,6 +72,14 @@ main {
   }
 }
 
-:is(.lucide, .simple-icon) {
-  vertical-align: baseline;
+.iconic {
+  align-items: center;
+  display: flex;
+  gap: 0.25em;
+
+  > svg {
+    flex: none;
+    height: 1.25em;
+    width: 1.25em;
+  }
 }

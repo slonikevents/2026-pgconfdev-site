@@ -20,6 +20,7 @@
     "@eslint/compat": "^2.0.2",
     "@eslint/js": "^9.39.2",
     "@fontsource-variable/montserrat": "^5.2.8",
+    "@js-temporal/polyfill": "^0.5.1",
     "@lucide/svelte": "^0.564.0",
     "@sveltejs/adapter-static": "^3.0.10",
     "@sveltejs/enhanced-img": "^0.10.2",

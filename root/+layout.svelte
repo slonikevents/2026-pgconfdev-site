@@ -6,7 +6,6 @@
 
   import '@csstools/normalize.css';
   import '@fontsource-variable/montserrat';
-  import './main.css';
   import './site.css';
 
   import Header from './Header';

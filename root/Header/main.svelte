@@ -1,7 +1,14 @@
 <script>
   import { resolve } from '$app/paths';
-
-  import { Menu, User } from '@lucide/svelte';
+  import {
+    CalendarDays,
+    CircleQuestionMark,
+    HandCoins,
+    Menu,
+    StickyNote,
+    Tickets,
+    User,
+  } from '@lucide/svelte';
   import { PGConf } from '$lib/logo';
 
   import Toggle from './Toggle.svelte';
@@ -14,11 +21,15 @@
 <style>
   header {
     line-height: 2;
+
+    :global(svg) {
+      height: 1.75rem;
+      vertical-align: middle;
+    }
   }
 
   nav {
     flex-wrap: wrap;
-    margin-bottom: 0;
     row-gap: 0;
   }
 
@@ -32,6 +43,11 @@
     @media (width >= 768px) {
       display: flex;
       width: auto;
+    }
+
+    .iconic {
+      column-gap: 0.5em;
+      display: flex;
     }
 
     > li {
@@ -59,53 +75,67 @@
 
 <header>
   <nav class="matter">
-    <a href={resolve('/')}><PGConf size="1.75rem" /></a>
+    <a href={resolve('/')}><PGConf /></a>
 
-    <div class="flex narrow">
-      <a href={register} target="_blank">
-        <User
-          size="1.75rem"
-          title="My Registration"
-          style="vertical-align: middle;"
-        />
-      </a>
+    <ul class="narrow" style:gap="0">
+      <li>
+        <a href={register} target="_blank">
+          <User title="My Registration" />
+        </a>
+      </li>
 
-      <Toggle
-        bind:on={main}
-        style="padding-inline: 0.625rem"
-        aria-label="Main Menu"
-      >
-        <Menu size="1.75rem" style="vertical-align: middle;" />
-      </Toggle>
-    </div>
+      <li>
+        <Toggle bind:on={main} aria-label="Main Menu">
+          <Menu />
+        </Toggle>
+      </li>
+    </ul>
 
     <menu data-open={main}>
       <li>
-        <a href={resolve('/about')}>
-          About <span class="narrow">the Conference</span>
+        <a class="iconic" href={resolve('/about')}>
+          <CircleQuestionMark class="narrow" />
+          <span>
+            About <span class="narrow">the Conference</span>
+          </span>
         </a>
       </li>
+
       <li>
-        <a href={resolve('/cfp')}>
+        <a class="iconic" href={resolve('/cfp')}>
+          <StickyNote class="narrow" />
           <span class="narrow">Call for Proposals</span>
           <span class="wide">CFP</span>
         </a>
       </li>
+
       <li>
-        <a href={resolve('/attend')}>
-          Attend <span class="narrow">PGConf.dev 2026</span>
+        <a class="iconic" href={resolve('/attend')}>
+          <Tickets class="narrow" />
+          <span>
+            Attend <span class="narrow">PGConf.dev 2026</span>
+          </span>
         </a>
       </li>
+
       <li>
-        <a href={resolve('/sponsor')}> Sponsors </a>
+        <a class="iconic" href={resolve('/schedule/wednesday')}>
+          <CalendarDays class="narrow" />
+          <span class="narrow">View the</span> Schedule
+        </a>
       </li>
+
+      <li>
+        <a class="iconic" href={resolve('/sponsor')}>
+          <HandCoins class="narrow" />
+          <span class="narrow">Sponsor the Conference</span>
+          <span class="wide">Sponsors</span>
+        </a>
+      </li>
+
       <li class="wide">
         <a href={register} target="_blank">
-          <User
-            size="1.5rem"
-            title="My Registration"
-            style="vertical-align: text-bottom;"
-          />
+          <User title="My Registration" />
         </a>
       </li>
     </menu>

@@ -189,10 +189,6 @@ code {
 
 /*********************************** Object ***********************************/
 
-audio, canvas, embed, iframe, img, object, svg, video {
-  vertical-align: middle;
-}
-
 iframe {
   border: 0;
 }
@@ -435,6 +431,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
+    justify-content: space-around;
 
     > * { margin-block: 0; }
   }

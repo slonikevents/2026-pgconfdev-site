@@ -5,10 +5,11 @@
   const { Icon, href, children, ...rest } = $props();
 </script>
 
-<li>
+<li class="iconic">
   {#if Icon !== undefined}
-    <Icon class="narrow" size="0.875em" />
+    <Icon class="narrow" />
   {/if}
+
   <a
     href={resolve(href)}
     aria-current={page.url.pathname == href ? 'page' : undefined}
