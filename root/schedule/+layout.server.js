@@ -1,11 +1,9 @@
 import { Temporal } from '@js-temporal/polyfill';
-import { pgeu_data } from '$lib';
+import { TIMEZONE, pgeuData } from '$lib/pgeu';
 import { Slot } from '$lib/slot';
 
-const TIMEZONE = 'America/Vancouver';
-
 export async function load() {
-  const data = await pgeu_data('schedule.json');
+  const data = await pgeuData('schedule.json');
 
   const schedule = data.days.map((item) => {
     const rooms = item.rooms.sort((a, b) => a.sortkey - b.sortkey);
