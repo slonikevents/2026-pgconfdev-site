@@ -35,7 +35,7 @@ export async function load({ parent }) {
     {
       slot: new Slot(
         schedule.date.toPlainDateTime('12:30'),
-        schedule.date.toPlainDateTime('13:35'),
+        schedule.date.toPlainDateTime('13:30'),
       ),
       name: 'Lunch',
       room: 'Concourse/Segal',
@@ -46,7 +46,7 @@ export async function load({ parent }) {
         schedule.date.toPlainDateTime('15:30'),
         schedule.date.toPlainDateTime('16:00'),
       ),
-      name: 'Coffee Break',
+      name: 'Coffee',
       room: 'Concourse',
       span: [0, 1],
     },
