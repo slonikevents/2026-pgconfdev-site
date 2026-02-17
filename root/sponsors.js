@@ -7,6 +7,7 @@ import XATA_LOGO from './logo/xata.png';
 import AWS_LOGO from './logo/aws.svg';
 import HIGHGO_LOGO from './logo/highgo.svg';
 import PGANALYZE_LOGO from './logo/pganalyze.svg';
+import HUAWEI_LOGO from './logo/huawei.png';
 
 export const SPONSOR_LIST = {
   GOLD: [
@@ -30,6 +31,13 @@ export const SPONSOR_LIST = {
       LOGO: AWS_LOGO,
       DESCRIPTION:
         "Amazon Web Services (AWS) is the world's most comprehensive & broadly adopted cloud provider, with 200+ fully featured services spanning over 35 geographic regions. With many solutions built for & around PostgreSQL, we strive to be a leading employer & contributor within the PostgreSQL community.",
+    },
+    {
+      NAME: 'Huawei',
+      URL: 'https://www.huawei.com/en',
+      LOGO: HUAWEI_LOGO,
+      DESCRIPTION:
+        "Huawei Cloud has become one of the world's fastest-growing major cloud vendors. Huawei Cloud is committed to providing Everything as a Service to deliver reliable, secure, trustworthy, and sustainable cloud services for customers, partners, and developers. As a core service of databases, our team is focused on providing a fully managed PostgreSQL service with better experience, performance, scalability and availability.",
     },
   ],
   SILVER: [
