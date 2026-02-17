@@ -8,27 +8,27 @@
 <main>
   <nav style:justify-content="center">
     <ul>
-      <!-- <li> -->
-      <!--   <DateLink href={resolve('/schedule/tuesday')}> -->
-      <!--     Tue / 13<sup>th</sup> -->
-      <!--   </DateLink> -->
-      <!-- </li> -->
+      <li>
+        <DateLink href={resolve('/schedule/tuesday')}>
+          Tu / 19<sup>th</sup>
+        </DateLink>
+      </li>
 
       <li>
         <DateLink href={resolve('/schedule/wednesday')}>
-          Wed / 14<sup>th</sup>
+          Wed / 20<sup>th</sup>
         </DateLink>
       </li>
 
       <li>
         <DateLink href={resolve('/schedule/thursday')}>
-          Thu / 15<sup>th</sup>
+          Thu / 21<sup>th</sup>
         </DateLink>
       </li>
 
       <!-- <li> -->
       <!--   <DateLink href={resolve('/schedule/friday')}> -->
-      <!--     Fri / 16<sup>th</sup> -->
+      <!--     Fri / 22<sup>th</sup> -->
       <!--   </DateLink> -->
       <!-- </li> -->
     </ul>
