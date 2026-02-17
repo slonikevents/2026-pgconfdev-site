@@ -25,30 +25,21 @@ export async function load({ parent }) {
     },
     {
       slot: new Slot(
+        schedule.date.toPlainDateTime('12:30'),
+        schedule.date.toPlainDateTime('13:45'),
+      ),
+      name: 'Lunch + Poster Session Showcase',
+      room: 'Concourse/Segal',
+      span: [0, 2],
+    },
+    {
+      slot: new Slot(
         schedule.date.toPlainDateTime('13:45'),
         schedule.date.toPlainDateTime('14:00'),
       ),
       name: "Major Contributors' Group Photo",
       room: 'Fletcher',
       span: [0, 0],
-    },
-    {
-      slot: new Slot(
-        schedule.date.toPlainDateTime('12:30'),
-        schedule.date.toPlainDateTime('14:00'),
-      ),
-      name: 'Lunch',
-      room: 'Concourse',
-      span: [1, 1],
-    },
-    {
-      slot: new Slot(
-        schedule.date.toPlainDateTime('12:30'),
-        schedule.date.toPlainDateTime('13:45'),
-      ),
-      name: 'Poster Session Showcase',
-      room: 'Segal',
-      span: [2, 2],
     },
     {
       slot: new Slot(
