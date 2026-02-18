@@ -1,6 +1,8 @@
 PGConf.dev 2026 Static Site
 ===========================
 
+[![Deploy to GitHub Pages](https://github.com/slonikevents/2026-pgconfdev-site/actions/workflows/main.yaml/badge.svg)](https://github.com/slonikevents/2026-pgconfdev-site/actions/workflows/main.yaml)
+
 This is the source code of the PGConf.dev 2026 static site. The entire site is
 rendered with [Svelte], [SvelteKit], and [adapter-static].
 
