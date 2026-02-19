@@ -37,7 +37,7 @@ export async function load({ parent }) {
         schedule.date.toPlainDateTime('15:00'),
         schedule.date.toPlainDateTime('15:30'),
       ),
-      name: 'Coffee',
+      name: 'Tea',
       room: 'Concourse',
       span: [0, 2],
     },
