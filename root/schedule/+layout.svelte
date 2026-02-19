@@ -26,11 +26,11 @@
         </DateLink>
       </li>
 
-      <!-- <li> -->
-      <!--   <DateLink href={resolve('/schedule/friday')}> -->
-      <!--     Fri / 22<sup>th</sup> -->
-      <!--   </DateLink> -->
-      <!-- </li> -->
+      <li>
+        <DateLink href={resolve('/schedule/friday')}>
+          Fri / 22<sup>th</sup>
+        </DateLink>
+      </li>
     </ul>
   </nav>
 
