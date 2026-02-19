@@ -16,7 +16,7 @@ export async function load() {
     {
       slot: new Slot(
         date.toPlainDateTime('09:00'),
-        date.toPlainDateTime('10:00'),
+        date.toPlainDateTime('09:50'),
       ),
       name: 'Unconference Organizing',
       span: [0, 2],
@@ -32,7 +32,7 @@ export async function load() {
     {
       slot: new Slot(
         date.toPlainDateTime('10:30'),
-        date.toPlainDateTime('11:30'),
+        date.toPlainDateTime('11:20'),
       ),
       name: 'Unconference Session',
       span: [0, 0],
@@ -40,7 +40,7 @@ export async function load() {
     {
       slot: new Slot(
         date.toPlainDateTime('10:30'),
-        date.toPlainDateTime('11:30'),
+        date.toPlainDateTime('11:20'),
       ),
       name: 'Unconference Session',
       span: [1, 1],
@@ -48,7 +48,7 @@ export async function load() {
     {
       slot: new Slot(
         date.toPlainDateTime('10:30'),
-        date.toPlainDateTime('11:30'),
+        date.toPlainDateTime('11:20'),
       ),
       name: 'Unconference Session',
       span: [2, 2],
@@ -56,7 +56,7 @@ export async function load() {
     {
       slot: new Slot(
         date.toPlainDateTime('11:30'),
-        date.toPlainDateTime('12:30'),
+        date.toPlainDateTime('12:20'),
       ),
       name: 'Unconference Session',
       span: [0, 0],
@@ -64,7 +64,7 @@ export async function load() {
     {
       slot: new Slot(
         date.toPlainDateTime('11:30'),
-        date.toPlainDateTime('12:30'),
+        date.toPlainDateTime('12:20'),
       ),
       name: 'Unconference Session',
       span: [1, 1],
@@ -72,7 +72,7 @@ export async function load() {
     {
       slot: new Slot(
         date.toPlainDateTime('11:30'),
-        date.toPlainDateTime('12:30'),
+        date.toPlainDateTime('12:20'),
       ),
       name: 'Unconference Session',
       span: [2, 2],
@@ -88,7 +88,7 @@ export async function load() {
     {
       slot: new Slot(
         date.toPlainDateTime('13:30'),
-        date.toPlainDateTime('14:30'),
+        date.toPlainDateTime('14:20'),
       ),
       name: 'Unconference Session',
       span: [0, 0],
@@ -96,7 +96,7 @@ export async function load() {
     {
       slot: new Slot(
         date.toPlainDateTime('13:30'),
-        date.toPlainDateTime('14:30'),
+        date.toPlainDateTime('14:20'),
       ),
       name: 'Unconference Session',
       span: [1, 1],
@@ -104,7 +104,7 @@ export async function load() {
     {
       slot: new Slot(
         date.toPlainDateTime('13:30'),
-        date.toPlainDateTime('14:30'),
+        date.toPlainDateTime('14:20'),
       ),
       name: 'Unconference Session',
       span: [2, 2],
@@ -112,7 +112,7 @@ export async function load() {
     {
       slot: new Slot(
         date.toPlainDateTime('14:30'),
-        date.toPlainDateTime('15:30'),
+        date.toPlainDateTime('15:20'),
       ),
       name: 'Unconference Session',
       span: [0, 0],
@@ -120,7 +120,7 @@ export async function load() {
     {
       slot: new Slot(
         date.toPlainDateTime('14:30'),
-        date.toPlainDateTime('15:30'),
+        date.toPlainDateTime('15:20'),
       ),
       name: 'Unconference Session',
       span: [1, 1],
@@ -128,7 +128,7 @@ export async function load() {
     {
       slot: new Slot(
         date.toPlainDateTime('14:30'),
-        date.toPlainDateTime('15:30'),
+        date.toPlainDateTime('15:20'),
       ),
       name: 'Unconference Session',
       span: [2, 2],
