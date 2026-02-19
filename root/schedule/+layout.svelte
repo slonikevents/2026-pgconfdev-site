@@ -10,7 +10,7 @@
     <ul>
       <li>
         <DateLink href={resolve('/schedule/tuesday')}>
-          Tu / 19<sup>th</sup>
+          Tue / 19<sup>th</sup>
         </DateLink>
       </li>
 
