@@ -46,7 +46,7 @@ export async function load({ parent }) {
         schedule.date.toPlainDateTime('15:30'),
         schedule.date.toPlainDateTime('16:00'),
       ),
-      name: 'Coffee',
+      name: 'Tea',
       room: 'Concourse',
       span: [0, 1],
     },
