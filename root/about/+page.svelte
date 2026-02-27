@@ -19,6 +19,9 @@
   import corey_huinker from './Corey Huinker.jpg?enhanced&w=120;240;360';
   import paul_jungwirth from './Paul Jungwirth.jpg?enhanced&w=120;240;360';
   import matthias_van_de_meent from './Matthias van de Meent.jpg?enhanced&w=120;240;360';
+  import pavlo_golub from './pavlo-golub.png?enhanced&w=120;240;360';
+  import masahiko_sawada from './masahiko_sawada_600.jpg?enhanced&w=120;240;360';
+  import stacey_haysler from './Stacey Haysler.jpeg?enhanced&w=120;240;360';
 
   const postgresql = 'https://www.postgresql.org';
   const pgcon = 'https://www.pgcon.org';
@@ -106,6 +109,20 @@
     >Illuminated Computing</Person
   >
   <Person name="Robert Haas" source={robert_haas}>EDB</Person>
+</Carousel>
+
+<h2>Code of Conduct Committee</h2>
+<Carousel>
+  <Person name="Pavlo Golub" source={pavlo_golub}>Cybertec</Person>
+  <Person name="Stacey Haysler" source={stacey_haysler}>PGX Inc.</Person>
+  <Person name="Masahiko Sawada" source={masahiko_sawada}>AWS</Person>
+</Carousel>
+
+<h2>Volunteers</h2>
+<Carousel>
+  <Person name="Chirag Dave"></Person>
+  <Person name="Shayon Sanyal"></Person>
+  <Person name="Mark Wong"></Person>
 </Carousel>
 
 <h2>Volunteering</h2>
