@@ -12,7 +12,6 @@ export async function load({ parent }) {
       ),
       name: 'Breakfast',
       room: 'Concourse',
-      span: [0, 0],
     },
     {
       slot: new Slot(
@@ -21,7 +20,6 @@ export async function load({ parent }) {
       ),
       name: 'Community Newcomer Welcome Breakfast',
       room: 'Xerox',
-      span: [1, 1],
     },
     {
       slot: new Slot(
@@ -30,7 +28,6 @@ export async function load({ parent }) {
       ),
       name: 'Coffee',
       room: 'Concourse',
-      span: [0, 1],
     },
     {
       slot: new Slot(
@@ -39,7 +36,6 @@ export async function load({ parent }) {
       ),
       name: 'Lunch',
       room: 'Concourse/Segal',
-      span: [0, 1],
     },
     {
       slot: new Slot(
@@ -48,7 +44,6 @@ export async function load({ parent }) {
       ),
       name: 'Tea',
       room: 'Concourse',
-      span: [0, 1],
     },
     {
       slot: new Slot(
@@ -57,7 +52,6 @@ export async function load({ parent }) {
       ),
       name: 'Meet + Eat',
       room: 'Concourse',
-      span: [0, 1],
     },
   );
 
