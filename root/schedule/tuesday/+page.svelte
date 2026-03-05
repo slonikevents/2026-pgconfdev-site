@@ -96,6 +96,7 @@
 </p>
 
 <div class="schedule">
+  <!-- eslint-disable-next-line svelte/require-each-key -->
   {#each schedule as { slot, sessions }}
     <div class="timeslot">
       <div class="timeslot-header">
@@ -103,7 +104,8 @@
       </div>
 
       <ul class="sessions">
-        {#each sessions as { id, name, note, room, style = {} }}
+        <!-- eslint-disable-next-line svelte/require-each-key -->
+        {#each sessions as { id, name, note, room, style = { } }}
           <li
             class="session"
             style:background-color={style['background-color']}
