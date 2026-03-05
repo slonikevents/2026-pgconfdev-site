@@ -141,6 +141,7 @@
 
 <!-- prettier-ignore -->
 <ul
+  class="schedule"
   style:grid-template-areas="&quot;slot {
     layout.map((_, i) => `room-${i}`).join(' ')
   }&quot;"
