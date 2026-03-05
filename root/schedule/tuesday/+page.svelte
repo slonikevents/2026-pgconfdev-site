@@ -5,6 +5,22 @@
   const { data } = $props();
 </script>
 
+<style>
+  :global(.schedule) {
+    @media (width >= 768px) {
+      display: block !important;
+    }
+
+    :global(.wide) {
+      display: none !important;
+    }
+
+    :global(.narrow) {
+      display: revert !important;
+    }
+  }
+</style>
+
 <DateHead date={data.date} />
 <p>
   The schedule below shows only a subset of what will be happening on Tuesday!
