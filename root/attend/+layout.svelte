@@ -4,7 +4,13 @@
 
   import Side from '../Side.svelte';
 
-  import { Building, Navigation, Tickets, HandCoins } from '@lucide/svelte';
+  import {
+    Building,
+    HandHelping,
+    Navigation,
+    Tickets,
+    HandCoins,
+  } from '@lucide/svelte';
 
   let { children } = $props();
 </script>
@@ -24,6 +30,7 @@
     Travel Information
   </MenuItem>
   <MenuItem Icon={HandCoins} href="/attend/travel-grant">Travel Grant</MenuItem>
+  <MenuItem Icon={HandHelping} href="/attend/volunteer">Volunteer</MenuItem>
 </Menu>
 
 <main>
