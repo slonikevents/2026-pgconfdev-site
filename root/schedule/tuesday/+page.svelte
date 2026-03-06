@@ -1,4 +1,5 @@
 <script>
+  import { resolve } from '$app/paths';
   import DateHead from '../DateHead.svelte';
   import Schedule from '../Schedule.svelte';
 
@@ -26,9 +27,10 @@
   The schedule below shows only a subset of what will be happening on Tuesday!
 </p>
 <p>
-  Tuesday will feature a large number of community discussion sessions, many of
-  which will be open to all conference attendees. These will gradually be added
-  to this schedule as we get closer to the event.
+  More community discussions will be added to this schedule closer to the event!
+  You can still propose additional community discussion sessions to the <a
+    href={resolve('/cfp')}>call for papers</a
+  > until April 14, 2026!
 </p>
 
 <Schedule layout={data.layout} roster={data.roster} />
