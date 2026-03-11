@@ -8,6 +8,7 @@ import AWS_LOGO from './logo/aws.svg';
 import HIGHGO_LOGO from './logo/highgo.svg';
 import PGANALYZE_LOGO from './logo/pganalyze.svg';
 import HUAWEI_LOGO from './logo/huawei.png';
+import SUPABASE_LOGO from './logo/supabase.svg';
 
 export const SPONSOR_LIST = {
   GOLD: [
@@ -60,6 +61,11 @@ export const SPONSOR_LIST = {
       NAME: 'Duboce Labs, Inc.',
       URL: 'https://pganalyze.com',
       LOGO: PGANALYZE_LOGO,
+    },
+    {
+      NAME: 'Supabase',
+      URL: 'https://supabase.com/',
+      LOGO: SUPABASE_LOGO,
     },
   ],
   BRONZE: [
