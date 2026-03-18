@@ -9,6 +9,8 @@ import HIGHGO_LOGO from './logo/highgo.svg';
 import PGANALYZE_LOGO from './logo/pganalyze.svg';
 import HUAWEI_LOGO from './logo/huawei.png';
 import SUPABASE_LOGO from './logo/supabase.svg';
+import DATABRICKS_LOGO from './logo/databricks.svg';
+import SRA_LOGO from './logo/SRA.svg';
 
 export const SPONSOR_LIST = {
   GOLD: [
@@ -40,6 +42,13 @@ export const SPONSOR_LIST = {
       DESCRIPTION:
         "Huawei Cloud has become one of the world's fastest-growing major cloud vendors. Huawei Cloud is committed to providing Everything as a Service to deliver reliable, secure, trustworthy, and sustainable cloud services for customers, partners, and developers. As a core service of databases, our team is focused on providing a fully managed PostgreSQL service with better experience, performance, scalability and availability.",
     },
+    {
+      Name: 'Databricks',
+      URL: 'https://databricks.com/',
+      LOGO: DATABRICKS_LOGO,
+      DESCRIPTION:
+        "With origins in academia and the open source community, Databricks was founded in 2013 by the original creators of the lakehouse architecture and open source projects Apache Spark™, Delta Lake, MLflow and Unity Catalog.\\nToday, more than 15,000 organizations worldwide — including Block, Comcast, Condé Nast, Rivian, Shell and over 60% of the Fortune 500 — rely on the Databricks Data Intelligence Platform to take control of their data and put it to work with AI.\\nHeadquartered in San Francisco, with offices around the world, Databricks is on a mission to simplify and democratize data and AI, helping data and AI teams solve the world's toughest problems.",
+    },
   ],
   SILVER: [
     {
@@ -66,6 +75,11 @@ export const SPONSOR_LIST = {
       NAME: 'Supabase',
       URL: 'https://supabase.com/',
       LOGO: SUPABASE_LOGO,
+    },
+    {
+      NAME: 'SRA OSS',
+      URL: 'https://www.sraoss.co.jp/index_en/',
+      LOGO: SRA_LOGO,
     },
   ],
   BRONZE: [
