@@ -19,3 +19,9 @@
   contact us at <a href="mailto:contact@pgconf.dev">contact@pgconf.dev</a>. You
   can also follow us on <LinkedIn /> or <Mastodon /> for updates about the event.
 </p>
+
+<p>
+  You can reach the code of conduct committee through email at <a
+    href="mailto:coc2026@pgconf.dev">coc2026@pgconf.dev</a
+  >
+</p>

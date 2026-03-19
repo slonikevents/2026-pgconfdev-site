@@ -55,3 +55,9 @@
   All participants are expected to adhere to this policy at all conference
   venues and conference-related social events.
 </p>
+
+<p>
+  You can reach the code of conduct committee through email at <a
+    href="mailto:coc2026@pgconf.dev">coc2026@pgconf.dev</a
+  >
+</p>
