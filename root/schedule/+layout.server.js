@@ -7,7 +7,10 @@ export async function load() {
 
   const schedule = data.days.map((item) => {
     const rooms = item.rooms.sort((a, b) => a.sortkey - b.sortkey);
-    const layout = rooms.map((room) => room.name);
+    const layout = rooms
+      .map((room) => room.name)
+      .filter((v) => v !== 'Concourse')
+      .filter((v) => v !== 'Rogue Kitchen');
 
     const roster = item.sessions.map(function ({
       endtime,
@@ -28,7 +31,7 @@ export async function load() {
       const slot = new Slot(lower, upper);
 
       const offset = rooms.findIndex((room) => room.id == room_id);
-      const span = [offset, offset];
+      let span = [offset, offset];
 
       const note = speakers.map(({ name }) => name).join(', ');
 

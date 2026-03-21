@@ -41,20 +41,12 @@ export async function load({ parent }) {
       room: 'Concourse',
       span: [0, 2],
     },
-    {
-      slot: new Slot(
-        schedule.date.toPlainDateTime('18:00'),
-        schedule.date.toPlainDateTime('21:00'),
-      ),
-      name: 'Social',
-      room: 'Rogue',
-      span: [0, 2],
-    },
   );
 
   roster.find(({ name }) => name == 'Opening').span = [0, 2];
   roster.find(({ name }) => name.startsWith('Group Photo')).span = [0, 2];
   roster.find(({ name }) => name.startsWith('30 Years')).span = [0, 2];
+  roster.find(({ name }) => name == 'Social').span = [0, 2];
 
   return { ...schedule, roster };
 }

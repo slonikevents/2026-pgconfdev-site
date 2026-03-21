@@ -16,15 +16,6 @@ export async function load({ parent }) {
     },
     {
       slot: new Slot(
-        schedule.date.toPlainDateTime('07:30'),
-        schedule.date.toPlainDateTime('08:30'),
-      ),
-      name: 'Community Newcomer Welcome Breakfast',
-      room: 'Xerox',
-      span: [1, 1],
-    },
-    {
-      slot: new Slot(
         schedule.date.toPlainDateTime('10:00'),
         schedule.date.toPlainDateTime('10:30'),
       ),
@@ -50,16 +41,7 @@ export async function load({ parent }) {
       room: 'Concourse',
       span: [0, 1],
     },
-    {
-      slot: new Slot(
-        schedule.date.toPlainDateTime('17:00'),
-        schedule.date.toPlainDateTime('21:00'),
-      ),
-      name: 'Meet + Eat',
-      room: 'Concourse',
-      span: [0, 1],
-    },
   );
-
+  roster.find(({ name }) => name.startsWith('Meet')).span = [0, 1];
   return { ...schedule, roster };
 }

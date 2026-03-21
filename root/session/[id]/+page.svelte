@@ -97,7 +97,8 @@
 <article>
   <header class="flex" style:justify-content="space-between">
     <p class="iconic">
-      <Building /> <span>{data.room.roomname}</span>
+      <Building />
+      <span>{data.room.roomname}</span>
     </p>
 
     <p class="iconic">

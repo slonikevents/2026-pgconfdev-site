@@ -41,27 +41,10 @@ export async function load({ parent }) {
       room: 'Fletcher',
       span: [0, 0],
     },
-    {
-      slot: new Slot(
-        schedule.date.toPlainDateTime('15:30'),
-        schedule.date.toPlainDateTime('16:15'),
-      ),
-      name: 'Tea + Cake Cutting',
-      room: 'Concourse',
-      span: [0, 3],
-    },
-    {
-      slot: new Slot(
-        schedule.date.toPlainDateTime('18:15'),
-        schedule.date.toPlainDateTime('21:15'),
-      ),
-      name: 'Meet + Eat',
-      room: 'Concourse',
-      span: [0, 3],
-    },
   );
 
   roster.find(({ name }) => name == 'Lightning Talks').span = [0, 3];
-
+  roster.find(({ name }) => name == 'Tea + Cake Cutting').span = [0, 3];
+  roster.find(({ name }) => name.startsWith('Meet + Eat')).span = [0, 3];
   return { ...schedule, roster };
 }
