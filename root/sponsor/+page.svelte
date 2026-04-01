@@ -10,58 +10,112 @@
   />
 </svelte:head>
 
-<h1 style="color: #b78800;">Gold Sponsors</h1>
+<style>
+  section:where(:not(:last-child)) {
+    margin-block-end: 2rem;
+  }
 
-{#each SPONSOR_LIST.GOLD as sponsor (sponsor.NAME)}
-  <h2 id={sponsor.NAME} style="text-align: center;">
-    <a
-      href={sponsor.URL}
-      target="_blank"
-      style="text-decoration: none; border: none; outline: none;"
-      ><img
-        src={sponsor.LOGO}
-        alt={sponsor.NAME}
-        style="max-width: 100%; max-height: 200px; height: auto;"
-      /></a
-    >
-  </h2>
-  <p>{sponsor.DESCRIPTION}</p>
-{/each}
+  hr {
+    margin-block-end: 2rem;
+  }
 
-<h1 style="color: #707070;">Silver Sponsors</h1>
-{#each SPONSOR_LIST.SILVER as sponsor (sponsor.NAME)}
-  <h2 id={sponsor.NAME} style="text-align: center;">
-    <a
-      href={sponsor.URL}
-      target="_blank"
-      style="text-decoration: none; border: none; outline: none;"
-      ><img
-        src={sponsor.LOGO}
-        alt={sponsor.NAME}
-        style="max-width: 100%; max-height: 200px; height: auto;"
-      /></a
-    >
-  </h2>
-  <p>{sponsor.DESCRIPTION}</p>
-{/each}
+  h1 {
+    margin-block-end: 2rem;
+  }
 
-<h1 style="color: #8B4513;">Bronze Sponsors</h1>
+  h2 {
+    text-align: center;
+  }
 
-<div
-  style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; align-items: center;"
->
-  {#each SPONSOR_LIST.BRONZE as sponsor (sponsor.NAME)}
-    <h2 id={sponsor.NAME} style="margin: 0;">
-      <a
-        href={sponsor.URL}
-        target="_blank"
-        style="display: block; padding: 0.5rem;"
-        ><img
-          src={sponsor.LOGO}
-          alt={sponsor.NAME}
-          style="max-width: 100%; max-height: 200px; height: auto;"
-        /></a
-      >
+  ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+    text-align: center;
+  }
+
+  li {
+    margin-bottom: 1rem;
+  }
+
+  a {
+    border-radius: var(--border-radius);
+    display: block;
+    padding: 1rem;
+  }
+
+  .gold {
+    h1 {
+      color: var(--gold-color);
+    }
+
+    img {
+      max-height: 12rem;
+    }
+  }
+
+  .silver {
+    h1 {
+      color: var(--silver-color);
+    }
+
+    img {
+      max-height: 8rem;
+    }
+  }
+
+  .bronze {
+    h1 {
+      color: var(--bronze-color);
+    }
+
+    ul {
+      align-items: center;
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    img {
+      max-height: 4rem;
+    }
+  }
+</style>
+
+<section class="gold">
+  <h1>Gold Sponsors</h1>
+
+  {#each SPONSOR_LIST.GOLD as {NAME, LOGO, URL, DESCRIPTION} (NAME)}
+    <h2 id={NAME}>
+      <a href={URL} target="_blank"><img src={LOGO} alt={NAME} /></a>
     </h2>
+    <p>{DESCRIPTION}</p>
   {/each}
-</div>
+</section>
+
+<hr />
+
+<section class="silver">
+  <h1>Silver Sponsors</h1>
+
+  <ul>
+    {#each SPONSOR_LIST.SILVER as {NAME, LOGO, URL} (NAME)}
+      <li>
+        <a href={URL} target="_blank" ><img src={LOGO} alt={NAME} /></a>
+      </li>
+    {/each}
+  </ul>
+</section>
+
+<hr />
+
+<section class="bronze">
+  <h1>Bronze Sponsors</h1>
+
+  <ul>
+    {#each SPONSOR_LIST.BRONZE as {NAME, LOGO, URL} (NAME)}
+      <li>
+        <a href={URL} target="_blank"><img src={LOGO} alt={NAME} /></a>
+      </li>
+    {/each}
+  </ul>
+</section>

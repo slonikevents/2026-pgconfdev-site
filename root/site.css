@@ -2,6 +2,9 @@
 
 :root {
   --header-background-color: rgb(3 60 107);
+  --gold-color: rgb(183 136 0);
+  --silver-color: rgb(112 112 122);
+  --bronze-color: rgb(139 69 19);
 }
 
 #root {
