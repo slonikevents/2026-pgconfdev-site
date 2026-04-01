@@ -10,7 +10,7 @@ import PGANALYZE_LOGO from './logo/pganalyze.svg';
 import HUAWEI_LOGO from './logo/huawei.png';
 import SUPABASE_LOGO from './logo/supabase.svg';
 import DATABRICKS_LOGO from './logo/databricks.svg';
-import SRA_LOGO from './logo/SRA.svg';
+import SRA_LOGO from './logo/SRA.png';
 
 export const SPONSOR_LIST = {
   GOLD: [
