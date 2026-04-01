@@ -61,7 +61,7 @@
   <section class="gold">
     <h4>Gold Sponsors</h4>
 
-    {#each SPONSOR_LIST.GOLD as {NAME, LOGO, URL} (NAME)}
+    {#each SPONSOR_LIST.GOLD as { NAME, LOGO, URL } (NAME)}
       <p>
         <a href={URL} target="_blank"><img src={LOGO} alt={NAME} /></a>
       </p>
@@ -72,7 +72,7 @@
     <h4>Silver Sponsors</h4>
 
     <ul>
-      {#each SPONSOR_LIST.SILVER as {NAME, LOGO, URL} (NAME)}
+      {#each SPONSOR_LIST.SILVER as { NAME, LOGO, URL } (NAME)}
         <li>
           <a href={URL} target="_blank"><img src={LOGO} alt={NAME} /></a>
         </li>

@@ -2,14 +2,6 @@
   import { SPONSOR_LIST } from '../sponsors';
 </script>
 
-<svelte:head>
-  <title>Sponsors of PGConf.dev 2026</title>
-  <meta
-    name="description"
-    content="PGConf.dev is an annual event where users, developers, and community organizers come together to focus on PostgreSQL development and community growth. This event is a strategic gathering of the PostgreSQL community that takes place before development begins."
-  />
-</svelte:head>
-
 <style>
   section:where(:not(:last-child)) {
     margin-block-end: 2rem;
@@ -81,10 +73,18 @@
   }
 </style>
 
+<svelte:head>
+  <title>Sponsors of PGConf.dev 2026</title>
+  <meta
+    name="description"
+    content="PGConf.dev is an annual event where users, developers, and community organizers come together to focus on PostgreSQL development and community growth. This event is a strategic gathering of the PostgreSQL community that takes place before development begins."
+  />
+</svelte:head>
+
 <section class="gold">
   <h1>Gold Sponsors</h1>
 
-  {#each SPONSOR_LIST.GOLD as {NAME, LOGO, URL, DESCRIPTION} (NAME)}
+  {#each SPONSOR_LIST.GOLD as { NAME, LOGO, URL, DESCRIPTION } (NAME)}
     <h2 id={NAME}>
       <a href={URL} target="_blank"><img src={LOGO} alt={NAME} /></a>
     </h2>
@@ -98,9 +98,9 @@
   <h1>Silver Sponsors</h1>
 
   <ul>
-    {#each SPONSOR_LIST.SILVER as {NAME, LOGO, URL} (NAME)}
+    {#each SPONSOR_LIST.SILVER as { NAME, LOGO, URL } (NAME)}
       <li>
-        <a href={URL} target="_blank" ><img src={LOGO} alt={NAME} /></a>
+        <a href={URL} target="_blank"><img src={LOGO} alt={NAME} /></a>
       </li>
     {/each}
   </ul>
@@ -112,7 +112,7 @@
   <h1>Bronze Sponsors</h1>
 
   <ul>
-    {#each SPONSOR_LIST.BRONZE as {NAME, LOGO, URL} (NAME)}
+    {#each SPONSOR_LIST.BRONZE as { NAME, LOGO, URL } (NAME)}
       <li>
         <a href={URL} target="_blank"><img src={LOGO} alt={NAME} /></a>
       </li>
