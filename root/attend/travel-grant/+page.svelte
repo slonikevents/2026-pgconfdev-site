@@ -9,6 +9,14 @@
 <h1>Travel Grant Program</h1>
 
 <p>
+  The travel grant program is now closed. All available travel grants have been
+  disbursed.
+</p>
+
+<!--
+<h1>Travel Grant Program</h1>
+
+<p>
   This program seeks to make PGConf.dev attendance affordable for those who
   can’t easily pay to travel and attend. By default, grants includes a
   complimentary registration and a hotel room in the conference affiliated hotel
@@ -65,3 +73,4 @@
   <li>Steve Singer</li>
   <li>Masahiko Sawada</li>
 </ul>
+-->
