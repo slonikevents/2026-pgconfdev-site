@@ -11,6 +11,8 @@
     Tickets,
     HandCoins,
     partyPopper,
+    IdCard,
+    Printer,
   } from '@lucide/svelte';
 
   let { children } = $props();
@@ -33,6 +35,8 @@
   </MenuItem>
   <MenuItem Icon={HandCoins} href="/attend/travel-grant">Travel Grant</MenuItem>
   <MenuItem Icon={HandHelping} href="/attend/volunteer">Volunteer</MenuItem>
+  <MenuItem Icon={IdCard} href="/attend/badge">Badge Preview</MenuItem>
+  <MenuItem Icon={Printer} href="/attend/badge/render">Render Badges</MenuItem>
 </Menu>
 
 <main>
