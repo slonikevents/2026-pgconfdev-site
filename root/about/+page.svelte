@@ -84,7 +84,7 @@
     Redpill Linpro
   </Person>
   <Person name="Melanie Plageman" source={melanie_plageman}>Microsoft</Person>
-  <Person name="Paul Ramsey" source={paul_ramsey}>Crunchy Data</Person>
+  <Person name="Paul Ramsey" source={paul_ramsey}>Snowflake</Person>
   <Person name="Robert Haas" source={robert_haas}>EDB</Person>
   <Person name="Steve Singer" source={steve_singer}>Nav Technologies</Person>
 </Carousel>
@@ -95,7 +95,7 @@
   <Person name="Jonathan Katz" source={jonathan_katz}>Databricks</Person>
   <Person name="Dilip Kumar" source={dilip_kumar}>Google</Person>
   <Person name="Melanie Plageman" source={melanie_plageman}>Microsoft</Person>
-  <Person name="Paul Ramsey" source={paul_ramsey}>Crunchy Data</Person>
+  <Person name="Paul Ramsey" source={paul_ramsey}>Snowflake</Person>
 </Carousel>
 
 <h2>Tuesday Planning Committee</h2>
