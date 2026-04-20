@@ -38,17 +38,17 @@
 </ol>
 
 
-<a name="gala" />
-<h2>Gala Reception (Wednesday)</h2>
+<a name="reception" />
+<h2>Social Reception (Wednesday)</h2>
 
 <p>
-At the <a href="https://roguewetbar.com" target="_blank">Rogue Kitchen and Wet Bar</a>, just across the street from the SFU Harbour Center, the Gala Reception starts at 6PM on Wednesday, and includes lots of reception style food for dinner and two drinks from the bar.
+At the <a href="https://roguewetbar.com" target="_blank">Rogue Kitchen and Wet Bar</a>, just across the street from the SFU Harbour Center, the Gala Reception starts at 18:00 on Wednesday, and includes lots of reception style food for dinner and two drinks from the bar.
 </p>
 
 <p><enhanced:img src={rogueBanner} alt="Rogue Kitchen and Wet Bar" /></p>
 
 <p>
-The Reception is included in your conference registration, so make sure you bring your registration badge when you head to the event. If the crowds are getting a bit overwhelming, maybe slip to the upstairs gaming area to try out some classic board games.
+The Reception is included in your conference registration, so make sure you <b>bring your registration badge</b> when you head to the event. If the crowds are getting a bit overwhelming, maybe slip to the upstairs gaming area to try out some classic board games.
 </p>
 
 <a name="run" />
