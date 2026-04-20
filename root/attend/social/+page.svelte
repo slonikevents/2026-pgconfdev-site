@@ -1,6 +1,5 @@
 <script>
   import { resolve } from '$app/paths';
-  import { Plane, Train } from '@lucide/svelte';
 
   const meateat_form =
     'https://docs.google.com/forms/d/e/1FAIpQLSfCDRRFlapvY7tgMpgsKgVvGjVDw6usj3YVAcl6Po8DU7Jgsw/viewform?usp=publish-editor';
