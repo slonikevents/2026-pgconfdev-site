@@ -4,8 +4,8 @@
   const meateat_form =
     'https://docs.google.com/forms/d/e/1FAIpQLSfCDRRFlapvY7tgMpgsKgVvGjVDw6usj3YVAcl6Po8DU7Jgsw/viewform?usp=publish-editor';
 
-  import rogueBanner from './rogue.jpg';
-  import bbBanner from './butcher.jpg';
+  import rogueBanner from './rogue.jpg?enhanced';
+  import bbBanner from './butcher.jpg?enhanced';
 </script>
 
 <svelte:head>
