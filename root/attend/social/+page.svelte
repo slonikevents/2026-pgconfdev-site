@@ -54,7 +54,7 @@
   </li>
 </ol>
 
-<a name="reception" name="Social Reception"></a>
+<a name="reception" title="Social Reception"></a>
 <h2>Social Reception (Wednesday)</h2>
 
 <p>
