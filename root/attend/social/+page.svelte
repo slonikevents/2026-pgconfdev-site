@@ -81,14 +81,15 @@
   world, <a>Stanley Park</a>, and the group fun run will take you through as
   much or as little of it as you like.
 </p>
-<p></p>
 <p>
   <b>Watch this space for start times and meet-up points!</b>
 </p>
 
 <a name="sing" title="Karaoke"></a>
 <h2>Karaoke</h2>
-<p>Unwind and loosen those vocal chords with a Postgres Karaoke session!</p>
+<p>
+  Unwind and loosen those vocal chords with a Postgres Karaoke session!
+</p>
 <p>
   <b>Watch this space for meet-up time and location.</b>
 </p>
