@@ -1,155 +1,47 @@
-import { Temporal } from '@js-temporal/polyfill';
 import { Slot } from '$lib/slot';
 
-export async function load() {
-  const date = Temporal.PlainDate.from('2026-05-22');
-  const layout = ['Room 1', 'Room 2', 'Room 3'];
-  const roster = [
+export async function load({ parent }) {
+  const data = await parent();
+  const schedule = data.schedule.find(({ date }) => date.dayOfWeek == 5);
+
+  let roster = schedule.roster.concat(
     {
       slot: new Slot(
-        date.toPlainDateTime('08:00'),
-        date.toPlainDateTime('09:00'),
+        schedule.date.toPlainDateTime('08:00'),
+        schedule.date.toPlainDateTime('09:00'),
       ),
       name: 'Breakfast',
+      room: 'Concourse',
       span: [0, 2],
     },
     {
       slot: new Slot(
-        date.toPlainDateTime('09:00'),
-        date.toPlainDateTime('09:50'),
-      ),
-      name: 'Unconference Organizing',
-      span: [0, 2],
-    },
-    {
-      slot: new Slot(
-        date.toPlainDateTime('10:00'),
-        date.toPlainDateTime('10:30'),
+        schedule.date.toPlainDateTime('10:00'),
+        schedule.date.toPlainDateTime('10:30'),
       ),
       name: 'Coffee',
+      room: 'Concourse',
       span: [0, 2],
     },
     {
       slot: new Slot(
-        date.toPlainDateTime('10:30'),
-        date.toPlainDateTime('11:20'),
-      ),
-      name: 'Unconference Session',
-      span: [0, 0],
-    },
-    {
-      slot: new Slot(
-        date.toPlainDateTime('10:30'),
-        date.toPlainDateTime('11:20'),
-      ),
-      name: 'Unconference Session',
-      span: [1, 1],
-    },
-    {
-      slot: new Slot(
-        date.toPlainDateTime('10:30'),
-        date.toPlainDateTime('11:20'),
-      ),
-      name: 'Unconference Session',
-      span: [2, 2],
-    },
-    {
-      slot: new Slot(
-        date.toPlainDateTime('11:30'),
-        date.toPlainDateTime('12:20'),
-      ),
-      name: 'Unconference Session',
-      span: [0, 0],
-    },
-    {
-      slot: new Slot(
-        date.toPlainDateTime('11:30'),
-        date.toPlainDateTime('12:20'),
-      ),
-      name: 'Unconference Session',
-      span: [1, 1],
-    },
-    {
-      slot: new Slot(
-        date.toPlainDateTime('11:30'),
-        date.toPlainDateTime('12:20'),
-      ),
-      name: 'Unconference Session',
-      span: [2, 2],
-    },
-    {
-      slot: new Slot(
-        date.toPlainDateTime('12:30'),
-        date.toPlainDateTime('13:30'),
+        schedule.date.toPlainDateTime('12:30'),
+        schedule.date.toPlainDateTime('13:30'),
       ),
       name: 'Lunch',
+      room: 'Concourse',
       span: [0, 2],
     },
     {
       slot: new Slot(
-        date.toPlainDateTime('13:30'),
-        date.toPlainDateTime('14:20'),
+        schedule.date.toPlainDateTime('16:00'),
+        schedule.date.toPlainDateTime('16:30'),
       ),
-      name: 'Unconference Session',
-      span: [0, 0],
-    },
-    {
-      slot: new Slot(
-        date.toPlainDateTime('13:30'),
-        date.toPlainDateTime('14:20'),
-      ),
-      name: 'Unconference Session',
-      span: [1, 1],
-    },
-    {
-      slot: new Slot(
-        date.toPlainDateTime('13:30'),
-        date.toPlainDateTime('14:20'),
-      ),
-      name: 'Unconference Session',
-      span: [2, 2],
-    },
-    {
-      slot: new Slot(
-        date.toPlainDateTime('14:30'),
-        date.toPlainDateTime('15:20'),
-      ),
-      name: 'Unconference Session',
-      span: [0, 0],
-    },
-    {
-      slot: new Slot(
-        date.toPlainDateTime('14:30'),
-        date.toPlainDateTime('15:20'),
-      ),
-      name: 'Unconference Session',
-      span: [1, 1],
-    },
-    {
-      slot: new Slot(
-        date.toPlainDateTime('14:30'),
-        date.toPlainDateTime('15:20'),
-      ),
-      name: 'Unconference Session',
-      span: [2, 2],
-    },
-    {
-      slot: new Slot(
-        date.toPlainDateTime('15:30'),
-        date.toPlainDateTime('16:00'),
-      ),
-      name: 'Closing',
+      name: 'Tea',
+      room: 'Concourse',
       span: [0, 2],
     },
-    {
-      slot: new Slot(
-        date.toPlainDateTime('16:00'),
-        date.toPlainDateTime('16:30'),
-      ),
-      name: 'Coffee',
-      span: [0, 2],
-    },
-  ];
+  );
 
-  return { date, layout, roster };
+  return { ...schedule, roster };
 }
