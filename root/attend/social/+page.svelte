@@ -23,7 +23,7 @@
   <a href={resolve('/about/contact-us')}>contact us</a>.
 </p>
 
-<a name="meet" />
+<a name="meet" title="MeatEat"></a>
 <h2>Meet &amp Eat (Tuesday &amp; Thursday)</h2>
 
 <p>
@@ -54,7 +54,7 @@
   </li>
 </ol>
 
-<a name="reception" />
+<a name="reception" name="Social Reception"></a>
 <h2>Social Reception (Wednesday)</h2>
 
 <p>
@@ -74,7 +74,7 @@
   slip to the upstairs gaming area to try out some classic board games.
 </p>
 
-<a name="run" />
+<a name="run" title="Fun Run"></a>
 <h2>Group Fun Run</h2>
 <p>
   Downtown Vancouver is right next to one of the largest urban parks in the
@@ -86,14 +86,14 @@
   <b>Watch this space for start times and meet-up points!</b>
 </p>
 
-<a name="sing" />
+<a name="sing" title="Karaoke"></a>
 <h2>Karaoke</h2>
 <p>Unwind and loosen those vocal chords with a Postgres Karaoke session!</p>
 <p>
   <b>Watch this space for meet-up time and location.</b>
 </p>
 
-<a name="beer" />
+<a name="beer" title="Conference Pub"></a>
 <h2>Conference Pub</h2>
 
 <p>
