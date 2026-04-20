@@ -3,18 +3,11 @@
   import { Plane, Train } from '@lucide/svelte';
 
   const meateat_form = 'https://docs.google.com/forms/d/e/1FAIpQLSfCDRRFlapvY7tgMpgsKgVvGjVDw6usj3YVAcl6Po8DU7Jgsw/viewform?usp=publish-editor';
-</script>
 
-<style>
-  article > header {
-    color: var(--h6-color);
-    font-family: var(--header-font);
-    font-weight: 700;
-    justify-content: space-between;
-    letter-spacing: 0.0625rem;
-    text-transform: uppercase;
-  }
-</style>
+  import rogueBanner from './rogue.jpg'
+  import bbBanner from './butcher.jpg'
+
+</script>
 
 <svelte:head>
   <title>Social Events - PGConf.dev 2026</title>
@@ -49,9 +42,11 @@
 <h2>Gala Reception (Wednesday)</h2>
 
 <p>
-At the <a href="https://roguewetbar.com">Rogue Kitchen and Wet Bar</a>, just across the street from the SFU Harbour Center, the Gala Reception starts at 6PM on Wednesday, and includes lots of reception style food for dinner and two drinks from the bar.
+At the <a href="https://roguewetbar.com" target="_blank">Rogue Kitchen and Wet Bar</a>, just across the street from the SFU Harbour Center, the Gala Reception starts at 6PM on Wednesday, and includes lots of reception style food for dinner and two drinks from the bar.
 </p>
-<p><enhanced:img src="./rogue.jpg" alt="Rogue Kitchen and Wet Bar" /></p>
+
+<p><enhanced:img src={rogueBanner} alt="Rogue Kitchen and Wet Bar" /></p>
+
 <p>
 The Reception is included in your conference registration, so make sure you bring your registration badge when you head to the event. If the crowds are getting a bit overwhelming, maybe slip to the upstairs gaming area to try out some classic board games.
 </p>
@@ -79,7 +74,7 @@ Unwind and loosen those vocal chords with a Postgres Karaoke session!
 <a name="beer" />
 <h2>Conference Pub</h2>
 
-<p>Dinner is over, and you still want to mix it up with other Postgres people? Head to the <a href="https://maps.app.goo.gl/u1ZRSaNi6VFpGUVN9">Butcher &amp; Bulluck Pub</a>, at 911 West Pender Street, for after-hours carousing. The Butcher &amp; Bulluck is the easy answer to the question “where should we meet up”.
+<p>Dinner is over, and you still want to mix it up with other Postgres people? Head to the <a href="https://maps.app.goo.gl/u1ZRSaNi6VFpGUVN9" target="_blank">Butcher &amp; Bulluck Pub</a>, at 911 West Pender Street, for after-hours carousing. The Butcher &amp; Bulluck is the easy answer to the question “where should we meet up”.
 
-<p><enhanced:img src="./butcher.jpg" alt="Butcher &amp; Bulluck Pub" /></p>
+<p><enhanced:img src={bbBanner} alt="Butcher &amp; Bulluck Pub" /></p>
 
