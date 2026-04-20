@@ -87,9 +87,7 @@
 
 <a name="sing" title="Karaoke"></a>
 <h2>Karaoke</h2>
-<p>
-  Unwind and loosen those vocal chords with a Postgres Karaoke session!
-</p>
+<p>Unwind and loosen those vocal chords with a Postgres Karaoke session!</p>
 <p>
   <b>Watch this space for meet-up time and location.</b>
 </p>
