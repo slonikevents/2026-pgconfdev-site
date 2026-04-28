@@ -65,8 +65,6 @@
 
 <h2>Floor plans</h2>
 
-<enhanced:img src={sfu_map} alt="SFU Floor plan" />
-
 <p>
   The conference is being held in the <b>Harbour Center</b> in the following rooms(among
   others)
