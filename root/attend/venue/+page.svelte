@@ -1,3 +1,7 @@
+<script>
+  import sfu_map from './pgconf_map.png';
+</script>
+
 <svelte:head>
   <title>Venue - PGConf.dev 2026</title>
   <meta
@@ -52,12 +56,16 @@
 <p>
   There are no designated SFU parking facilities at the Vancouver campus, but
   there are many public parking garages in the area. Two of the closest garages
-  to Harbour Centre are the Impark garage at 450 West Cordova Street and the
-  Diamond Parking garage at 443 Seymour Street. Both have hourly parking
-  available.
+  to Harbour Centre are the Impark garage at 450 West Cordova Street(daily max
+  $14 6am-6pm) and the Diamond Parking garage at 443 Seymour Street(daily max
+  $26.75 6am-6p,). The Platinum parking lot at 501 Richards Street(daily max $12
+  6am-8pm). All of the above have hourly parking available. Rates subject to
+  change.
 </p>
 
 <h2>Floor plans</h2>
+
+<enhanced:img src={sfu_map} alt="SFU Floor plan" />
 
 <p>
   The conference is being held in the <b>Harbour Center</b> in the following rooms(among
@@ -71,7 +79,27 @@
 </p>
 
 <h3 id="segal">Segal Centre</h3>
-<p>The Segal Centre is rooms 1400-1410 is located on the main floor</p>
+<p>
+  The Segal Centre is rooms 1400-1410 is located on the main floor. Segal will
+  be setup with tables and chairs for eating lunch, socializing or working
+  during all 4 days of the conference. Feel free to drop into Segal anytime
+  during the conference. Posters showcasing contributions and projects within
+  our community will also be on display in Segal
+</p>
 
-<h3 id="cominco">Labatt Hall</h3>
-<p>The Labatt Hall 1700 is located on the main floor</p>
+<h3 id="Labatt">Labatt Hall</h3>
+<p>The Labatt Hall room 1700 is located on the main floor</p>
+
+<h3 id="Canfor">Canfor</h3>
+<p>The Canfor Policy room (1600) is located on the main floor</p>
+
+<h3 id="Xerox">Xerox Conference Room</h3>
+<p>
+  The Xerox Conference room (1500) will host the In-person commitfest on the
+  20'th and 21st
+</p>
+
+<h3 id="Lounge">Puzzle Lounge</h3>
+At the far end of the concourse, overlooking Vancouver Harbour the Puzzle Lounge is
+our peaceful socializing area. Outfitted with puzzles and games and comfortable chairs,
+a great place to meet other attendees and enjoy some low pressure relaxation.
