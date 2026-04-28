@@ -41,7 +41,7 @@
     contact information.
   </li>
   <li>
-    On the day, at 5:30PM look for your group leader in the concourse by
+    On the day, at 17:00 look for your group leader in the concourse by
     Registration.
   </li>
   <li>
