@@ -1,5 +1,5 @@
 <script>
-  import sfu_map from './pgconf_map.png';
+  import sfu_map from './pgconf_map.png?enhanced&w=567;545;360';
 </script>
 
 <svelte:head>
@@ -64,6 +64,8 @@
 </p>
 
 <h2>Floor plans</h2>
+
+<enhanced:img src={sfu_map} alt="SFU Floor plan" />
 
 <p>
   The conference is being held in the <b>Harbour Center</b> in the following rooms(among
