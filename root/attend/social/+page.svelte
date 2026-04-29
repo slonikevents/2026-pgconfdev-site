@@ -27,7 +27,11 @@
 <h2>Newcomer Welcome Breakfast (Tuesday)</h2>
 
 <p>
-  Is this your first in-person PostgreSQL event? Are you a new member of the community? Then <a href="/session/712">this breakfast</a> is for you! Meet other newcomers along with experienced members of the community who will welcome and orient you. <b>Tuesday, 7:30</b> in the Xerox Room (1500), <b>no signup required</b>.
+  Is this your first in-person PostgreSQL event? Are you a new member of the
+  community? Then <a href="/session/712">this breakfast</a> is for you! Meet
+  other newcomers along with experienced members of the community who will
+  welcome and orient you. <b>Tuesday, 7:30</b> in the Xerox Room (1500),
+  <b>no signup required</b>.
 </p>
 
 <a name="meet" title="MeatEat"></a>
