@@ -4,8 +4,7 @@
   const meateat_form =
     'https://docs.google.com/forms/d/e/1FAIpQLSfCDRRFlapvY7tgMpgsKgVvGjVDw6usj3YVAcl6Po8DU7Jgsw/viewform?usp=publish-editor';
 
-  const karaoke_form =
-    'https://forms.gle/otxNWS1XnJ6d4HSC8';
+  const karaoke_form = 'https://forms.gle/otxNWS1XnJ6d4HSC8';
 
   import rogueBanner from './rogue.jpg?enhanced';
   import bbBanner from './butcher.jpg?enhanced';
