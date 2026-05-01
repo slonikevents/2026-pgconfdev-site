@@ -4,6 +4,9 @@
   const meateat_form =
     'https://docs.google.com/forms/d/e/1FAIpQLSfCDRRFlapvY7tgMpgsKgVvGjVDw6usj3YVAcl6Po8DU7Jgsw/viewform?usp=publish-editor';
 
+  const karaoke_form =
+    'https://forms.gle/otxNWS1XnJ6d4HSC8';
+
   import rogueBanner from './rogue.jpg?enhanced';
   import bbBanner from './butcher.jpg?enhanced';
 </script>
@@ -86,10 +89,16 @@
 </p>
 
 <a name="sing" title="Karaoke"></a>
-<h2>Karaoke</h2>
-<p>Unwind and loosen those vocal chords with a Postgres Karaoke session!</p>
+<h2>Karaoke (Wednesday)</h2>
 <p>
-  <b>Watch this space for meet-up time and location.</b>
+  Unwind and loosen those vocal chords with a <b>Postgres Karaoke session</b>!
+  At <a href="https://switch-vancouver.ca" target="_blank">Switch Vancouver</a>,
+  1339 Robson Street, from 22:00 to midnight.
+</p>
+<p>
+  <ul>
+    <li>Sign up using <a href={karaoke_form} target="_blank">this form</a>.</li>
+  </ul>
 </p>
 
 <a name="beer" title="Conference Pub"></a>
