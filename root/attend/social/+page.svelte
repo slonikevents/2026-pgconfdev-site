@@ -95,11 +95,9 @@
   At <a href="https://switch-vancouver.ca" target="_blank">Switch Vancouver</a>,
   1339 Robson Street, from 22:00 to midnight.
 </p>
-<p>
-  <ul>
-    <li>Sign up using <a href={karaoke_form} target="_blank">this form</a>.</li>
-  </ul>
-</p>
+<ul>
+  <li>Sign up using <a href={karaoke_form} target="_blank">this form</a>.</li>
+</ul>
 
 <a name="beer" title="Conference Pub"></a>
 <h2>Conference Pub</h2>
