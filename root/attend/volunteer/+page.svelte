@@ -1,3 +1,13 @@
+<script>
+  import sfu_map from '../venue/pgconf_map.png?enhanced&w=567;545;360';
+  import open_link from './open_link.png?enhanced&w=360';
+  import scan from './scan.png?enhanced&w=650;325';
+  import checkin_not_confirmed from './checkin_not_confirmed.png?enhanced&w=640;320';
+  import checkin_confirmed from './checkin_confirmed.png?enhanced&w=675;320';
+  import checkedin from './checkedin.png?enhanced&w=561;280';
+  import badgescanned from './badgescanned.png?enhanced&w=378;189';
+</script>
+
 <svelte:head>
   <title>Volunteer - PGConf.dev 2026</title>
   <meta name="description" content="Volunteer at PGConf.dev 2026" />
@@ -20,59 +30,239 @@
 <h2>Registration Desk</h2>
 
 <p>
-  Please arrive a few minutes before the start of your shift, so that the
-  previous volunteers can leave on time, and so that you can get oriented before
-  you begin your shift. The main duties of registration desk volunteers are to
-  check-in attendees, distribute T-shirts, distribute sponsor-provided items,
-  answer questions (such as where the restrooms are, or where a particular room
-  is located), and to put attendees in touch with the organization team when
-  needed.
+  Thank you for volunteering at the registration desk during PGConf.dev 2026.
+  The conference would not be possible without the support of a dedicated group
+  of volunteers.
+</p>
+<p>
+  The registration desk is the main point of contact for attendees seeking
+  assistance during the conference. The desk is located next to the escalators
+  across from security. We ask that all registration desk volunteers review
+  these instructions prior to your shift.
+</p>
+
+<h3>Showing up for your shift</h3>
+<p>
+  You can see a list of your volunteer slots at <a
+    href="https://www.pgevents.ca/events/pgconfdev2026/volunteer/"
+    >https://www.pgevents.ca/events/pgconfdev2026/volunteer/</a
+  >
+</p>
+<p>
+  Times on the page are in Pacific time, the local timezone in Vancouver. You
+  can download an ICAL version of your slots from this page.
+</p>
+<p>
+  Please try to show up at the registration desk a few minutes before your shift
+  starts so that the previous volunteers can leave on time.
+</p>
+<p>
+  We ask that you not wear clothing with corporate logos while on shift at the
+  registration desk. This makes it clear that you are representing the
+  conference and not your employer while on shift. However, The PGConf.dev
+  conference t-shirt is allowed to be worn while on shift.
+</p>
+<h3>Venue Layout</h3>
+<enhanced:img src={sfu_map} alt="SFU Floor plan" />
+<p>
+  Above is a map of the venue showing the rooms we will be using during the
+  conference. Attendees might ask you for directions to rooms. All rooms are on
+  the first floor except for the RBC Executive room 2200 which is on the second
+  floor (not shown on the map). The RBC Executive room is only being used on
+  Tuesday for 2 closed meetings.
 </p>
 
 <p>
-  We will be using the conference system both to check in attendees and to track
-  T-shirt distribution. You should be able to access this system through your
-  <a href="https://www.pgevents.ca/events/pgconfdev2026/register"
-    >conference registration page</a
-  >. Before arriving in Vancouver, make sure you see this link. If you do not,
-  notify <a href="mailto:contact@pgconf.dev">contact@pgconf.dev</a>
-  or speak with a member of the organization team in person.
+  Note the location of bathrooms (down the hall almost opposite to the entrance
+  of Canfor), as questions for directions are common at the registration desk.
+</p>
+
+<p>Lunch will be served in the area labelled “Buffet.”</p>
+
+<p>
+  Attendees are encouraged to take their food to “Segal” rooms 1400-1430 where
+  tables are set up or attendees can eat in the concourse.
+</p>
+
+<h3>Checkin Procedures</h3>
+
+<p>
+  We expect most checkins Tuesday or Wednesday morning but a few people will
+  check in later in the week.
 </p>
 
 <p>
-  Once you have access, read through that page. If you will be using the Android
-  App for checkin processing and T-shirt distribution, install it on your phone.
-  Otherwise, decide whether you will be using the "Open By Link" method or the
-  "Native Scanning on Device" method and make sure you can access whichever one
-  you choose. To check in an attendee, you can either look them up by name or
-  you can scan their ticket, which they can access through their conference
-  registration desk. To mark an attendee as having received a T-shirt, you must
-  scan their badge, not their ticket.
+  The overview of the checkin procedure is as follows (more details are provided
+  below):
+</p>
+<ol>
+  <li>
+    Lookup their registration on your phone using the checkin processing
+    application
+  </li>
+  <li>Give them their badge and Lanyard</li>
+  <li>Remind them to come back for their t-shirt</li>
+  <li>
+    Tell attendees that they can take the sponsor provided items from the
+    registration desk along with a conference poster & poster tube(limited
+    quantities, first-come first serve)
+  </li>
+</ol>
+<p>
+  Attendee check-in is done using the online conference system. You will need a
+  smart-phone with a camera connected to the conference wifi to use the check-in
+  system. You need to check an attendee in using the QR code on their ticket or
+  with their name. Go to <a
+    href="https://www.pgevents.ca/events/pgconfdev2026/checkin/"
+    >https://www.pgevents.ca/events/pgconfdev2026/checkin/</a
+  >
 </p>
 
 <p>
-  We expect most attendees to check in on Tuesday or Wednesday morning.
-  Therefore, to ease the flow of traffic, we will not hand out T-shirts on those
-  day before 10 AM. Encourage people to return at a later time to pick up their
-  T-shirt. Attendees should be given the T-shirt size listed in their
-  registration. If it does not fit, it can be exchanged for a different size
-  beginning at 3 PM on Wednesday until supplies are exhausted. Make sure to scan
-  each attendee's badge when they pick up their T-shirt so that we know who has
-  received one.
+  You can either install an app on your smartphone (Android or IOS) using the
+  links on that page or use the web version of the checkin application. You will
+  need tosign into the conference system from your web browser using the same
+  postgresql.org account that you used to register and volunteer.
 </p>
 
 <p>
-  Attendees should be encouraged to take the sponsor-provided items. We do not
-  keep track of which sponsor-provided items are taken by which attendees.
+  If you are using the web-version click on the link under “Open By Link” or use
+  the QR code on that page under the link.
+</p>
+<enhanced:img src={open_link} alt="open link screenshot" />
+
+<p>Scan the QR code on the attendees ticker or search for them by name</p>
+<enhanced:img src={scan} alt="scan link screenshot" />
+<p>
+  Verify that the attendee has confirmed the policy, if the conference policy
+  has not been confirmed the screen will show as below, the attendee must go to
+  the website (www.pgevents.ca) using their login and confirm the conference
+  policy. Do <b>NOT</b> checkin attendees who have not confirmed the policy
+</p>
+
+<enhanced:img
+  src={checkin_not_confirmed}
+  alt="checkin not confirmed screenshot"
+/>
+
+<p>
+  If the attendee has confirmed the policy then it should show “Policy
+  Confirmed” as shown below
+</p>
+
+<enhanced:img src={checkin_confirmed} alt="checkin confirmed screenshot" />
+
+<p>
+  You can now locate the attendees badge, give it to them and click “Check In.”
+</p>
+<p>
+  The screen should show success; if it doesn’t, you need to address the issue.
+</p>
+
+<enhanced:img src={checkedin} alt="checked in screenshot" />
+
+<h3>Registrations with no badge</h3>
+<p>
+  We will be printing the attendee badges a week prior to the conference but
+  will allow people to register (if we don’t sell out) until the end of the
+  conference. Attendees who register late will be given a blank badge and they
+  can write their own name on the badge. Make a note of the registrants name on
+  the list of “Handwritten badges.”
+</p>
+
+<h3>Lanyards</h3>
+<p>
+  A blue lanyards means that the attendee is okay with their photo being taken and
+  included in social media posts. Red lanyards means that the attendee does not
+  want their photo taken. The registration app will show the attendees photo
+  policy choice. They are allowed to change their mind when they pick up their
+  badge.
+</p>
+
+<h3>T-Shirts</h3>
+<p>
+  We will start to distribute t-shirts on Tuesday after 10:00am, Wednesday after
+  10:00am and all day Thursday and Friday. We will not be distributing t-shirts
+  during breakfast on Tuesday or Wednesday.
 </p>
 
 <p>
-  If an attendee has a question you can't answer or needs to speak to a member
-  of the organization team for any other reason, you can locate someone in
-  person or ping the <code>#onsite-volunteering</code> in the
-  <a href="https://discord.gg/GEfxA2ahQG">conference Discord</a>. If you can't
-  see this channel, join the server first, and then send your Discord username
-  to <a href="mailto:contact@pgconf.dev">contact@pgconf.dev</a>.
+  Attendees selected a t-shirt size when they registered. To process a t-shirt
+  you should scan the QR code on the attendees badge with your phone. You can do
+  this with either the Conference Check in App OR with your phones camera, you
+  must be logged into the www.pgevents.ca site under your conference
+  registration.
+</p>
+
+<enhanced:img src={badgescanned} alt="badge scanned screenshot" />
+
+<p>Shows the t-shirt size they selected</p>
+
+<p>
+  Give the attendee the indicated t-shrt size and click the “Store Date for
+  T-shirt’ so the system marks the t-shirt as having been collected.
+</p>
+
+<p>
+  We give t-shirts out on a best effort basis, if we run out of a t-shirt size
+  that the attendee selected then offer them a nearby size.
+</p>
+
+<p>
+  If the screen says “Field tshirt already marked” then they have already picked
+  up their t-shirt.
+</p>
+
+<h3>T-Shirt Size Exchanges</h3>
+<p>
+  If an attendee wants to exchange their t-shirt for a different size they can
+  do this after 3PM on Wednesday if their desired size is still available.
+</p>
+
+<h3>T-Shirts for hand-written badges</h3>
+<p>
+  Ask the attendee what size they selected and make a note that they have picked
+  up their t-shirt on the “Hand Written Badges” list, a list of hand written
+  badges issued.
+</p>
+
+<h3>Organizer Contact</h3>
+If an attendee has a question you can't answer or needs to speak to a member of the
+organization team for any other reason, you can locate someone in person or ping the
+#onsite-volunteering in the conference Discord. If you can't see this channel, join
+the server first, and then send your Discord username to<a
+  href="mailto:contact@pgconf.dev">contact@pgconf.dev</a
+>.
+<p></p>
+
+<h3>Common Questions</h3>
+<p>Below are some common questions attendees might ask.</p>
+<h4>Food & Beverages</h4>
+<p>
+  We are serving a light breakfast, lunch and a morning and afternoon snack.
+  Food is served in the buffet area behind the escalators. Food should be
+  labelled (Diary free, Vegetarian, Gluten free), we have tried to provide food
+  options to accommodate dietary restrictions. If an attendee has a question
+  about the food ingredients they should ask the catering staff.
+</p>
+
+<h4>Meet & Eats</h4>
+<p>
+  There will be a meet and eat event Tuesday and Thursday evenings, attendees
+  should sign up following the instructions at <a
+    href="https://2026.pgconf.dev/attend/social"
+    >https://2026.pgconf.dev/attend/social</a
+  > We will email people who signed up their groups on the day. Group leaders will
+  have signs and we will meet in the Foyer at 5:00pm. Attendees pay for their own
+  meals.
+</p>
+
+<h4>Wednesday Conference Social</h4>
+<p>
+  At the <a href="https://roguewetbar.com">Rogue Kitchen and Wet Bar</a>, just
+  across the street from the SFU Harbour Center, the Gala Reception starts at
+  18:00 on Wednesday, and includes lots of reception style food for dinner and
+  two drinks from the bar. Attendees should bring their conference badges.
 </p>
 
 <h2>Room Hosts</h2>
