@@ -172,9 +172,9 @@
 
 <h3>Lanyards</h3>
 <p>
-  A blue lanyards means that the attendee is okay with their photo being taken and
-  included in social media posts. Red lanyards means that the attendee does not
-  want their photo taken. The registration app will show the attendees photo
+  A blue lanyards means that the attendee is okay with their photo being taken
+  and included in social media posts. Red lanyards means that the attendee does
+  not want their photo taken. The registration app will show the attendees photo
   policy choice. They are allowed to change their mind when they pick up their
   badge.
 </p>
