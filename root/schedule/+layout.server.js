@@ -10,7 +10,8 @@ export async function load() {
     const layout = rooms
       .map((room) => room.name)
       .filter((v) => v !== 'Concourse')
-      .filter((v) => v !== 'Rogue Kitchen');
+      .filter((v) => v !== 'Rogue Kitchen')
+      .filter((v) => v !== 'SWITCH');
 
     const roster = item.sessions.map(function ({
       endtime,

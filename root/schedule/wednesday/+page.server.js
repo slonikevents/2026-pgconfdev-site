@@ -47,6 +47,9 @@ export async function load({ parent }) {
   roster.find(({ name }) => name.startsWith('Group Photo')).span = [0, 2];
   roster.find(({ name }) => name.startsWith('30 Years')).span = [0, 2];
   roster.find(({ name }) => name == 'Social').span = [0, 2];
+  roster.find(
+    ({ name }) => name == '[advance signup required] pgkaraoke',
+  ).span = [0, 2];
 
   return { ...schedule, roster };
 }
