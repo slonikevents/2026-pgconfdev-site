@@ -169,7 +169,7 @@
     </li>
 
     <!-- eslint-disable-next-line svelte/require-each-key -->
-    {#each sessions as { id, name, note, span, room, style = {} }}
+    {#each sessions as { id, name, note, span, room, style = {}, href: sessionHref }}
       <li
         class="item"
         style:grid-column="room-{span[0]} / room-{span[1]}"
@@ -189,8 +189,8 @@
         {/if}
 
         <svelte:element
-          this={id ? 'a' : 'span'}
-          href={id && resolve(`/session/${id}`)}
+          this={id || sessionHref ? 'a' : 'span'}
+          href={sessionHref ?? (id && resolve(`/session/${id}`))}
         >
           {name}
         </svelte:element>

@@ -31,6 +31,7 @@ export async function load({ parent }) {
       name: 'Lunch + Poster Session Showcase',
       room: 'Concourse/Segal',
       span: [0, 2],
+      href: '/posters',
     },
     {
       slot: new Slot(
