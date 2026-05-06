@@ -46,11 +46,9 @@
   You can see a list of your volunteer slots at <a
     href="https://www.pgevents.ca/events/pgconfdev2026/volunteer/"
     >https://www.pgevents.ca/events/pgconfdev2026/volunteer/</a
-  >
-</p>
-<p>
-  Times on the page are in Pacific time, the local timezone in Vancouver. You
-  can download an ICAL version of your slots from this page.
+  >. Click the "Access ical version" link if you would like an ICAL version of
+  your slots. Times on the page are in Pacific time; the local timezone in
+  Vancouver.
 </p>
 <p>
   Please try to show up at the registration desk a few minutes before your shift
@@ -227,12 +225,14 @@
 </p>
 
 <h3>Organizer Contact</h3>
-If an attendee has a question you can't answer or needs to speak to a member of the
-organization team for any other reason, you can locate someone in person or ping the
-#onsite-volunteering in the conference Discord. If you can't see this channel, join
-the server first, and then send your Discord username to<a
-  href="mailto:contact@pgconf.dev">contact@pgconf.dev</a
->.
+<p>
+  If an attendee has a question you can't answer or needs to speak to a member
+  of the organization team for any other reason, you can locate someone in
+  person or ping the <code>#onsite-volunteering</code> in the
+  <a href="https://discord.gg/GEfxA2ahQG">conference Discord</a>. If you can't
+  see this channel, join the server first, and then send your Discord username
+  to <a href="mailto:contact@pgconf.dev">contact@pgconf.dev</a>.
+</p>
 <p></p>
 
 <h3>Common Questions</h3>
@@ -252,9 +252,9 @@ the server first, and then send your Discord username to<a
   should sign up following the instructions at <a
     href="https://2026.pgconf.dev/attend/social"
     >https://2026.pgconf.dev/attend/social</a
-  > We will email people who signed up their groups on the day. Group leaders will
-  have signs and we will meet in the Foyer at 5:00pm. Attendees pay for their own
-  meals.
+  >. We will email people who signed up their groups on the day. Group leaders
+  will have signs and we will meet in the Foyer at 5:00pm. Attendees pay for
+  their own meals.
 </p>
 
 <h4>Wednesday Conference Social</h4>
