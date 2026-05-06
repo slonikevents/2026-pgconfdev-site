@@ -3,14 +3,6 @@
   import Side from '../Side.svelte';
 </script>
 
-<svelte:head>
-  <title>Poster Session – PGConf.dev 2026</title>
-  <meta
-    name="description"
-    content="PGConf.dev 2026 Poster Session: explore posters showcasing PostgreSQL-related projects, research, and community work."
-  />
-</svelte:head>
-
 <style>
   @media (width >= 768px) {
     main {
@@ -91,13 +83,21 @@
   }
 </style>
 
+<svelte:head>
+  <title>Poster Session – PGConf.dev 2026</title>
+  <meta
+    name="description"
+    content="PGConf.dev 2026 Poster Session: explore posters showcasing PostgreSQL-related projects, research, and community work."
+  />
+</svelte:head>
+
 <main>
   <h1>Poster Session</h1>
 
   <p>
     Welcome to the PGConf.dev 2026 Poster Session! Here you can explore posters
-    showcasing PostgreSQL-related work, projects, and community initiatives. This
-    is the online version — the physical posters will be on display at the
+    showcasing PostgreSQL-related work, projects, and community initiatives.
+    This is the online version — the physical posters will be on display at the
     conference venue on Thursday.
   </p>
 
@@ -105,11 +105,16 @@
     <li>
       <article>
         <a class="thumb" href="{base}/posters/dbconform.pdf" target="_blank">
-          <img src="{base}/posters/thumbs/dbconform-1.png" alt="DBConform poster preview" />
+          <img
+            src="{base}/posters/thumbs/dbconform-1.png"
+            alt="DBConform poster preview"
+          />
         </a>
         <div class="body">
           <h4>DBConform</h4>
-          <a role="button" href="{base}/posters/dbconform.pdf" target="_blank">View PDF</a>
+          <a role="button" href="{base}/posters/dbconform.pdf" target="_blank"
+            >View PDF</a
+          >
         </div>
       </article>
     </li>
@@ -117,11 +122,16 @@
     <li>
       <article>
         <a class="thumb" href="{base}/posters/dns-poster.pdf" target="_blank">
-          <img src="{base}/posters/thumbs/dns-poster-1.png" alt="1 cluster == 1 DNS record poster preview" />
+          <img
+            src="{base}/posters/thumbs/dns-poster-1.png"
+            alt="1 cluster == 1 DNS record poster preview"
+          />
         </a>
         <div class="body">
           <h4>1 cluster == 1 DNS record</h4>
-          <a role="button" href="{base}/posters/dns-poster.pdf" target="_blank">View PDF</a>
+          <a role="button" href="{base}/posters/dns-poster.pdf" target="_blank"
+            >View PDF</a
+          >
         </div>
       </article>
     </li>
@@ -129,11 +139,16 @@
     <li>
       <article>
         <a class="thumb" href="{base}/posters/hackorum.png" target="_blank">
-          <img src="{base}/posters/thumbs/hackorum-1.png" alt="Hackorum poster preview" />
+          <img
+            src="{base}/posters/thumbs/hackorum-1.png"
+            alt="Hackorum poster preview"
+          />
         </a>
         <div class="body">
           <h4>Hackorum</h4>
-          <a role="button" href="{base}/posters/hackorum.png" target="_blank">View</a>
+          <a role="button" href="{base}/posters/hackorum.png" target="_blank"
+            >View</a
+          >
         </div>
       </article>
     </li>
@@ -141,11 +156,16 @@
     <li>
       <article>
         <a class="thumb" href="{base}/posters/ivm.pdf" target="_blank">
-          <img src="{base}/posters/thumbs/ivm-1.png" alt="Incremental View Maintenance poster preview" />
+          <img
+            src="{base}/posters/thumbs/ivm-1.png"
+            alt="Incremental View Maintenance poster preview"
+          />
         </a>
         <div class="body">
           <h4>Incremental View Maintenance</h4>
-          <a role="button" href="{base}/posters/ivm.pdf" target="_blank">View PDF</a>
+          <a role="button" href="{base}/posters/ivm.pdf" target="_blank"
+            >View PDF</a
+          >
         </div>
       </article>
     </li>
@@ -153,11 +173,16 @@
     <li>
       <article>
         <a class="thumb" href="{base}/posters/jimus.pdf" target="_blank">
-          <img src="{base}/posters/thumbs/jimus-1.png" alt="RDF Foreign Data Wrapper poster preview" />
+          <img
+            src="{base}/posters/thumbs/jimus-1.png"
+            alt="RDF Foreign Data Wrapper poster preview"
+          />
         </a>
         <div class="body">
           <h4>RDF Foreign Data Wrapper</h4>
-          <a role="button" href="{base}/posters/jimus.pdf" target="_blank">View PDF</a>
+          <a role="button" href="{base}/posters/jimus.pdf" target="_blank"
+            >View PDF</a
+          >
         </div>
       </article>
     </li>
@@ -165,11 +190,16 @@
     <li>
       <article>
         <a class="thumb" href="{base}/posters/oape.pdf" target="_blank">
-          <img src="{base}/posters/thumbs/oape-1.png" alt="OAPE poster preview" />
+          <img
+            src="{base}/posters/thumbs/oape-1.png"
+            alt="OAPE poster preview"
+          />
         </a>
         <div class="body">
           <h4>OAPE</h4>
-          <a role="button" href="{base}/posters/oape.pdf" target="_blank">View PDF</a>
+          <a role="button" href="{base}/posters/oape.pdf" target="_blank"
+            >View PDF</a
+          >
         </div>
       </article>
     </li>
@@ -177,11 +207,16 @@
     <li>
       <article>
         <a class="thumb" href="{base}/posters/pgperffarm.pdf" target="_blank">
-          <img src="{base}/posters/thumbs/pgperffarm-1.png" alt="PG Performance Farm poster preview" />
+          <img
+            src="{base}/posters/thumbs/pgperffarm-1.png"
+            alt="PG Performance Farm poster preview"
+          />
         </a>
         <div class="body">
           <h4>PG Performance Farm</h4>
-          <a role="button" href="{base}/posters/pgperffarm.pdf" target="_blank">View PDF</a>
+          <a role="button" href="{base}/posters/pgperffarm.pdf" target="_blank"
+            >View PDF</a
+          >
         </div>
       </article>
     </li>
@@ -189,23 +224,39 @@
     <li>
       <article>
         <a class="thumb" href="{base}/posters/posette.pdf" target="_blank">
-          <img src="{base}/posters/thumbs/posette-1.png" alt="POSETTE poster preview" />
+          <img
+            src="{base}/posters/thumbs/posette-1.png"
+            alt="POSETTE poster preview"
+          />
         </a>
         <div class="body">
           <h4>POSETTE: An Event for Postgres</h4>
-          <a role="button" href="{base}/posters/posette.pdf" target="_blank">View PDF</a>
+          <a role="button" href="{base}/posters/posette.pdf" target="_blank"
+            >View PDF</a
+          >
         </div>
       </article>
     </li>
 
     <li>
       <article>
-        <a class="thumb" href="{base}/posters/postgres-contrib.pdf" target="_blank">
-          <img src="{base}/posters/thumbs/postgres-contrib-1.png" alt="postgres-contrib.org poster preview" />
+        <a
+          class="thumb"
+          href="{base}/posters/postgres-contrib.pdf"
+          target="_blank"
+        >
+          <img
+            src="{base}/posters/thumbs/postgres-contrib-1.png"
+            alt="postgres-contrib.org poster preview"
+          />
         </a>
         <div class="body">
           <h4>postgres-contrib.org</h4>
-          <a role="button" href="{base}/posters/postgres-contrib.pdf" target="_blank">View PDF</a>
+          <a
+            role="button"
+            href="{base}/posters/postgres-contrib.pdf"
+            target="_blank">View PDF</a
+          >
         </div>
       </article>
     </li>
@@ -217,7 +268,9 @@
         </a>
         <div class="body">
           <h4>RPR</h4>
-          <a role="button" href="{base}/posters/rpr.pdf" target="_blank">View PDF</a>
+          <a role="button" href="{base}/posters/rpr.pdf" target="_blank"
+            >View PDF</a
+          >
         </div>
       </article>
     </li>
@@ -225,23 +278,39 @@
     <li>
       <article>
         <a class="thumb" href="{base}/posters/stir.pdf" target="_blank">
-          <img src="{base}/posters/thumbs/stir-1.png" alt="STIR poster preview" />
+          <img
+            src="{base}/posters/thumbs/stir-1.png"
+            alt="STIR poster preview"
+          />
         </a>
         <div class="body">
           <h4>STIR</h4>
-          <a role="button" href="{base}/posters/stir.pdf" target="_blank">View PDF</a>
+          <a role="button" href="{base}/posters/stir.pdf" target="_blank"
+            >View PDF</a
+          >
         </div>
       </article>
     </li>
 
     <li>
       <article>
-        <a class="thumb" href="{base}/posters/talking-postgres.pdf" target="_blank">
-          <img src="{base}/posters/thumbs/talking-postgres-1.png" alt="Talking Postgres Podcast poster preview" />
+        <a
+          class="thumb"
+          href="{base}/posters/talking-postgres.pdf"
+          target="_blank"
+        >
+          <img
+            src="{base}/posters/thumbs/talking-postgres-1.png"
+            alt="Talking Postgres Podcast poster preview"
+          />
         </a>
         <div class="body">
           <h4>Talking Postgres Podcast</h4>
-          <a role="button" href="{base}/posters/talking-postgres.pdf" target="_blank">View PDF</a>
+          <a
+            role="button"
+            href="{base}/posters/talking-postgres.pdf"
+            target="_blank">View PDF</a
+          >
         </div>
       </article>
     </li>
