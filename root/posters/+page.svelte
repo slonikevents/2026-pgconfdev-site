@@ -98,7 +98,7 @@
     Welcome to the PGConf.dev 2026 Poster Session! Here you can explore posters
     showcasing PostgreSQL-related work, projects, and community initiatives.
     This is the online version — the physical posters will be on display at the
-    conference venue on Thursday.
+    conference venue throughout the event.
   </p>
 
   <ul class="posters">
