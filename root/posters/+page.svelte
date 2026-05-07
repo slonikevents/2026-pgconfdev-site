@@ -106,7 +106,7 @@
       <article>
         <a class="thumb" href="{base}/posters/dbconform.pdf" target="_blank">
           <img
-            src="{base}/posters/thumbs/dbconform-1.png"
+            src="{base}/posters/thumbs/dbconform-1.jpg"
             alt="DBConform poster preview"
           />
         </a>
@@ -123,7 +123,7 @@
       <article>
         <a class="thumb" href="{base}/posters/dns-poster.pdf" target="_blank">
           <img
-            src="{base}/posters/thumbs/dns-poster-1.png"
+            src="{base}/posters/thumbs/dns-poster-1.jpg"
             alt="1 cluster == 1 DNS record poster preview"
           />
         </a>
@@ -140,7 +140,7 @@
       <article>
         <a class="thumb" href="{base}/posters/hackorum.png" target="_blank">
           <img
-            src="{base}/posters/thumbs/hackorum-1.png"
+            src="{base}/posters/thumbs/hackorum-1.jpg"
             alt="Hackorum poster preview"
           />
         </a>
@@ -157,7 +157,7 @@
       <article>
         <a class="thumb" href="{base}/posters/oidc.png" target="_blank">
           <img
-            src="{base}/posters/thumbs/oidc-1.png"
+            src="{base}/posters/thumbs/oidc-1.jpg"
             alt="OIDC poster preview"
           />
         </a>
@@ -173,7 +173,7 @@
     <li>
       <article>
         <a class="thumb" href="{base}/posters/tde.png" target="_blank">
-          <img src="{base}/posters/thumbs/tde-1.png" alt="TDE poster preview" />
+          <img src="{base}/posters/thumbs/tde-1.jpg" alt="TDE poster preview" />
         </a>
         <div class="body">
           <h4>TDE</h4>
@@ -187,7 +187,7 @@
       <article>
         <a class="thumb" href="{base}/posters/ivm.pdf" target="_blank">
           <img
-            src="{base}/posters/thumbs/ivm-1.png"
+            src="{base}/posters/thumbs/ivm-1.jpg"
             alt="Incremental View Maintenance poster preview"
           />
         </a>
@@ -204,7 +204,7 @@
       <article>
         <a class="thumb" href="{base}/posters/jimus.pdf" target="_blank">
           <img
-            src="{base}/posters/thumbs/jimus-1.png"
+            src="{base}/posters/thumbs/jimus-1.jpg"
             alt="RDF Foreign Data Wrapper poster preview"
           />
         </a>
@@ -221,7 +221,7 @@
       <article>
         <a class="thumb" href="{base}/posters/oape.pdf" target="_blank">
           <img
-            src="{base}/posters/thumbs/oape-1.png"
+            src="{base}/posters/thumbs/oape-1.jpg"
             alt="OAPE poster preview"
           />
         </a>
@@ -238,7 +238,7 @@
       <article>
         <a class="thumb" href="{base}/posters/pgperffarm.pdf" target="_blank">
           <img
-            src="{base}/posters/thumbs/pgperffarm-1.png"
+            src="{base}/posters/thumbs/pgperffarm-1.jpg"
             alt="PG Performance Farm poster preview"
           />
         </a>
@@ -255,7 +255,7 @@
       <article>
         <a class="thumb" href="{base}/posters/posette.pdf" target="_blank">
           <img
-            src="{base}/posters/thumbs/posette-1.png"
+            src="{base}/posters/thumbs/posette-1.jpg"
             alt="POSETTE poster preview"
           />
         </a>
@@ -276,7 +276,7 @@
           target="_blank"
         >
           <img
-            src="{base}/posters/thumbs/postgres-contrib-1.png"
+            src="{base}/posters/thumbs/postgres-contrib-1.jpg"
             alt="postgres-contrib.org poster preview"
           />
         </a>
@@ -294,7 +294,7 @@
     <li>
       <article>
         <a class="thumb" href="{base}/posters/rpr.pdf" target="_blank">
-          <img src="{base}/posters/thumbs/rpr-1.png" alt="RPR poster preview" />
+          <img src="{base}/posters/thumbs/rpr-1.jpg" alt="RPR poster preview" />
         </a>
         <div class="body">
           <h4>RPR</h4>
@@ -309,7 +309,7 @@
       <article>
         <a class="thumb" href="{base}/posters/stir.pdf" target="_blank">
           <img
-            src="{base}/posters/thumbs/stir-1.png"
+            src="{base}/posters/thumbs/stir-1.jpg"
             alt="STIR poster preview"
           />
         </a>
@@ -330,7 +330,7 @@
           target="_blank"
         >
           <img
-            src="{base}/posters/thumbs/talking-postgres-1.png"
+            src="{base}/posters/thumbs/talking-postgres-1.jpg"
             alt="Talking Postgres Podcast poster preview"
           />
         </a>
