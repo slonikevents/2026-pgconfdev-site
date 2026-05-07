@@ -155,6 +155,36 @@
 
     <li>
       <article>
+        <a class="thumb" href="{base}/posters/oidc.png" target="_blank">
+          <img
+            src="{base}/posters/thumbs/oidc-1.png"
+            alt="OIDC poster preview"
+          />
+        </a>
+        <div class="body">
+          <h4>OIDC</h4>
+          <a role="button" href="{base}/posters/oidc.png" target="_blank"
+            >View</a
+          >
+        </div>
+      </article>
+    </li>
+
+    <li>
+      <article>
+        <a class="thumb" href="{base}/posters/tde.png" target="_blank">
+          <img src="{base}/posters/thumbs/tde-1.png" alt="TDE poster preview" />
+        </a>
+        <div class="body">
+          <h4>TDE</h4>
+          <a role="button" href="{base}/posters/tde.png" target="_blank">View</a
+          >
+        </div>
+      </article>
+    </li>
+
+    <li>
+      <article>
         <a class="thumb" href="{base}/posters/ivm.pdf" target="_blank">
           <img
             src="{base}/posters/thumbs/ivm-1.png"
