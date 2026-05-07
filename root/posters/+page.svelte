@@ -300,7 +300,7 @@
           />
         </a>
         <div class="body">
-          <h4>Review</h4>
+          <h4>Patch Review Framework</h4>
           <a role="button" href="{base}/posters/review.pdf" target="_blank"
             >View PDF</a
           >
