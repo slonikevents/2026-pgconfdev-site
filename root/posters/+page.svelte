@@ -293,6 +293,23 @@
 
     <li>
       <article>
+        <a class="thumb" href="{base}/posters/review.pdf" target="_blank">
+          <img
+            src="{base}/posters/thumbs/review-1.jpg"
+            alt="Review poster preview"
+          />
+        </a>
+        <div class="body">
+          <h4>Review</h4>
+          <a role="button" href="{base}/posters/review.pdf" target="_blank"
+            >View PDF</a
+          >
+        </div>
+      </article>
+    </li>
+
+    <li>
+      <article>
         <a class="thumb" href="{base}/posters/rpr.pdf" target="_blank">
           <img src="{base}/posters/thumbs/rpr-1.jpg" alt="RPR poster preview" />
         </a>
