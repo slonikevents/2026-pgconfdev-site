@@ -35,4 +35,15 @@
   </nav>
 
   {@render children()}
+  <footer>
+    <p>
+      This schedule is also available in <a
+        href="https://www.pgevents.ca/events/pgconfdev2026/schedule/ical/"
+        >ICalendar</a
+      >
+      format as well as an
+      <a href="https://www.pgevents.ca/events/pgconfdev2026/schedule.xml">XML</a
+      > format suitable for scheduling apps.
+    </p>
+  </footer>
 </main>
