@@ -102,8 +102,13 @@
   <li>Remind them to come back for their t-shirt</li>
   <li>
     Tell attendees that they can take the sponsor provided items from the
-    registration desk along with a conference poster & poster tube(limited
-    quantities, first-come first serve)
+    registration desk.
+  </li>
+  <li>
+    We will be giving out the conference poster during the welcome session on
+    Wednesday morning. Attendees that miss getting their poster then can get the
+    poster at the registration desk from then on. Attendees can also get a
+    shipping tube(while supplies last) for the poster if they need one.
   </li>
 </ol>
 <p>
