@@ -86,7 +86,7 @@ export const SPONSOR_LIST = {
       NAME: 'Snowflake',
       URL: '	https://www.snowflake.com/en/',
       LOGO: SNOWFLAKE_LOGO,
-    }
+    },
   ],
   BRONZE: [
     {
