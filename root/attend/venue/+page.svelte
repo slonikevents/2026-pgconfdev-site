@@ -78,13 +78,13 @@
   floor.
 </p>
 
-<h3 id="segal">Segal Centre</h3>
+<h3 id="segal">Segal Centre(The Commons)</h3>
 <p>
   The Segal Centre is rooms 1400-1410 is located on the main floor. Segal will
-  be setup with tables and chairs for eating lunch, socializing or working
-  during all 4 days of the conference. Feel free to drop into Segal anytime
-  during the conference. Posters showcasing contributions and projects within
-  our community will also be on display in Segal
+  be setup as "The Commons" with tables and chairs for eating lunch, socializing
+  or working during all 4 days of the conference. Feel free to drop into The
+  Commons anytime during the conference. Posters showcasing contributions and
+  projects within our community will also be on display in The Commons
 </p>
 
 <h3 id="Labatt">Labatt Hall</h3>
@@ -99,7 +99,7 @@
   20'th and 21st
 </p>
 
-<h3 id="Lounge">Puzzle Lounge</h3>
-At the far end of the concourse, overlooking Vancouver Harbour the Puzzle Lounge is
+<h3 id="Lounge">Social Lounge</h3>
+At the far end of the concourse, overlooking Vancouver Harbour the Social Lounge is
 our peaceful socializing area. Outfitted with puzzles and games and comfortable chairs,
 a great place to meet other attendees and enjoy some low pressure relaxation.

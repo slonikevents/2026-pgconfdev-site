@@ -11,6 +11,7 @@ import HUAWEI_LOGO from './logo/huawei.png';
 import SUPABASE_LOGO from './logo/supabase.svg';
 import DATABRICKS_LOGO from './logo/databricks.svg';
 import SRA_LOGO from './logo/SRA.png';
+import SNOWFLAKE_LOGO from './logo/snowflake.svg';
 
 export const SPONSOR_LIST = {
   GOLD: [
@@ -80,6 +81,11 @@ export const SPONSOR_LIST = {
       NAME: 'SRA OSS',
       URL: 'https://www.sraoss.co.jp/index_en/',
       LOGO: SRA_LOGO,
+    },
+    {
+      NAME: 'Snowflake',
+      URL: '	https://www.snowflake.com/en/',
+      LOGO: SNOWFLAKE_LOGO,
     },
   ],
   BRONZE: [

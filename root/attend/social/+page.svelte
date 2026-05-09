@@ -88,14 +88,21 @@
 </p>
 
 <a name="run" title="Fun Run"></a>
-<h2>Group Fun Run</h2>
+<h2>Group Social Run (Tuesday)</h2>
 <p>
   Downtown Vancouver is right next to one of the largest urban parks in the
-  world, <a>Stanley Park</a>, and the group fun run will take you through as
-  much or as little of it as you like.
+  world, <a href="https://en.wikipedia.org/wiki/Stanley_Park" target="_blank"
+    >Stanley Park</a
+  >, and the group fun run will take you through as much or as little of it as
+  you like.
 </p>
 <p>
-  <b>Watch this space for start times and meet-up points!</b>
+  Pace will be selected based on who shows up so it is comfortable for everyone.
+  If there are a lot of people there will be multiple pace groups. Distance will
+  be somewhere between 5 and 10 km.
+</p>
+<p>
+  <b>Meet at the Concourse at 17:30 Tuesday!</b>
 </p>
 
 <a name="sing" title="Karaoke"></a>
