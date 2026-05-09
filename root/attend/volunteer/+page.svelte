@@ -1,5 +1,5 @@
 <script>
-  import sfu_map from '../venue/pgconf_map.png?enhanced&w=567;545;360';
+  import sfu_map from '../pgconf_map.png?enhanced&w=567;545;360';
   import open_link from './open_link.png?enhanced&w=360';
   import scan from './scan.png?enhanced&w=650;325';
   import checkin_not_confirmed from './checkin_not_confirmed.png?enhanced&w=640;320';
