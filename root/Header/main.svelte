@@ -102,14 +102,6 @@
       </li>
 
       <li>
-        <a class="iconic" href={resolve('/cfp')}>
-          <StickyNote class="narrow" />
-          <span class="narrow">Call for Proposals</span>
-          <span class="wide">CFP</span>
-        </a>
-      </li>
-
-      <li>
         <a class="iconic" href={resolve('/attend')}>
           <Tickets class="narrow" />
           <span>
