@@ -25,16 +25,6 @@ export async function load({ parent }) {
     },
     {
       slot: new Slot(
-        schedule.date.toPlainDateTime('12:30'),
-        schedule.date.toPlainDateTime('13:45'),
-      ),
-      name: 'Lunch + Poster Session Showcase',
-      room: 'Concourse/Segal',
-      span: [0, 2],
-      href: '/posters',
-    },
-    {
-      slot: new Slot(
         schedule.date.toPlainDateTime('13:45'),
         schedule.date.toPlainDateTime('14:00'),
       ),
@@ -47,5 +37,6 @@ export async function load({ parent }) {
   roster.find(({ name }) => name == 'Lightning Talks').span = [0, 3];
   roster.find(({ name }) => name == 'Tea + Cake Cutting').span = [0, 3];
   roster.find(({ name }) => name.startsWith('Meet + Eat')).span = [0, 3];
+  roster.find(({ name }) => name.startsWith('Lunch')).href = '/posters';
   return { ...schedule, roster };
 }
