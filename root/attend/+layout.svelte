@@ -25,9 +25,8 @@
 </style>
 
 <Menu --flex-size="12rem">
-  <MenuItem Icon={Tickets} href="/attend">Registration</MenuItem>
+  <MenuItem Icon={Building} href="/attend">Conference Venue</MenuItem>
   <MenuItem Icon={partyPopper} href="/attend/social">Social Events</MenuItem>
-  <MenuItem Icon={Building} href="/attend/venue">Conference Venue</MenuItem>
   <MenuItem Icon={Navigation} href="/attend/travel">
     Travel Information
   </MenuItem>

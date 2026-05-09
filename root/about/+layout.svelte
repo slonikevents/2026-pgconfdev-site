@@ -3,7 +3,7 @@
   import MenuItem from '../MenuItem.svelte';
   import Side from '../Side.svelte';
 
-  import { CircleQuestionMark, Mail, Scale } from '@lucide/svelte';
+  import { CircleQuestionMark, Mail, Scale, Ticket } from '@lucide/svelte';
 
   let { children } = $props();
 </script>
@@ -20,6 +20,7 @@
   <MenuItem Icon={CircleQuestionMark} href="/about">
     What is PGConf.dev?
   </MenuItem>
+  <MenuItem Icon={Ticket} href="/about/registration">Registration</MenuItem>
   <MenuItem Icon={Scale} href="/about/code-of-conduct">
     Code of Conduct
   </MenuItem>
