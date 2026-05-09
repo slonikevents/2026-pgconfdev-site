@@ -27,9 +27,11 @@
     <h4>Vancouver, BC, Canada</h4>
   </hgroup>
 
+  <!--
   <p style="text-align: center;">
     <a role="button" href="/attend">Register</a>
   </p>
+  -->
 
   <p>We're headed back to Vancouver in 2026!</p>
 
