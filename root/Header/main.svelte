@@ -5,7 +5,6 @@
     CircleQuestionMark,
     HandCoins,
     Menu,
-    StickyNote,
     Tickets,
     User,
   } from '@lucide/svelte';

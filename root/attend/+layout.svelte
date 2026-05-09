@@ -8,8 +8,6 @@
     Building,
     HandHelping,
     Navigation,
-    Tickets,
-    HandCoins,
     partyPopper,
   } from '@lucide/svelte';
 
