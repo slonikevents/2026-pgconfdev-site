@@ -25,6 +25,7 @@
 <script>
   import '@fontsource/dejavu-serif/400.css';
   import '@fontsource/dejavu-serif/700.css';
+  import fitty from 'fitty';
   import QR from '$lib/QR.svelte';
 
   const {
@@ -35,6 +36,12 @@
     regtype = 'Regular',
     showOutline,
   } = $props();
+
+  function autofit(el) {
+    const size = parseFloat(getComputedStyle(el).fontSize);
+    const instance = fitty(el, { minSize: 1, maxSize: size });
+    return () => instance.unsubscribe();
+  }
 </script>
 
 <style>
@@ -55,6 +62,13 @@
     justify-content: space-between;
     line-height: 1.2;
     text-align: center;
+  }
+
+  .header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 8mm);
   }
 
   .name {
@@ -107,10 +121,10 @@
   style:--height="{height}mm"
 >
   <div class="badge" class:outline={showOutline}>
-    <div>
-      <div class="name">{firstname}<br />{lastname}</div>
+    <div class="header">
+      <div class="name" {@attach autofit}>{firstname}<br />{lastname}</div>
       {#if company}
-        <div class="company">{company}</div>
+        <div class="company" {@attach autofit}>{company}</div>
       {/if}
     </div>
 
