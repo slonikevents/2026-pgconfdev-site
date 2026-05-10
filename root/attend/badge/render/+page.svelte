@@ -2,6 +2,9 @@
   import Badge from '../Badge';
 
   let attendees = $state([]);
+  let minimum = $state(0);
+
+  const blankCount = $derived(Math.max(0, minimum - attendees.length));
 
   function handleFileSelect(event) {
     const file = event.target.files[0];
@@ -51,6 +54,13 @@
   </label>
 </p>
 
+<p>
+  <label>
+    Minimum badges:
+    <input type="number" min="0" bind:value={minimum} />
+  </label>
+</p>
+
 {#if attendees.length > 0}
   <p>
     <button onclick={() => window.print()}>Print All Badges</button>
@@ -68,4 +78,8 @@
       regtype={attendee.regtype.regtype}
     />
   </div>
+{/each}
+
+{#each { length: blankCount }, i (i)}
+  <div class="page"><Badge /></div>
 {/each}
