@@ -61,6 +61,7 @@
     height: 100%;
     justify-content: space-between;
     line-height: 1.2;
+    print-color-adjust: exact;
     text-align: center;
   }
 
