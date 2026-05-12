@@ -70,7 +70,7 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    width: calc(100% - 8mm);
+    width: calc(100% - 10mm);
   }
 
   .name {
