@@ -40,6 +40,7 @@
   function autofit(el) {
     const size = parseFloat(getComputedStyle(el).fontSize);
     const instance = fitty(el, { minSize: 1, maxSize: size });
+    document.fonts.ready.then(() => instance.fit());
     return () => instance.unsubscribe();
   }
 </script>
