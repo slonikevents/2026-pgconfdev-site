@@ -379,6 +379,18 @@
 <p>Once it looks like no one else will be joining the talk, close the door.</p>
 
 <p>
+  About ten minutes into the talk, count how many people are in the room. Post
+  the talk name and your count of attendees to the
+  <code>#talk-counts</code> channel in the Discord server. It's not important
+  that the count is perfectly accurate, but knowing which talks were popular
+  helps the program committee make decisions in future years. (If you can't see
+  this channel,
+  <a href="https://discord.gg/GEfxA2ahQG">join the conference Discord</a>
+  and then send your Discord username to
+  <a href="mailto:contact@pgconf.dev">contact@pgconf.dev</a>.)
+</p>
+
+<p>
   When time is up, open the door. If necessary, i.e. if people are talking
   instead of exiting the room, politely inform the audience to quickly exit the
   room in preparation for the next talk.
