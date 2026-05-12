@@ -29,7 +29,7 @@
   </hgroup>
 
   <p style="text-align: center;">
-    <a role="button" href={resolve("/about/registration")}>Register</a>
+    <a role="button" href={resolve('/about/registration')}>Register</a>
   </p>
 
   <p>We're headed back to Vancouver in 2026!</p>
