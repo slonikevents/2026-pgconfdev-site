@@ -155,6 +155,29 @@
 
     <li>
       <article>
+        <a
+          class="thumb"
+          href="{base}/posters/happiness-hints.pdf"
+          target="_blank"
+        >
+          <img
+            src="{base}/posters/thumbs/happiness-hints-1.jpg"
+            alt="Happiness Hints poster preview"
+          />
+        </a>
+        <div class="body">
+          <h4>Happiness Hints</h4>
+          <a
+            role="button"
+            href="{base}/posters/happiness-hints.pdf"
+            target="_blank">View PDF</a
+          >
+        </div>
+      </article>
+    </li>
+
+    <li>
+      <article>
         <a class="thumb" href="{base}/posters/oidc.png" target="_blank">
           <img
             src="{base}/posters/thumbs/oidc-1.jpg"
@@ -253,6 +276,29 @@
 
     <li>
       <article>
+        <a
+          class="thumb"
+          href="{base}/posters/pgdg-volunteer.pdf"
+          target="_blank"
+        >
+          <img
+            src="{base}/posters/thumbs/pgdg-volunteer-1.jpg"
+            alt="PGDG Volunteer poster preview"
+          />
+        </a>
+        <div class="body">
+          <h4>PGDG Volunteer Poster</h4>
+          <a
+            role="button"
+            href="{base}/posters/pgdg-volunteer.pdf"
+            target="_blank">View PDF</a
+          >
+        </div>
+      </article>
+    </li>
+
+    <li>
+      <article>
         <a class="thumb" href="{base}/posters/posette.pdf" target="_blank">
           <img
             src="{base}/posters/thumbs/posette-1.jpg"
@@ -334,6 +380,29 @@
           <h4>STIR</h4>
           <a role="button" href="{base}/posters/stir.pdf" target="_blank"
             >View PDF</a
+          >
+        </div>
+      </article>
+    </li>
+
+    <li>
+      <article>
+        <a
+          class="thumb"
+          href="{base}/posters/vacuum-statistics.pdf"
+          target="_blank"
+        >
+          <img
+            src="{base}/posters/thumbs/vacuum-statistics-1.jpg"
+            alt="Vacuum Statistics poster preview"
+          />
+        </a>
+        <div class="body">
+          <h4>Vacuum Statistics</h4>
+          <a
+            role="button"
+            href="{base}/posters/vacuum-statistics.pdf"
+            target="_blank">View PDF</a
           >
         </div>
       </article>
