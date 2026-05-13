@@ -31,6 +31,12 @@
           Fri / 22<sup>th</sup>
         </DateLink>
       </li>
+
+      <li>
+        <DateLink href={resolve('/schedule/community-office-hours')}>
+          Community Office Hours
+        </DateLink>
+      </li>
     </ul>
   </nav>
 
