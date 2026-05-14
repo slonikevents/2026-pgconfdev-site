@@ -42,7 +42,7 @@
     "remark-parse": "^11.0.0",
     "remark-rehype": "^11.1.2",
     "sonda": "^0.11.1",
-    "svelte": "^5.55.5",
+    "svelte": "^5.55.7",
     "vite": "^8.0.11",
     "vite-plugin-lucide-preprocess": "^1.4.10"
   },
