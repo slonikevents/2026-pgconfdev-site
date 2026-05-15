@@ -165,25 +165,14 @@
       </h5>
 
       <p>
-        The Community Booth is a dedicated space where you can meet with various
-        PostgreSQL community members and participate in informal sessions
-        throughout the conference. If you are working on something Postgres (a
-        patch, a community effort, some other kind of project), you can reserve
-        a time slot at the booth for people to meet you and ask questions,
-        exchange ideas, volunteer to help, etc.
-      </p>
-
-      <p>
-        This is the perfect chance for you to share your project with the
-        attendees, and for attendees to have time with the people making
-        Postgres happen!
-      </p>
-
-      <p>
-        You can reserve a time on this <a
-          href="https://tinyurl.com/communitybooth2026"
-          target="_blank">worksheet</a
-        >.
+        Community Office Hours is a dedicated space where you can meet with
+        various PostgreSQL community members and participate in informal
+        sessions throughout the conference. If you are working on something
+        Postgres (a patch, a community effort, some other kind of project), you
+        can <a href="https://tinyurl.com/communitybooth2026" target="_blank"
+          >reserve a time slot</a
+        > at the booth for people to meet you and ask questions, exchange ideas, volunteer
+        to help, etc.
       </p>
 
       <h5 class="iconic">
@@ -232,25 +221,14 @@
       </h5>
 
       <p>
-        The Community Booth is a dedicated space where you can meet with various
-        PostgreSQL community members and participate in informal sessions
-        throughout the conference. If you are working on something Postgres (a
-        patch, a community effort, some other kind of project), you can reserve
-        a time slot at the booth for people to meet you and ask questions,
-        exchange ideas, volunteer to help, etc.
-      </p>
-
-      <p>
-        This is the perfect chance for you to share your project with the
-        attendees, and for attendees to have time with the people making
-        Postgres happen!
-      </p>
-
-      <p>
-        You can reserve a time on this <a
-          href="https://tinyurl.com/communitybooth2026"
-          target="_blank">worksheet</a
-        >.
+        Community Office Hours is a dedicated space where you can meet with
+        various PostgreSQL community members and participate in informal
+        sessions throughout the conference. If you are working on something
+        Postgres (a patch, a community effort, some other kind of project), you
+        can <a href="https://tinyurl.com/communitybooth2026" target="_blank"
+          >reserve a time slot</a
+        > at the booth for people to meet you and ask questions, exchange ideas, volunteer
+        to help, etc.
       </p>
 
       <h5 class="iconic">
