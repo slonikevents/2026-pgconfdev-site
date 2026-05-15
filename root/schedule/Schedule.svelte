@@ -169,7 +169,7 @@
     </li>
 
     <!-- eslint-disable-next-line svelte/require-each-key -->
-    {#each sessions as { id, name, note, span, room, style = {}, href: sessionHref }}
+    {#each sessions as { id, name, note, description, span, room, style = {}, href: sessionHref }}
       <li
         class="item"
         style:grid-column="room-{span[0]} / room-{span[1]}"
@@ -197,6 +197,10 @@
 
         {#if note}
           <br /> <small>({note})</small>
+        {/if}
+
+        {#if description}
+          <br /> <small>{@html description}</small>
         {/if}
       </li>
     {/each}
