@@ -96,7 +96,8 @@ const thursdayRoster = [
     ),
   },
   {
-    name: 'Open Slot',
+    name: 'PGNexus Community Hub',
+    note: 'Cary Huang',
     slot: new Slot(
       Temporal.PlainDateTime.from('2026-05-21T13:45:00'),
       Temporal.PlainDateTime.from('2026-05-21T15:15:00'),
