@@ -21,10 +21,10 @@
     "@eslint/js": "^9.39.2",
     "@fontsource-variable/montserrat": "^5.2.8",
     "@js-temporal/polyfill": "^0.5.1",
-    "@lucide/svelte": "^1.14.0",
+    "@lucide/svelte": "^1.16.0",
     "@sveltejs/adapter-static": "^3.0.10",
     "@sveltejs/enhanced-img": "^0.10.4",
-    "@sveltejs/kit": "^2.59.1",
+    "@sveltejs/kit": "^2.60.1",
     "@sveltejs/vite-plugin-svelte": "^7.1.2",
     "eslint": "^9.39.2",
     "eslint-config-prettier": "^10.1.8",
@@ -33,7 +33,7 @@
     "jsdom": "^29.1.1",
     "mdsvex": "^0.12.7",
     "moment": "^2.30.1",
-    "postcss-preset-env": "^11.2.1",
+    "postcss-preset-env": "^11.3.0",
     "prettier": "^3.8.1",
     "prettier-plugin-svelte": "^3.4.1",
     "rehype-format": "^5.0.1",
@@ -43,8 +43,8 @@
     "remark-rehype": "^11.1.2",
     "sonda": "^0.11.1",
     "svelte": "^5.55.7",
-    "vite": "^8.0.11",
-    "vite-plugin-lucide-preprocess": "^1.4.10"
+    "vite": "^8.0.13",
+    "vite-plugin-lucide-preprocess": "^1.4.11"
   },
   "overrides": {
     "@sveltejs/kit": {
