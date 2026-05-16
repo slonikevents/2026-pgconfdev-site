@@ -6,9 +6,7 @@ import { Slot } from '$lib/slot';
 const schedule = await pgeuData('schedule.json');
 
 const DATABASE = new Map(
-  schedule.days.flatMap((day) =>
-    day.sessions.map(({ id, ...rest }) => [id, rest]),
-  ),
+  schedule.days.flatMap((day) => day.sessions.map((item) => [item.id, item])),
 );
 
 export async function load({ params }) {
