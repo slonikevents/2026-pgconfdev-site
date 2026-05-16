@@ -1,5 +1,10 @@
 <script>
-  import { Building, Presentation, UserRound } from '@lucide/svelte';
+  import {
+    Building,
+    MessageSquareText,
+    Presentation,
+    UserRound,
+  } from '@lucide/svelte';
   import { resolve } from '$app/paths';
 
   const { data } = $props();
@@ -93,6 +98,20 @@
     </li>
   {/each}
 </ul>
+
+<p style="margin-block: 1.5rem; text-align: center;">
+  <a
+    class="iconic"
+    role="button"
+    href={`https://www.pgevents.ca/events/pgconfdev2026/feedback/${data.id}`}
+    style:display="inline-flex"
+    style:gap="0.5em"
+    target="_blank"
+  >
+    <MessageSquareText />
+    Give Feedback
+  </a>
+</p>
 
 <article>
   <header class="flex" style:justify-content="space-between">
