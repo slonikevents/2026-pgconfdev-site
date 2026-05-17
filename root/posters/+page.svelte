@@ -389,6 +389,69 @@
       <article>
         <a
           class="thumb"
+          href="{base}/posters/multiple-buffer-pools.pdf"
+          target="_blank"
+        >
+          <img
+            src="{base}/posters/thumbs/multiple-buffer-pools-1.jpg"
+            alt="Multiple Buffer Pools poster preview"
+          />
+        </a>
+        <div class="body">
+          <h4>Multiple Buffer Pools</h4>
+          <a
+            role="button"
+            href="{base}/posters/multiple-buffer-pools.pdf"
+            target="_blank">View PDF</a
+          >
+        </div>
+      </article>
+    </li>
+
+    <li>
+      <article>
+        <a class="thumb" href="{base}/posters/lrlock.pdf" target="_blank">
+          <img
+            src="{base}/posters/thumbs/lrlock-1.jpg"
+            alt="Left-Right Lock (LRLock) poster preview"
+          />
+        </a>
+        <div class="body">
+          <h4>LRLock</h4>
+          <a role="button" href="{base}/posters/lrlock.pdf" target="_blank"
+            >View PDF</a
+          >
+        </div>
+      </article>
+    </li>
+
+    <li>
+      <article>
+        <a
+          class="thumb"
+          href="{base}/posters/pavlo-response.pdf"
+          target="_blank"
+        >
+          <img
+            src="{base}/posters/thumbs/pavlo-response-1.jpg"
+            alt="Response to Pavlo's critique poster preview"
+          />
+        </a>
+        <div class="body">
+          <h4>Response to Pavlo's Critique</h4>
+          <a
+            role="button"
+            href="{base}/posters/pavlo-response.pdf"
+            target="_blank">View PDF</a
+          >
+        </div>
+      </article>
+    </li>
+
+    <li>
+      <article>
+        <a
+          class="thumb"
           href="{base}/posters/vacuum-statistics.pdf"
           target="_blank"
         >
