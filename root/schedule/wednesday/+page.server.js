@@ -7,7 +7,7 @@ export async function load({ parent }) {
   roster.find(({ name }) => name == 'Breakfast').span = [0, 1];
   delete roster.find(({ name }) => name == 'Breakfast').id;
 
-  roster.find(({ name }) => name == 'Opening').span = [0, 2];
+  roster.find(({ name }) => name.startsWith('Opening')).span = [0, 2];
 
   roster.find(({ name }) => name == 'Lunch').span = [0, 2];
   delete roster.find(({ name }) => name == 'Lunch').id;
