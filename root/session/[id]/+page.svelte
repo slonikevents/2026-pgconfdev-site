@@ -1,6 +1,7 @@
 <script>
   import {
     Building,
+    ExternalLink,
     MessageSquareText,
     Presentation,
     UserRound,
@@ -99,19 +100,35 @@
   {/each}
 </ul>
 
-<p style="margin-block: 1.5rem; text-align: center;">
-  <a
-    class="iconic"
-    role="button"
-    href={`https://www.pgevents.ca/events/pgconfdev2026/feedback/${data.id}`}
-    style:display="inline-flex"
-    style:gap="0.5em"
-    target="_blank"
-  >
-    <MessageSquareText />
-    Give Feedback
-  </a>
-</p>
+<div class="flex" style="justify-content: center; margin-block: 1.5rem;">
+  <p>
+    <a
+      class="iconic"
+      role="button"
+      href={`https://www.pgevents.ca/events/pgconfdev2026/feedback/${data.id}`}
+      style:display="inline-flex"
+      style:gap="0.5em"
+      target="_blank"
+    >
+      <MessageSquareText />
+      Give Feedback
+    </a>
+  </p>
+
+  <p>
+    <a
+      class="iconic"
+      role="button"
+      href={`https://www.pgevents.ca/events/pgconfdev2026/schedule/session/${data.id}/`}
+      style:display="inline-flex"
+      style:gap="0.5em"
+      target="_blank"
+    >
+      <ExternalLink />
+      View Full Talk Page
+    </a>
+  </p>
+</div>
 
 <article>
   <header class="flex" style:justify-content="space-between">
@@ -126,15 +143,4 @@
   </header>
 
   {@html data.abstract}
-
-  <footer>
-    <a
-      href={`https://www.pgevents.ca/events/pgconfdev2026/schedule/session/${data.sessionid}/`}
-      rel="noopener noreferrer"
-      role="button"
-      target="_blank"
-    >
-      View Full Talk Page
-    </a>
-  </footer>
 </article>
