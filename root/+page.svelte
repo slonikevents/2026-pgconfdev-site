@@ -143,8 +143,9 @@
 
       <p>
         Stay in shape while exploring Stanley Park, one of the largest urban
-        parks in the world. The group meets at 17:30 at 712 Lost Lagoon Path;
-        pace and distance are chosen to suit whoever turns up.
+        parks in the world. The group meets at 17:30 in the main
+        <strong>Concourse</strong>; pace and distance are chosen to suit whoever
+        turns up.
       </p>
 
       <h5 class="iconic">
