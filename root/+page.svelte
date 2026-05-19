@@ -212,7 +212,11 @@
 
       <p>
         Unwind and loosen those vocal cords at a Postgres karaoke session, from
-        22:00 to midnight at Switch Vancouver, 1339 Robson Street.
+        22:00 to midnight at Switch Vancouver, 1339 Robson Street. If you would
+        like to join, sign up at
+        <a href="https://forms.gle/otxNWS1XnJ6d4HSC8" target="_blank">
+          https://forms.gle/otxNWS1XnJ6d4HSC8
+        </a>.
       </p>
     </div>
 
