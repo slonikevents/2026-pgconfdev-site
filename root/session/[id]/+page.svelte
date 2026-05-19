@@ -126,4 +126,15 @@
   </header>
 
   {@html data.abstract}
+
+  <footer>
+    <a
+      href={`https://www.pgevents.ca/events/pgconfdev2026/schedule/session/${data.sessionid}/`}
+      rel="noopener noreferrer"
+      role="button"
+      target="_blank"
+    >
+      View Full Talk Page
+    </a>
+  </footer>
 </article>
