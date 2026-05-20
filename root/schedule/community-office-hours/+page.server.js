@@ -131,6 +131,20 @@ const thursdayRoster = [
       Temporal.PlainDateTime.from('2026-05-21T16:45:00'),
     ),
   },
+  {
+    name: 'IvorySQL Community',
+    note: 'Grant Zhou',
+    description:
+      "Do you think the a Postgres Fork with Oracle Compatibility features a good idea? It is helping the team to migrating the oracle to a Postgres based open source database, while with AI's powerful coding abilities, is it still a good option for migration matters?",
+    slot: new Slot(
+      Temporal.PlainDateTime.from('2026-05-21T16:00:00'),
+      Temporal.PlainDateTime.from('2026-05-21T17:00:00'),
+    ),
+    style: {
+      'background-color': '#2F4F6E',
+      color: '#FFFFFF',
+    },
+  },
 ];
 
 export async function load() {
