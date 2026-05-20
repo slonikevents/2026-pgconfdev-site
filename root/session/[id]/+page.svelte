@@ -125,7 +125,7 @@
       target="_blank"
     >
       <ExternalLink />
-      View Full Talk Page
+      Details/Slides
     </a>
   </p>
 </div>
