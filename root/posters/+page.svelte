@@ -104,6 +104,23 @@
   <ul class="posters">
     <li>
       <article>
+        <a class="thumb" href="{base}/posters/gist-spgist.pdf" target="_blank">
+          <img
+            src="{base}/posters/thumbs/gist-spgist-1.jpg"
+            alt="Multi-Entry Indexing in GiST & SP-GiST poster preview"
+          />
+        </a>
+        <div class="body">
+          <h4>Multi-Entry Indexing in GiST &amp; SP-GiST</h4>
+          <a role="button" href="{base}/posters/gist-spgist.pdf" target="_blank"
+            >View PDF</a
+          >
+        </div>
+      </article>
+    </li>
+
+    <li>
+      <article>
         <a class="thumb" href="{base}/posters/dbconform.pdf" target="_blank">
           <img
             src="{base}/posters/thumbs/dbconform-1.jpg"
