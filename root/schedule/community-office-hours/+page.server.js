@@ -31,11 +31,18 @@ const wednesdayRoster = [
     ),
   },
   {
-    name: 'Open Slot',
+    name: 'pgBackRest Community Office Hours',
+    note: 'Stefan Fercot',
+    description:
+      'Interested in pgBackRest? Join us at the Community Booth to share operational experiences, ask questions, exchange ideas, and discuss the future of the project.',
     slot: new Slot(
       Temporal.PlainDateTime.from('2026-05-20T13:00:00'),
       Temporal.PlainDateTime.from('2026-05-20T14:30:00'),
     ),
+    style: {
+      'background-color': '#2F4F6E',
+      color: '#FFFFFF',
+    },
   },
   {
     name: 'PostgreSQL Community Volunteer Recruiting',
@@ -123,6 +130,20 @@ const thursdayRoster = [
       Temporal.PlainDateTime.from('2026-05-21T15:15:00'),
       Temporal.PlainDateTime.from('2026-05-21T16:45:00'),
     ),
+  },
+  {
+    name: 'IvorySQL Community',
+    note: 'Grant Zhou',
+    description:
+      "Do you think the a Postgres Fork with Oracle Compatibility features a good idea? It is helping the team to migrating the oracle to a Postgres based open source database, while with AI's powerful coding abilities, is it still a good option for migration matters?",
+    slot: new Slot(
+      Temporal.PlainDateTime.from('2026-05-21T16:00:00'),
+      Temporal.PlainDateTime.from('2026-05-21T17:00:00'),
+    ),
+    style: {
+      'background-color': '#2F4F6E',
+      color: '#FFFFFF',
+    },
   },
 ];
 
