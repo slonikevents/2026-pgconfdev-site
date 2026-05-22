@@ -4,6 +4,7 @@
   import {
     Beer,
     CalendarDays,
+    ClipboardCheck,
     Coffee,
     Footprints,
     Images,
@@ -54,6 +55,30 @@
     <h3>Simon Fraser University—Vancouver Campus</h3>
     <h4>Vancouver, BC, Canada</h4>
   </hgroup>
+
+  <section>
+    <h3 class="iconic">
+      <ClipboardCheck />
+      <a
+        href="https://docs.google.com/forms/d/e/1FAIpQLSd-ApxvmNMvAkE-ink7ZQhlsEkmczIvVGOzigsX9ijwwY47HA/viewform?usp=dialog"
+        target="_blank"
+      >
+        Conference Survey &amp; Raffle
+      </a>
+    </h3>
+
+    <p class="indent">
+      Please take a moment to fill out our
+      <a
+        href="https://docs.google.com/forms/d/e/1FAIpQLSd-ApxvmNMvAkE-ink7ZQhlsEkmczIvVGOzigsX9ijwwY47HA/viewform?usp=dialog"
+        target="_blank"
+      >
+        conference survey
+      </a>. Everyone who submits a response will be entered into a raffle at the
+      Closing for a chance to win one of two handmade Slonik plushies. Don't
+      miss out!
+    </p>
+  </section>
 
   <!-- <p style="text-align: center;"> -->
   <!--   <a role="button" href={resolve('/about/registration')}> -->
