@@ -118,8 +118,47 @@
   <Person name="Masahiko Sawada" source={masahiko_sawada}>AWS</Person>
 </Carousel>
 
+<h2>Social Media</h2>
+<Carousel>
+  <Person name="Gwen Shapira" source={gwen_shapira}>Nile</Person>
+  <Person name="Claire Giordano" source={claire_giordano}>Microsoft</Person>
+</Carousel>
+
 <h2>Volunteers</h2>
 <Carousel>
+  <Person name="Alena Rybakina"></Person>
+  <Person name="Amit Kapila"></Person>
+  <Person name="Amit Langote"></Person>
+  <Person name="Andrew Dunstan"></Person>
+  <Person name="Cary Huang"></Person>
+  <Person name="Cornelia Biacsics"></Person>
+  <Person name="Daniel Gustafsson"></Person>
+  <Person name="David Rader"></Person>
+  <Person name="Divya Bhargov"></Person>
+  <Person name="Euler Taveira"></Person>
+  <Person name="Gary Evans"></Person>
+  <Person name="Grant Zhou"></Person>
+  <Person name="Hari P Kiran"></Person>
+  <Person name="Keiko Oda"></Person>
+  <Person name="Koji Annoura"></Person>
+  <Person name="Lilian Ontowhee"></Person>
+  <Person name="Manni Wood"></Person>
+  <Person name="Marshall Bush"></Person>
+  <Person name="Miaolai Zhou"></Person>
+  <Person name="Nazir Bilal Yavuz"></Person>
+  <Person name="Oleksii Kliukin"></Person>
+  <Person name="Palak Chaturvedi"></Person>
+  <Person name="Pavlo Golub"></Person>
+  <Person name="Phil Alger"></Person>
+  <Person name="Philippe Noël"></Person>
+  <Person name="Rahila Syed"></Person>
+  <Person name="Raluca Constantin"></Person>
+  <Person name="Rick Lowe"></Person>
+  <Person name="Sumedh Pathak"></Person>
+  <Person name="Tristan Partin"></Person>
+  <Person name="Xuneng Zhou"></Person>
+  <Person name="Yogesh Sharma"></Person>
+  <Person name="Álvaro Herrera"></Person>
   <Person name="Chirag Dave"></Person>
   <Person name="Shayon Sanyal"></Person>
   <Person name="Mark Wong"></Person>
