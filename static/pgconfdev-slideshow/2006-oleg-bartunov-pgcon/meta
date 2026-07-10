@@ -1,0 +1,87 @@
+year: 2006
+author: Oleg Bartunov
+title: PGCon
+url: https://www.flickr.com/photos/obartunov/albums/72157627830987242/
+city: Toronto
+license: All rights reserved
+photos:
+
+ - title: group photo
+   file: 14133468493_fa1e50c7a9_o.jpg
+   url: https://www.flickr.com/photos/obartunov/14133468493/in/album-72157627830987242
+
+ - title: Tom Lane and Simon Riggs
+   file: 6217348552_90198e178c_o.jpg
+   url: https://www.flickr.com/photos/obartunov/6217348552/in/album-72157627830987242
+
+ - title: Mark Wong, Bruce Momjian, Dave Page and Josh Berkus
+   file: 45175425005_5f396ac1df_o.jpg
+   url: https://www.flickr.com/photos/obartunov/45175425005/in/album-72157627830987242
+
+ - title: Greg Sabino Mullane, Robert Treat (?), Alvaro Herrera, Teodor Sigaev
+   file: 46037099652_45f0824fc0_o.jpg
+   url: https://www.flickr.com/photos/obartunov/46037099652/in/album-72157627830987242
+
+ - title: Alvaro Herrera, Teodor Sigaev, Dimitri Fontaine, Jean Paul Argudo
+   file: 46087078661_7a6103f1d4_o.jpg
+   url: https://www.flickr.com/photos/obartunov/46087078661/in/album-72157627830987242
+
+ - title: developer meeting
+   file: 44270912230_295487c94b_o.jpg
+   url: https://www.flickr.com/photos/obartunov/44270912230/in/album-72157627830987242
+
+ - title: developer meeting
+   file: 31148260627_357a271b0b_o.jpg
+   url: https://www.flickr.com/photos/obartunov/31148260627/in/album-72157627830987242
+
+ - title: Tedor Sigaev, Markus Wanner, Jean Paul Argudo, Dimitri Fountain, Oleg Bartunov
+   file: 53207335025_1f2621653f_o.jpg
+   url: https://www.flickr.com/photos/obartunov/53207335025/in/album-72157627830987242
+
+ - title: Alvaro Herrera, Teodor Sigaev, Markus Wanner, Jean-Paul Argudo, Dimitri Fontaine
+   file: 6217349894_34a21e2236_o.jpg
+   url: https://www.flickr.com/photos/obartunov/6217349894/in/album-72157627830987242
+
+ - title: Jean Paul Argudo and Marcus Wanner
+   file: 31148258437_ee17fd1bdf_o.jpg
+   url: https://www.flickr.com/photos/obartunov/31148258437/in/album-72157627830987242
+
+ - title: Teodor Sigaev, Markus Wanner and Alvaro Herrera
+   file: 31148261747_a14423484a_o.jpg
+   url: https://www.flickr.com/photos/obartunov/31148261747/in/album-72157627830987242
+
+ - title: Teodor Sigaev at Niagara Falls
+   file: 46037094732_ab481ab0ce_o.jpg
+   url: https://www.flickr.com/photos/obartunov/46037094732/in/album-72157627830987242
+
+ - title: Oleg Bartunov and Tom Lane
+   file: 6217350716_43143b06f4_o.jpg
+   url: https://www.flickr.com/photos/obartunov/6217350716/in/album-72157627830987242
+
+ - title: Hannu Krosing and Tom Lane
+   file: 46087073251_7cf0de40cf_o.jpg
+   url: https://www.flickr.com/photos/obartunov/46087073251/in/album-72157627830987242
+
+ - title: The PostgreSQL Decade
+   file: 46037098072_3234492556_o.jpg
+   url: https://www.flickr.com/photos/obartunov/46037098072/in/album-72157627830987242
+
+ - title: Peter Eisentraut and Josh Berkus
+   file: 31148253597_f8743b6bcf_o.jpg
+   url: https://www.flickr.com/photos/obartunov/31148253597/in/album-72157627830987242
+
+ - title: Alvaro Herrera eating a muffing
+   file: 31148253197_949119b6ba_o.jpg
+   url: https://www.flickr.com/photos/obartunov/31148253197/in/album-72157627830987242
+
+ - title: Tatsuo Ishii
+   file: 46087077011_c10f929646_o.jpg
+   url: https://www.flickr.com/photos/obartunov/46087077011/in/album-72157627830987242
+
+ - title: Andrew Dunstan, Joe Conway, Magnus Hagander, Simon Riggs, Dave Page and Larry Rosenman
+   file: 31148251997_0c619c68f3_o.jpg
+   url: https://www.flickr.com/photos/obartunov/31148251997/in/album-72157627830987242
+
+ - title: D’Arcy J.M. Cain
+   file: 27339272366_1d28a2077f_o.jpg
+   url: https://www.flickr.com/photos/obartunov/27339272366/in/album-72157627830987242

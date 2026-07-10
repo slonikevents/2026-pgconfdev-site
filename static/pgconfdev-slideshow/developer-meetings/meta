@@ -1,0 +1,25 @@
+year:
+author:
+title: Developer Meetings
+url:
+license: CC BY-SA 2.0
+photos:
+ - title: PgCon 2023 Developer Meeting
+   file: pgcon-dev-meeting-2023.png
+   url: https://wiki.postgresql.org/wiki/PgCon_2023_Developer_Meeting
+
+ - title: FOSDEM Developer Meeting 2019
+   file: fosdem-dev-meeting-2019.jpg
+   url: https://wiki.postgresql.org/wiki/FOSDEM/PGDay_2019_Developer_Meeting
+
+ - title: PgCon 2018 Developer Meeting
+   file: pgcon-dev-meeting-2018.jpeg
+   url: https://wiki.postgresql.org/wiki/PgCon_2018_Developer_Meeting
+
+ - title: FOSDEM 2026 Developer Meeting
+   file: fosdem-dev-meeting-2026.jpeg
+   url: https://wiki.postgresql.org/wiki/FOSDEM/PGDay_2026_Developer_Meeting
+
+ - title: FOSDEM 2016 Developer Meeting
+   file: fosdem-dev-meeting-2016.jpg
+   url:

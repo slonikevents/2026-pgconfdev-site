@@ -1,0 +1,75 @@
+year: 2012
+author: Tomas Vondra
+title: pgconf.eu
+city: Prague, Czechia
+url:
+ - https://www.flickr.com/photos/tomas_vondra/albums/72157633504083333
+ - https://www.flickr.com/photos/tomas_vondra/albums/72157633521069960
+ - https://www.flickr.com/photos/tomas_vondra/albums/72157633521640968
+ - https://www.flickr.com/photos/tomas_vondra/albums/72157633506052195
+license: CC BY-SA 2.0
+photos:
+
+ - title: preparations - Magnus Hagader, Guillaume Lelarge and Andreas Scherbaum
+   file: 8748646358_2de1c7f521_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/8748646358/in/album-72157633504083333
+
+ - title: workshops - Greg Smith and Peter Geoghegan
+   file: 8747503663_cba81ebe95_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/8747503663/in/album-72157633504083333
+
+ - title: workshops - Pavel Stěhule
+   file: 8747497769_f406b0a9de_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/8747497769/in/album-72157633504083333
+
+ - title: workshop with Dimitri Fontaine and Simon Riggs
+   file: 8747400331_d97dd807b7_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/8747400331/in/album-72157633504083333
+
+ - title: opening session by Magnus
+   file: 8748063561_8fbdab20ff_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/8748063561/in/album-72157633521069960
+
+ - title: Andres Freund and Simon Riggs giving a talk
+   file: 8749138412_9edfcc58cf_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/8749138412/in/album-72157633521069960
+
+ - title: Tatsuo Ishii on pgpool-II
+   file: 8749106506_a784bb5336_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/8749106506/in/album-72157633521069960
+
+ - title: Koichi Suzuki on High Availability
+   file: 8747975445_a3b1f24e94_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/8747975445/in/album-72157633521069960
+
+ - title: Josh Berkus on EAVil
+   file: 8749473554_bf8c61edbb_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/8749473554/in/album-72157633521640968
+
+ - title: Bruce Momjian
+   file: 8749469764_b32b594dfa_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/8749469764/in/album-72157633521640968
+
+ - title: a dog
+   file: 8749460986_7de6077f01_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/8749460986/in/album-72157633521640968
+
+ - title: hair and no hair
+   file: 8749452976_806d373277_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/8749452976/in/album-72157633521640968
+
+ - title: Harald Armin Massa, Dimitri Fontaine and Marko Kreen
+   file: 8749283392_23b496cbdd_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/8749283392/in/album-72157633521640968
+
+ - title: attendees
+   file: 8748463217_d5db645422_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/8748463217/in/album-72157633506052195
+
+ - title: Ed Boajian (and Devrim Gunduz)
+   file: 8749550266_cd5ed8abe0_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/8749550266/in/album-72157633506052195
+
+ - title: Dave Page, Markus Wanner and Magnus Hagander
+   file: 8749532714_bf5debbe66_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/8749532714/in/album-72157633506052195

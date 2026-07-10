@@ -1,0 +1,31 @@
+year: 2011
+author: Oleg Bartunov
+title: PGCon
+city: Ottawa, Canada
+url: https://www.flickr.com/photos/obartunov/albums/72157626629271715
+license: All rights reserved
+photos:
+
+ - title: Greg Stark
+   file: 5735114035_2dfc332428_o.jpg
+   url: https://www.flickr.com/photos/obartunov/5735114035/in/album-72157626629271715
+
+ - title: developer meeting
+   file: 5735662920_c1e678dbfe_o.jpg
+   url: https://www.flickr.com/photos/obartunov/5735662920/in/album-72157626629271715
+
+ - title: Robert Treat, Hikki Linnakangas, Magnus Hagander
+   file: 5735661832_0821e687d5_o.jpg
+   url: https://www.flickr.com/photos/obartunov/5735661832/in/album-72157626629271715
+
+ - title: developer meeting
+   file: 5735113291_ecf0436ae8_o.jpg
+   url: https://www.flickr.com/photos/obartunov/5735113291/in/album-72157626629271715
+
+ - title: developer meeting
+   file: 5735659228_ef2c34b0db_o.jpg
+   url: https://www.flickr.com/photos/obartunov/5735659228/in/album-72157626629271715
+
+ - title: Jan Wieck and Tom Lane
+   file: 5761424612_0f87e9c775_o.jpg
+   url: https://www.flickr.com/photos/obartunov/5761424612/in/album-72157626629271715

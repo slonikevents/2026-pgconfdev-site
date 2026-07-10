@@ -1,0 +1,43 @@
+year: 2014
+author: Oleg Bartunov
+title: PGCon
+city: Ottawa, Canada
+url: https://www.flickr.com/photos/obartunov/albums/72157644768161512
+license: All rights reserved
+photos:
+
+ - title: developer meeting - Jeff Davis, Bruce Momjian, Kevin Grittner, Simon Riggs
+   file: 14338893074_4272bb8716_o.jpg
+   url: https://www.flickr.com/photos/obartunov/14338893074/in/album-72157644768161512
+
+ - title: developer meeting - group photo
+   file: 14053799297_d476d47010_o.jpg
+   url: https://www.flickr.com/photos/obartunov/14053799297/in/album-72157644768161512
+
+ - title: Alexander Korotkov is explaining exact knn and partial sorting patches to Tom Lane
+   file: 14246826132_95d02bc5c5_o.jpg
+   url: https://www.flickr.com/photos/obartunov/14246826132/in/album-72157644768161512
+
+ - title: Oleg Bartunov, Tom Lane
+   file: 14225851986_d31f146df1_o.jpg
+   url: https://www.flickr.com/photos/obartunov/14225851986/in/album-72157644768161512
+
+ - title: Teodor Sigaev and Bruce Momjian
+   file: 15100055577_0be29f8651_o.jpg
+   url: https://www.flickr.com/photos/obartunov/15100055577/in/album-72157644768161512
+
+ - title: Teodor Sigaev, Alexander Korotkov
+   file: 15100049788_d1c923e76f_o.jpg
+   url: https://www.flickr.com/photos/obartunov/15100049788/in/album-72157644768161512
+
+ - title: Teodor Sigaev and Konstantin Knizhnik
+   file: 44481503924_d7806679b6_o.jpg
+   url: https://www.flickr.com/photos/obartunov/44481503924/in/album-72157644768161512
+
+ - title: Stephen Frost
+   file: 15283470991_c021042141_o.jpg
+   url: https://www.flickr.com/photos/obartunov/15283470991/in/album-72157644768161512
+
+ - title: Ozgun Erdogan, Tom Lane
+   file: 20801264099_6c2a318bb3_o.jpg
+   url: https://www.flickr.com/photos/obartunov/20801264099/in/album-72157644768161512

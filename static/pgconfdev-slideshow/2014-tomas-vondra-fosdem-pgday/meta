@@ -1,0 +1,15 @@
+year: 2014
+author: Tomas Vondra
+title: FOSDEM PgDay
+city: Brussels
+url: https://www.flickr.com/photos/tomas_vondra/albums/72157640476795635
+license: CC BY-SA 2.0
+photos:
+
+ - title: Christophe Pettus
+   file: 12295515313_0fbd811c48_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/12295515313/in/album-72157640476795635
+
+ - title: Heikki Linnakangas and Magnus Hagander
+   file: 12295759384_31b4435fec_o.jpg 
+   url: https://www.flickr.com/photos/tomas_vondra/12295759384/in/album-72157640476795635

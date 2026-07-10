@@ -1,0 +1,35 @@
+year: 2016
+author: Oleg Bartunov
+title: PGCon
+city: Ottawa, Canada
+url: https://www.flickr.com/photos/obartunov/albums/72157670346697436
+license: All rights reserved
+photos:
+
+ - title: developer meeting
+   file: 27900308832_d9c41bb167_o.jpg
+   url: https://www.flickr.com/photos/obartunov/27900308832/in/album-72157670346697436
+
+ - title: developer meeting - group photo
+   file: 27722620190_a0faca26c1_o.jpg
+   url: https://www.flickr.com/photos/obartunov/27722620190/in/album-72157670346697436
+
+ - title: Stephen Frost, Magnus Hagander, Simon Riggs
+   file: 27967996196_11418b7462_o.jpg
+   url: https://www.flickr.com/photos/obartunov/27967996196/in/album-72157670346697436
+
+ - title: Oleg Bartunov, Andrew Dunstan, Jan Wieck
+   file: 27389336414_d705cb8b40_o.jpg
+   url: https://www.flickr.com/photos/obartunov/27389336414/in/album-72157670346697436
+
+ - title: Greg Stark
+   file: 37045724591_8d429c4277_o.jpg
+   url: https://www.flickr.com/photos/obartunov/37045724591/in/album-72157670346697436
+
+ - title: Oleg Bartunov and Tatsuo Ishii
+   file: 53197782474_7cc60f5373_o.jpg
+   url: https://www.flickr.com/photos/obartunov/53197782474/in/album-72157670346697436
+
+ - title: FIXME and Heikki Linnakangas
+   file: 28002668115_43572fb18b_o.jpg
+   url: https://www.flickr.com/photos/obartunov/28002668115/in/album-72157670346697436

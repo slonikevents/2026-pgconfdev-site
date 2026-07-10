@@ -1,0 +1,35 @@
+year: 2024
+author: Andreas Scherbaum
+title: pgconf.eu
+city: Athens, Greece
+url: 
+license: All rights reserved
+photos:
+
+ - title: David Wheeler talks about the extension ecosystem
+   file: 20241022_140201.jpg
+   url: 
+
+ - title: Alastair Turner
+   file: 20241022_144429.jpg
+   url: 
+
+ - title: Magnus Hagander
+   file: 20241023_093437.jpg
+   url: 
+
+ - title: Bruce Momjian
+   file: 20241023_152056.jpg
+   url: 
+
+ - title: Heikki Linnakangas
+   file: 20241024_171804.jpg
+   url: 
+
+ - title: dinner FIXME
+   file: 20241024_220722.jpg
+   url: 
+
+ - title: Floor Drees and Andreas Scherbaum
+   file: 20241025_164203.jpg
+   url: 

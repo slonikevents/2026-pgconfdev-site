@@ -1,0 +1,15 @@
+year: 2014
+author: Oleg Bartunov
+title: PostgreSQL Conference Japan
+city: Tokyo, Japan
+url: https://www.flickr.com/photos/obartunov/albums/72157649946448549/
+license: All rights reserved
+photos:
+
+ - title: Tatsuo Ishii, Oleg Bartunov
+   file: 16126912139_7043487ebd_o.jpg
+   url: https://www.flickr.com/photos/obartunov/16126912139/in/album-72157649946448549
+
+ - title: group photo
+   file: 16313085265_c327c98b7b_o.jpg
+   url: https://www.flickr.com/photos/obartunov/16313085265/in/album-72157649946448549
