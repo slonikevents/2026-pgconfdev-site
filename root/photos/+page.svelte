@@ -6,8 +6,7 @@
 
   // The photos themselves may live in a separate host.  This is fine,
   // as long as the YAML files are locally in this server.
-  //const mediaBase = 'https://media.postgresql.org/2026-slideshow';
-  const mediaBase = 'pgconfdev-slideshow/';
+  const mediaBase = 'https://media.postgresql.org/pgconf.dev/2026-slideshow';
 
   // Svelte doesn't like the way we reference `data` here, but in our case
   // it doesn't change after load, so ignore that warning.
