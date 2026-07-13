@@ -1,0 +1,31 @@
+year: 2017
+author: Oleg Bartunov
+title: pgconf.us
+city: New York, USA
+url: https://www.flickr.com/photos/obartunov/albums/72157682261210626/ 
+license: All rights reserved
+photos:
+
+ - title: Viktor Bokov and Oleg Bartunov
+   file: 34053169526_1df4a380f6_o.jpg
+   url: https://www.flickr.com/photos/obartunov/34053169526/in/album-72157682261210626
+
+ - title: Oleg Bartunov and Jan Wieck
+   file: 34093929685_968ca1032c_o.jpg
+   url: https://www.flickr.com/photos/obartunov/34093929685/in/album-72157682261210626
+
+ - title: Tom Kincaid, Peter Yarrow and Andrew Dunstan
+   file: 34053231076_c35d2d5a46_o.jpg
+   url: https://www.flickr.com/photos/obartunov/34053231076/in/album-72157682261210626
+
+ - title: Bruce Momjian and Peter Yarrow
+   file: 34093924175_6509b7c074_o.jpg
+   url: https://www.flickr.com/photos/obartunov/34093924175/in/album-72157682261210626
+
+ - title: Bruce Momjian and his cat
+   file: 33936862082_fbdf499999_o.jpg
+   url: https://www.flickr.com/photos/obartunov/33936862082/in/album-72157682261210626
+
+ - title: Anastasia Lubennikova and Alexander Alexeev
+   file: 33709177130_a7ff0ef6aa_o.jpg
+   url: https://www.flickr.com/photos/obartunov/33709177130/in/album-72157682261210626

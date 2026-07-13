@@ -4,6 +4,7 @@
     CalendarDays,
     CircleQuestionMark,
     HandCoins,
+    ImagePlay,
     Menu,
     Tickets,
     User,
@@ -97,6 +98,15 @@
           <span>
             About <span class="narrow">the Conference</span>
           </span>
+        </a>
+      </li>
+
+      <li>
+        <a class="iconic" href={resolve('/photos')}>
+         <ImagePlay class="narrow" />
+         <span>
+           <span class="narrow">30 Years </span> Slideshow
+         </span>
         </a>
       </li>
 

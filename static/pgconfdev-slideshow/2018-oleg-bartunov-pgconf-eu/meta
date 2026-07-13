@@ -1,0 +1,31 @@
+year: 2018
+author: Oleg Bartunov
+title: pgconf.eu
+city: Lisbon, Portugal
+url: https://www.flickr.com/photos/obartunov/albums/72157702812948054/
+license: All rights reserved
+photos:
+
+ - title: Zalando team in Lisbon
+   file: 43800684070_d94817c7db_o.jpg
+   url: https://www.flickr.com/photos/obartunov/43800684070/in/album-72157702812948054
+
+ - title: Peter Geoghegan, Andreas Karlsson, Heikki Linnakangas and Tomas Vondra
+   file: 31746022518_1545804c08_o.jpg
+   url: https://www.flickr.com/photos/obartunov/31746022518/in/album-72157702812948054
+
+ - title: Dimitri Fontaine and Greg Stark
+   file: 45567882052_728948593c_o.jpg
+   url: https://www.flickr.com/photos/obartunov/45567882052/in/album-72157702812948054
+
+ - title: Peter Geoghegan and Heikki Linnakangas
+   file: 45618359831_9114b48e67_o.jpg
+   url: https://www.flickr.com/photos/obartunov/45618359831/in/album-72157702812948054
+
+ - title: Craig Kerstiens and Greg Stark
+   file: 45567880252_787d4a2fe2_o.jpg
+   url: https://www.flickr.com/photos/obartunov/45567880252/in/album-72157702812948054
+
+ - title: Dave Page, Magnus Hagander, Grant McAlister and Stefan Kaltenbrunner
+   file: 43800687820_841c57820b_o.jpg
+   url: https://www.flickr.com/photos/obartunov/43800687820/in/album-72157702812948054

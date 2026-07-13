@@ -1,0 +1,39 @@
+year: 2013
+author: Tomas Vondra
+title: pgconf.eu
+city: Dublin, Ireland
+url:
+ - https://www.flickr.com/photos/tomas_vondra/albums/72157637272846403
+ - https://www.flickr.com/photos/tomas_vondra/albums/72157637273544253
+ - https://www.flickr.com/photos/tomas_vondra/albums/72157637274452203
+ - https://www.flickr.com/photos/tomas_vondra/albums/72157637275870926
+license: CC BY-SA 2.0
+photos:
+
+ - title: registration desk - Dave Page, Stephen Frost and Magnus Hagander
+   file: 10652780294_ebbecd05f6_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/10652780294/in/album-72157637272846403
+
+ - title: registration desk - Robert Treat, Stefan Kaltenbrunner and Stephen Frost
+   file: 10652996643_83bd929e04_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/10652996643/in/album-72157637272846403
+
+ - title: Dave Page handing out t-shirts to attendees
+   file: 10652793144_b9f67c0295_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/10652793144/in/album-72157637272846403
+
+ - title: opening session
+   file: 10653518413_e5463c3aea_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/10653518413/in/album-72157637273544253
+
+ - title: Dimitri Fontaine and Cedric Villemain
+   file: 10653090486_e49a453ee9_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/10653090486/in/album-72157637273544253
+
+ - title: Harald Armin Massa and David Fetter
+   file: 10653018284_7b2bc59edc_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/10653018284/in/album-72157637273544253
+
+ - title: Teodor Sigaev and Oleg Bartunov
+   file: 10654070684_454e7d1d7f_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/10654070684/in/album-72157637275870926

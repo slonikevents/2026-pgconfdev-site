@@ -1,0 +1,19 @@
+year: 2019
+author: Tomas Vondra
+title: P2D2
+city: Prague, Czechia
+url: https://www.flickr.com/photos/tomas_vondra/albums/72157703395569972
+license: CC BY-SA 2.0
+photos:
+
+ - title: Aleš Zelený presenting a workshop
+   file: 40141926313_46b78cb02c_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/40141926313/in/album-72157703395569972
+
+ - title: Kaarel Moppel presenting a workshop
+   file: 40141926053_46b67792e9_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/40141926053/in/album-72157703395569972
+
+ - title: Kaarel Moppel presenting a talk
+   file: 46192891265_015f9010bc_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/40141916723/in/album-72157703395569972

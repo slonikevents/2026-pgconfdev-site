@@ -1,0 +1,15 @@
+year: 2016
+author: Oleg Bartunov
+title: pgconf.ru
+city: Moscow, Russia
+url: https://www.flickr.com/photos/obartunov/albums/72157664224336562 
+license: All rights reserved
+photos:
+
+ - title: Heroku team visiting Postgres Professional
+   file: 24150628034_13722f8a2d_o.jpg
+   url: https://www.flickr.com/photos/obartunov/24150628034/in/album-72157664224336562
+
+ - title: Postgres people, Bolshoi theater
+   file: 24877773385_224ee48a31_o.jpg
+   url: https://www.flickr.com/photos/obartunov/24877773385/in/album-72157664224336562

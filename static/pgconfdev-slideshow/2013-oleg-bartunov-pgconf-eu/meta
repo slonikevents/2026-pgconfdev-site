@@ -1,0 +1,15 @@
+year: 2013
+author: Oleg Bartunov
+title: pgconf.eu
+city: Dublin, Ireland
+url: https://www.flickr.com/photos/obartunov/albums/72157637114580356
+license: All rights reserved
+photos:
+
+ - title: Simon Riggs
+   file: 17198729194_b562b1dc6a_o.jpg
+   url: https://www.flickr.com/photos/obartunov/17198729194/in/album-72157637114580356
+
+ - title: Dave Page and Greg Stark
+   file: 17794933346_dc2f3d54c8_o.jpg
+   url: https://www.flickr.com/photos/obartunov/17794933346/in/album-72157637114580356

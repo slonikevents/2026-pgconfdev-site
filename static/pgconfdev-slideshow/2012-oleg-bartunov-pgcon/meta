@@ -1,0 +1,42 @@
+year: 2012
+author: Oleg Bartunov
+title: PGCon
+city: Ottawa, Canada
+url: https://www.flickr.com/photos/obartunov/albums/72157629789653594
+license: All rights reserved
+photos:
+ - title: developer meeting
+   file: 32678827381_7ffa11f03c_o.jpg
+   url: https://www.flickr.com/photos/obartunov/32678827381/in/album-72157629789653594
+
+ - title: developer meeting
+   file: 32761394696_990dd6329d_o.jpg
+   url: https://www.flickr.com/photos/obartunov/32761394696/in/album-72157629789653594
+
+ - title: developer meeting
+   file: 7493364236_e686ce391b_o.jpg
+   url: https://www.flickr.com/photos/obartunov/7493364236/in/album-72157629789653594
+
+ - title: FIXME
+   file: 31988487783_5db297dcc5_o.jpg
+   url: https://www.flickr.com/photos/obartunov/31988487783/in/album-72157629789653594
+
+ - title: KaiGai Kohei, Simon Riggs
+   file: 32802506285_5b630ec6c3_o.jpg
+   url: https://www.flickr.com/photos/obartunov/32802506285/in/album-72157629789653594
+
+ - title: Stephen Frost, Tom Lane, Peter van Hardenberg
+   file: 31988503563_cd51c3ffc9_o.jpg
+   url: https://www.flickr.com/photos/obartunov/31988503563/in/album-72157629789653594
+
+ - title: Dan Langile
+   file: 32649250472_ae8e1c9908_o.jpg
+   url: https://www.flickr.com/photos/obartunov/32649250472/in/album-72157629789653594
+
+ - title: Tatsuo Ishii
+   file: 31988502013_241b42a584_o.jpg
+   url: https://www.flickr.com/photos/obartunov/31988502013/in/album-72157629789653594
+
+ - title: Amit Kapila, Tom Lane and Alexander Korotkov
+   file: 32647945412_fbfcfe3a34_o.jpg
+   url: https://www.flickr.com/photos/obartunov/32647945412/in/album-72157629789653594

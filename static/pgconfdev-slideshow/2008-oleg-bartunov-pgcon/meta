@@ -1,0 +1,35 @@
+year: 2008
+author: Oleg Bartunov
+title: PGCon
+url: https://www.flickr.com/photos/obartunov/albums/72157668055235455/ 
+license: All rights reserved
+city: Ottawa, Canada
+photos:
+
+ - title: Teodor Sigaev and Alvaro Herrera
+   file: 26789618241_46d157b5a4_o.jpg
+   url: https://www.flickr.com/photos/obartunov/26789618241/in/album-72157668055235455
+
+ - title: Jeff Davis 
+   file: 26763516662_db2587007b_o.jpg
+   url: https://www.flickr.com/photos/obartunov/26763516662/in/album-72157668055235455
+
+ - title: Greg Stark, Teodor Sigaev and Heikki Linnakangas 
+   file: 26857153105_9fef901954_o.jpg 
+   url: https://www.flickr.com/photos/obartunov/26857153105/in/album-72157668055235455
+
+ - title: Josh Berkus, Dave Page and FIXME
+   file: 26252891893_4cdd68fef1_o.jpg
+   url: https://www.flickr.com/photos/obartunov/26252891893/in/album-72157668055235455
+
+ - title: FIXME, Greg Stark and Magnus Hagander 
+   file: 26857092255_78cec470f1_o.jpg 
+   url: https://www.flickr.com/photos/obartunov/26857092255/in/album-72157668055235455
+
+ - title:  Alvaro Herrera, Tatsuo Ishii and FIXME
+   file: 26789614061_ce499c1856_o.jpg
+   url: https://www.flickr.com/photos/obartunov/26789614061/in/album-72157668055235455/
+
+ - title: FIXME and Jan Wieck
+   file: 26251880784_8b1a0b6785_o.jpg
+   url: https://www.flickr.com/photos/obartunov/26251880784/in/album-72157668055235455

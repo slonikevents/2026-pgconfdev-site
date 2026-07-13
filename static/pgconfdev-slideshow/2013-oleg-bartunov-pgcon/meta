@@ -1,0 +1,27 @@
+year: 2013
+author: Oleg Bartunov
+title: PGCon
+city: Ottawa, Canada
+url: https://www.flickr.com/photos/obartunov/albums/72157633743604038
+license: All rights reserved
+photos:
+
+ - title: PostgreSQL activists at Unconference
+   file: 8856613117_24316cc175_o.jpg
+   url: https://www.flickr.com/photos/obartunov/8856613117/in/album-72157633743604038
+
+ - title: Heikki Linnakangas at Unconference
+   file: 8856617779_4c9558b50f_o.jpg
+   url: https://www.flickr.com/photos/obartunov/8856617779/in/album-72157633743604038
+
+ - title: Tom Lane and Peter van Hardenberg at Unconference
+   file: 8844075486_527730a09d_o.jpg
+   url: https://www.flickr.com/photos/obartunov/8844075486/in/album-72157633743604038
+
+ - title: Portrait of Tom Lane with russian doll family
+   file: 8841799229_d6702d0faa_o.jpg
+   url: https://www.flickr.com/photos/obartunov/8841799229/in/album-72157633743604038
+
+ - title: Oleg Bartunov and Teodor Sigaev
+   file: 30264058827_910eaf1672_o.jpg
+   url: https://www.flickr.com/photos/obartunov/30264058827/in/album-72157633743604038

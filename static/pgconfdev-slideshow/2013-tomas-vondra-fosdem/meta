@@ -1,0 +1,15 @@
+year: 2013
+author: Tomas Vondra
+title: FOSDEM
+city: Brussels
+url: https://www.flickr.com/photos/tomas_vondra/albums/72157633867283596
+license: CC BY-SA 2.0
+photos:
+
+ - title: packed devroom
+   file: 8918293070_2d69f456c8_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/8918293070/in/album-72157633867283596
+
+ - title: PostgreSQL booth
+   file: 8917802013_fec370cac6_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/8917802013/in/album-72157633867283596

@@ -1,0 +1,43 @@
+year: 2015
+author: Tomas Vondra
+title: FOSDEM
+city: Brussels
+url: https://www.flickr.com/photos/tomas_vondra/albums/72157650594913972
+license: CC BY-SA 2.0
+photos:
+
+ - title: Heikki Linnakangas and Greg Stark
+   file: 16425268991_876dcb9cc4_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/16425268991/in/album-72157650594913972
+
+ - title: Slonik and Boriss Mejias 
+   file: 16239379098_21833441b6_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/16239379098/in/album-72157650594913972
+
+ - title: visiting MySQL
+   file: 16401041566_e19841699f_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/16401041566/in/album-72157650594913972
+
+ - title: feeding time
+   file: 16427013135_b0f8f3d334_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/16427013135/in/album-72157650594913972
+
+ - title: Slonik and Gulcin
+   file: 15806966303_6df26db599_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/15806966303/in/album-72157650594913972
+
+ - title: Slonik selling his offsprings
+   file: 15806964813_8dcd6bfafd_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/15806964813/in/album-72157650594913972
+
+ - title: FOSDEM podcast
+   file: 16239604090_5114dcd228_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/16239604090/in/album-72157650594913972
+
+ - title: visiting MySQL, but no one is home
+   file: 16239592630_ae5ba47b70_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/16239592630/in/album-72157650594913972
+
+ - title: Slonik with FOSDEM attendees
+   file: 16239340638_43314b6e00_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/16239340638/in/album-72157650594913972

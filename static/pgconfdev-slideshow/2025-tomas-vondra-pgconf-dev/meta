@@ -1,0 +1,23 @@
+year: 2025
+author: Tomas Vondra
+title: pgconf.dev
+city: Montreal, Canada
+url: https://www.flickr.com/photos/tomas_vondra/albums/72177720332266513 
+license: CC BY-SA 2.0
+photos:
+
+ - title: developer meeting
+   file: 55118803787_60ae6beb10_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/55118803787/in/album-72177720332266513
+
+ - title: developer meeting group photo
+   file: 55120071095_8249fd4b4d_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/55120071095/in/album-72177720332266513
+
+ - title: David DeWitt
+   file: 55120071075_19f4a61f78_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/55120071075/in/album-72177720332266513
+
+ - title: unconference
+   file: 55119879198_7324494a1e_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/55119879198/in/album-72177720332266513

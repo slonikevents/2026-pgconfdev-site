@@ -1,0 +1,39 @@
+year: 2006
+author: Alvaro Herrera
+title: PostgreSQL Anniversary Summit
+url: https://flickr.com/photos/alvherre/albums/72157594334418658/ 
+city: Toronto, Canada
+license: CC BY-NC-SA 2.0
+photos:
+
+ - title: Tom Lane
+   file: 335046964_76dcbc5352_o.jpg
+   url: https://flickr.com/photos/alvherre/335046964/in/album-72157594334418658
+
+ - title: Devrim Gunduz, Magnus Hagander and Dave Page
+   file: 335083545_dd1cf9f6b8_o.jpg
+   url: https://flickr.com/photos/alvherre/335083545/in/album-72157594334418658
+
+ - title: At the Niagara falls - Michael Glaesemann, Simon Riggs, Devrim Gunduz, Magnus Hagander and Dave Page
+   file: 335083721_98f58a4d5e_o.jpg
+   url: https://flickr.com/photos/alvherre/335083721/in/album-72157594334418658
+
+ - title: Robert Treat, Devrim Gunduz, Dave Page and Korry Douglas
+   file: 273197115_b33d55dad3_o.jpg
+   url: https://flickr.com/photos/alvherre/273197115/in/album-72157594334418658
+
+ - title: group photo
+   file: 273239163_a0d2280084_o.jpg
+   url: https://flickr.com/photos/alvherre/273239163/in/album-72157594334418658
+
+ - title: Magnus Hagander and Dave Page
+   file: 273246834_20531258a0_o.jpg
+   url: https://flickr.com/photos/alvherre/273246834/in/album-72157594334418658
+
+ - title: Simon Riggs - hacker busy, do not interrupt
+   file: 273246954_ee3386f1fc_o.jpg
+   url: https://flickr.com/photos/alvherre/273246954/in/album-72157594334418658
+
+ - title: Teodor Sigaev, Markus Schiltknecht, Jean-Paul Argudo, Dimitri Fontaine, Oleg Bartunov 
+   file: 273258039_4292739005_o.jpg
+   url: https://flickr.com/photos/alvherre/273258039/in/album-72157594334418658/

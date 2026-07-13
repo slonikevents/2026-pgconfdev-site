@@ -50,5 +50,8 @@
     "@sveltejs/kit": {
       "cookie": "^1.0.2"
     }
+  },
+  "dependencies": {
+    "js-yaml": "^5.2.0"
   }
 }

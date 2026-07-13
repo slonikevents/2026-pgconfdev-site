@@ -1,0 +1,31 @@
+year: 2018
+author: Tomas Vondra
+title: pgconf.eu
+city: Lisbon, Portugal
+url: https://www.flickr.com/photos/tomas_vondra/albums/72177720332277599 
+license: CC BY-SA 2.0
+photos:
+
+ - title: organizers
+   file: 55118773487_784879e157_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/55118773487/in/album-72177720332277599
+
+ - title: Marc Linster's keynote
+   file: 55118773852_d54267b1b1_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/55118773852/in/album-72177720332277599
+
+ - title: chat after a talk - Oleksii Kliukin, Oleg Bartunov and Andres Freund
+   file: 55119849283_788b77aa17_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/55119849283/in/album-72177720332277599
+
+ - title: Slonik
+   file:  55118774132_f4d6a3fd4e_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/55118774132/in/album-72177720332277599
+
+ - title: Paul Ramsey
+   file: 55119912204_132442d0f5_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/55119912204/in/album-72177720332277599
+
+ - title: Andres Freund
+   file: 55119912564_2bc023b626_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/55119912564/in/album-72177720332277599

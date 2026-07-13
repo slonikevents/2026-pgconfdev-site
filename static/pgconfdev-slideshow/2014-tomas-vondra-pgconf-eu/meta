@@ -1,0 +1,40 @@
+year: 2014
+author: Tomas Vondra
+title: pgconf.eu
+city: Madrid, Spain
+url:
+ - https://www.flickr.com/photos/tomas_vondra/albums/72157648890442461
+ - https://www.flickr.com/photos/tomas_vondra/albums/72157648984838105
+ - https://www.flickr.com/photos/tomas_vondra/albums/72157646648744934
+ - https://www.flickr.com/photos/tomas_vondra/albums/72157646648831144
+ - https://www.flickr.com/photos/tomas_vondra/albums/72157646640296773
+license: CC BY-SA 2.0
+photos:
+
+ - title: Thom Brown and Bruce Momjian
+   file: 14973484313_2e842a8344_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/14973484313/in/album-72157648890442461
+
+ - title: lunch
+   file: 14972896094_45f6ee9679_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/14972896094/in/album-72157648890442461
+
+ - title: Alvaro Herrera
+   file: 15569953766_8c38b52920_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/15569953766/in/album-72157648890442461
+
+ - title: swag sweatshop
+   file: 15631482161_a9e2c75db8_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/15631482161/in/album-72157648984838105
+
+ - title: Robert Ivens, Stephen Frost and FIXME
+   file: 15014033813_3ccfa28254_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/15014033813/in/album-72157648984838105
+
+ - title: Mark Wong
+   file: 15634115695_2b9482e82d_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/15634115695/in/album-72157646648744934
+
+ - title: elephans by Mark Wong
+   file: 15631444711_b75b834eab_o.jpg
+   url: https://www.flickr.com/photos/tomas_vondra/15631444711/in/album-72157646648744934
