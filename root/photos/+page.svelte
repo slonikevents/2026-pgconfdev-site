@@ -10,6 +10,7 @@
 
   // Svelte doesn't like the way we reference `data` here, but in our case
   // it doesn't change after load, so ignore that warning.
+  // svelte-ignore state_referenced_locally
   const photos = [...data.photos];
   // This is apparently called a "Fisher-Yates" shuffle.
   for (let i = photos.length - 1; i > 0; i--) {
@@ -44,15 +45,37 @@
   // and next buttons, which automatically stop the slideshow when clicked.
   // There's also a start/stop button that can be used to toggle the state, and
   // the time between one load and the next can be set in a text box.
+  // We want to start the timer on each photo's onload(), so that each photo is on
+  // display at least during 'interval'.  It might be longer if the next photo is
+  // large, but that beats having the next photo disappear almost immediately.
   let interval = $state(3);
+  let savedInterval = $state(3);
   let timer;
-  $effect(() => {
+
+  function startTimer() {
     clearInterval(timer);
     if (interval > 0) {
-      timer = setInterval(() => { current = (current + 1) % photos.length; }, interval * 1000);
+      timer = setTimeout(() => { current = (current + 1) % photos.length; }, interval * 1000);
     }
-    return () => clearInterval(timer);
+  }
+
+  // Save the current interval when the slideshow is turned off, and restore
+  // to that value when it is restarted.
+  function toggleSlideshow() {
+    if (interval > 0) {
+      savedInterval = interval;
+      interval = 0;
+    } else {
+      interval = savedInterval;
+    }
+  }
+
+  $effect(() => {
+    interval;          // depend on interval
+    startTimer();
+    return () => clearTimeout(timer);
   });
+
   function prev() {
     interval = 0;
     current = (current - 1 + photos.length) % photos.length;
@@ -80,11 +103,31 @@
     function handleKey(e) {
       if (e.key === 'ArrowLeft') prev();
       else if (e.key === 'ArrowRight') next();
-      else if (e.key === ' ') { e.preventDefault(); interval = interval > 0 ? 0 : 3; }
+      else if (e.key === ' ') { e.preventDefault(); toggleSlideshow(); }
     }
 
     window.addEventListener('keydown', handleKey);
     return () => window.removeEventListener('keydown', handleKey);
+  });
+
+  // Add <link preload> to preload the next N photos.  This avoids having to
+  // wait the CDN too frequently.  But remove previous preloads to avoid using
+  // excessive browser memory.
+  $effect(() => {
+    if (!ready) return;
+
+    // N=3 seems a good number
+    const links = [1, 2, 3].map(offset => {
+      const photo = photos[(current + offset) % photos.length];
+      const link = document.createElement('link');
+      link.rel = 'preload';
+      link.as = 'image';
+      link.href = `${mediaBase}/${photo.subdir}/${photo.file}`;
+      document.head.appendChild(link);
+      return link;
+    });
+
+    return () => links.forEach(link => link.remove());
   });
 
 </script>
@@ -175,14 +218,17 @@ button.next { right: 1rem; }
   <!-- this is the "prev" button -->
   <button class="prev" style="bottom: {footerHeight + 16}px" onclick={prev}>← Previous</button>
 
-  <!-- we don't display the photo until the metadata files have been loaded and shuffled -->
+  <!--
+    We don't display the photo until the metadata files have been loaded and shuffled.
+    Moreover, the timeout to move to the next photo is only set once the photo is loaded.
+  -->
   {#if ready}
   <div id="photo-all">
     <div id="photo-wrapper">
       <img id="photo"
            src={`${mediaBase}/${photos[current].subdir}/${photos[current].file}`}
            alt={photos[displayed].title}
-           onload={() => displayed = current} />
+           onload={() => { displayed = current; startTimer(); }} />
     </div>
 
     <!-- the photo and description go here -->
@@ -202,7 +248,7 @@ button.next { right: 1rem; }
 
   <!-- the other two buttons, with all and shrinking "start/stop" button, are here -->
   <div class="next-group" style="bottom: {footerHeight + 16}px">
-    <button class="slideshow" onclick={() => interval = interval > 0 ? 0 : 3}>
+    <button class="slideshow" onclick={toggleSlideshow}>
       {interval > 0 ? 'Stop' : 'Start'}
       <span class="slideshow-long"> slideshow</span>
       <input
