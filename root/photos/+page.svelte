@@ -1,5 +1,4 @@
 <script>
-
   // The photo data is loaded with server-side javascript from the original
   // YAML metadata.
   let { data } = $props();
@@ -20,7 +19,7 @@
 
   // Build a lookup map from "hash key" (path) to index
   const indexByKey = Object.fromEntries(
-    photos.map((p, i) => [`${p.subdir}/${p.file}`, i])
+    photos.map((p, i) => [`${p.subdir}/${p.file}`, i]),
   );
 
   let current = $state(0);
@@ -55,7 +54,9 @@
   function startTimer() {
     clearInterval(timer);
     if (interval > 0) {
-      timer = setTimeout(() => { current = (current + 1) % photos.length; }, interval * 1000);
+      timer = setTimeout(() => {
+        current = (current + 1) % photos.length;
+      }, interval * 1000);
     }
   }
 
@@ -71,7 +72,7 @@
   }
 
   $effect(() => {
-    interval;          // depend on interval
+    interval; // depend on interval
     startTimer();
     return () => clearTimeout(timer);
   });
@@ -89,8 +90,7 @@
   let footerHeight = $state(0);
   $effect(() => {
     const footer = document.querySelector('footer');
-    if (!footer)
-      return;
+    if (!footer) return;
     const observer = new ResizeObserver(() => {
       footerHeight = footer.offsetHeight;
     });
@@ -103,7 +103,10 @@
     function handleKey(e) {
       if (e.key === 'ArrowLeft') prev();
       else if (e.key === 'ArrowRight') next();
-      else if (e.key === ' ') { e.preventDefault(); toggleSlideshow(); }
+      else if (e.key === ' ') {
+        e.preventDefault();
+        toggleSlideshow();
+      }
     }
 
     window.addEventListener('keydown', handleKey);
@@ -117,7 +120,7 @@
     if (!ready) return;
 
     // N=3 seems a good number
-    const links = [1, 2, 3].map(offset => {
+    const links = [1, 2, 3].map((offset) => {
       const photo = photos[(current + offset) % photos.length];
       const link = document.createElement('link');
       link.rel = 'preload';
@@ -127,123 +130,147 @@
       return link;
     });
 
-    return () => links.forEach(link => link.remove());
+    return () => links.forEach((link) => link.remove());
   });
-
 </script>
 
 <style>
-#photo-all {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  justify-content: center;
-  margin: 0;
-  padding: 0;
-  position: relative;
-  width: 100%;
-}
-
-#photo-wrapper {
-  align-items: center;
-  display: flex;
-  flex: 1;
-  height: 100%;
-  justify-content: center;
-  min-height: 0;
-  position: relative;
-}
-
-#photo {
-  display: block;
-  max-height: 100%;
-  max-width: 100%;
-}
-
-/* leave some room with margin-bottom. This moves the infobox a bit higher,
-   so that the prev/slide/next buttons don't hide it. */
-#photo-info {
-  position: relative;
-  top: auto;
-  bottom: 0;
-  width: 100%;
-  margin-bottom: 3rem;
-  min-height: 6em;
-  min-width: 20em;
-  background-color: #f5f5f5;
-  opacity: 0.9;
-  font-size: 100%;
-  padding: 0;
-}
-
-#photo-metadata {
-  position: absolute;
-  left: 0.75em;
-  top: 0.5em;
-}
-
-button.prev, button.next {
-  position: fixed;
-  bottom: 1rem;
-  z-index: 10;
-}
-
-.next-group {
-  position: fixed;
-  right: 1rem;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 0.5rem;
-  z-index: 10;
-}
-
-button.next, button.slideshow {
-  position: static;
-}
-button.prev { left: 1rem; }
-button.next { right: 1rem; }
-
-/* on narrow screens, hide the word 'slideshow'. Otherwise the button
-   is too wide */
-@media (max-width: 480px) {
-  .slideshow-long {
-    display: none;
+  #photo-all {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
   }
-}
+
+  #photo-wrapper {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    height: 100%;
+    justify-content: center;
+    min-height: 0;
+    position: relative;
+  }
+
+  #photo {
+    display: block;
+    max-height: 100%;
+    max-width: 100%;
+  }
+
+  /* leave some room with margin-bottom. This moves the infobox a bit higher,
+   so that the prev/slide/next buttons don't hide it. */
+  #photo-info {
+    position: relative;
+    top: auto;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 3rem;
+    min-height: 6em;
+    min-width: 20em;
+    background-color: #f5f5f5;
+    opacity: 0.9;
+    font-size: 100%;
+    padding: 0;
+  }
+
+  #photo-metadata {
+    position: absolute;
+    left: 0.75em;
+    top: 0.5em;
+  }
+
+  button.prev,
+  button.next {
+    position: fixed;
+    bottom: 1rem;
+    z-index: 10;
+  }
+
+  .next-group {
+    position: fixed;
+    right: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    z-index: 10;
+  }
+
+  button.next,
+  button.slideshow {
+    position: static;
+  }
+  button.prev {
+    left: 1rem;
+  }
+  button.next {
+    right: 1rem;
+  }
+
+  /* on narrow screens, hide the word 'slideshow'. Otherwise the button
+   is too wide */
+  @media (max-width: 480px) {
+    .slideshow-long {
+      display: none;
+    }
+  }
 </style>
 
 <section class="slideshow">
   <!-- this is the "prev" button -->
-  <button class="prev" style="bottom: {footerHeight + 16}px" onclick={prev}>← Previous</button>
+  <button class="prev" style="bottom: {footerHeight + 16}px" onclick={prev}
+    >← Previous</button
+  >
 
   <!--
     We don't display the photo until the metadata files have been loaded and shuffled.
     Moreover, the timeout to move to the next photo is only set once the photo is loaded.
   -->
   {#if ready}
-  <div id="photo-all">
-    <div id="photo-wrapper">
-      <img id="photo"
-           src={`${mediaBase}/${photos[current].subdir}/${photos[current].file}`}
-           alt={photos[displayed].title}
-           onload={() => { displayed = current; startTimer(); }} />
-    </div>
+    <div id="photo-all">
+      <div id="photo-wrapper">
+        <img
+          id="photo"
+          src={`${mediaBase}/${photos[current].subdir}/${photos[current].file}`}
+          alt={photos[displayed].title}
+          onload={() => {
+            displayed = current;
+            startTimer();
+          }}
+        />
+      </div>
 
-    <!-- the photo and description go here -->
-    <div id="photo-info">
-      <div id="photo-metadata">
-        {#if photos[displayed].url}
-        <a id="gallery-title" href={photos[displayed].url}>{photos[displayed].title}</a>
-        {:else}
-        <span id="gallery-title">{photos[displayed].title}</span>
-        {/if}{#if photos[displayed].city}, in {photos[displayed].city}{/if}
-        <div style="font-size: 90%"><span id="author">{photos[displayed].author}</span>{#if photos[displayed].year}, <span id="year">{photos[displayed].year}</span>{/if}</div>
-        <div style="font-size: 90%"><span id="license">{photos[displayed].license}</span></div>
-      </div>    <!-- photo-metadata -->
-    </div>      <!-- photo-info -->
-  </div>        <!-- photo-all -->
+      <!-- the photo and description go here -->
+      <div id="photo-info">
+        <div id="photo-metadata">
+          {#if photos[displayed].url}
+            <a id="gallery-title" href={photos[displayed].url}
+              >{photos[displayed].title}</a
+            >
+          {:else}
+            <span id="gallery-title">{photos[displayed].title}</span>
+          {/if}{#if photos[displayed].city}, in {photos[displayed].city}{/if}
+          <div style="font-size: 90%">
+            <span id="author">{photos[displayed].author}</span
+            >{#if photos[displayed].year}, <span id="year"
+                >{photos[displayed].year}</span
+              >{/if}
+          </div>
+          <div style="font-size: 90%">
+            <span id="license">{photos[displayed].license}</span>
+          </div>
+        </div>
+        <!-- photo-metadata -->
+      </div>
+      <!-- photo-info -->
+    </div>
+    <!-- photo-all -->
   {/if}
 
   <!-- the other two buttons, with all and shrinking "start/stop" button, are here -->
@@ -252,18 +279,20 @@ button.next { right: 1rem; }
       {interval > 0 ? 'Stop' : 'Start'}
       <span class="slideshow-long"> slideshow</span>
       <input
-          id="slideshow_interval"
-          type="number"
-          min="0"
-          step="0.5"
-          value={interval}
-          style="width: 3em; text-align: right"
-          onclick={(e) => e.stopPropagation()}
-          onchange={(e) => { e.stopPropagation(); interval = e.target.valueAsNumber; }}
-          />
+        id="slideshow_interval"
+        type="number"
+        min="0"
+        step="0.5"
+        value={interval}
+        style="width: 3em; text-align: right"
+        onclick={(e) => e.stopPropagation()}
+        onchange={(e) => {
+          e.stopPropagation();
+          interval = e.target.valueAsNumber;
+        }}
+      />
     </button>
 
     <button class="next" onclick={next}>Next →</button>
   </div>
-
 </section>
