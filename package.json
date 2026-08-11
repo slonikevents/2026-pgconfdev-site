@@ -52,6 +52,6 @@
     }
   },
   "dependencies": {
-    "js-yaml": "^5.2.0"
+    "js-yaml": "^5.2.3"
   }
 }
