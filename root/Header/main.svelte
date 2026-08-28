@@ -55,7 +55,7 @@
     }
   }
 
-  header :global(:is(a, button)) {
+  header nav :global(:is(a, button)) {
     background-color: unset;
     color: inherit;
     display: block;
@@ -74,6 +74,12 @@
 </style>
 
 <header>
+  <p style:margin-block-start="1rem" style:text-align="center">
+    PGConf.dev 2026 is over. For the current iteration of the conference, see
+    the
+    <a href="https://www.pgconf.dev/">updated site</a>.
+  </p>
+
   <nav class="matter">
     <a href={resolve('/')}><PGConf /></a>
 
