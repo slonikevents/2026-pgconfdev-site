@@ -3,7 +3,7 @@
   import MenuItem from '../MenuItem.svelte';
   import Side from '../Side.svelte';
 
-  import { Briefcase, ChartBarDecreasing, List } from '@lucide/svelte';
+  import { ChartBarDecreasing, List } from '@lucide/svelte';
 
   let { children } = $props();
 </script>
