@@ -103,10 +103,10 @@
 
       <li>
         <a class="iconic" href={resolve('/photos')}>
-         <ImagePlay class="narrow" />
-         <span>
-           <span class="narrow">30 Years </span> Slideshow
-         </span>
+          <ImagePlay class="narrow" />
+          <span>
+            <span class="narrow">30 Years </span> Slideshow
+          </span>
         </a>
       </li>
 
