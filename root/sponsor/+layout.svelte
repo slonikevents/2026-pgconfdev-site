@@ -18,7 +18,6 @@
 
 <Menu --flex-size="12rem">
   <MenuItem Icon={List} href="/sponsor">List of Sponsors</MenuItem>
-  <MenuItem Icon={Briefcase} href="/sponsor/jobs">Job Listings</MenuItem>
   <MenuItem Icon={ChartBarDecreasing} href="/sponsor/levels">
     Sponsorship Levels
   </MenuItem>
